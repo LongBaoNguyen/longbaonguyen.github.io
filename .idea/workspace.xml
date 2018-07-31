@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="-71">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro_neural_network.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intro_neural_network.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+            <state relative-caret-position="269">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -39,9 +39,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/courses/intro_neural_network.html" />
         <option value="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -143,17 +143,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="269">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+        <state relative-caret-position="-71">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
         </state>
       </provider>
     </entry>
