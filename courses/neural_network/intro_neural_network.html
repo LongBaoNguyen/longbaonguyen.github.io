@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+  <meta charset="utf-8">
+	<title>A friendly introduction to Neural Networks</title>
+	<meta name="description" content="Machine Learning, Introduction
+	 to Neural Networks, Artificial Intelligence, Data Science, Python, Image Recognition ">
+	<meta name="author" content="Long Nguyen, University of Boston Massachusetts">
+
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="../../css/default.css">
+	<link rel="stylesheet" href="../../css/layout.css">
+	<link rel="stylesheet" href="../../css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="../../js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+
+</head>
+
+<body class="page">
+
+   <!-- Header
+   ================================================== -->
+   <header id="top">
+
+   	<div class="row">
+
+   		<div class="header-content twelve columns">
+
+		      <h1 id="logo-text"><a href="index.html" title="">Long Nguyen</a></h1>
+            <p id="intro">Resources and online courses for Math and Computer Science.</p>
+
+			</div>
+
+	   </div>
+		<nav id="nav-wrap">
+
+	   	<a class="mobile-btn" href="../../index.html" title="Show navigation">Show Menu</a>
+		  <a class="mobile-btn" href="../../index.html" title="Hide navigation">Hide Menu</a>
+
+			<div class="row">
+
+			   	<ul id="nav" class="nav">
+			      	<li><a href="../../index.html">Home</a></li>
+
+              		<li class="has-children current"><a href="intro_neural_network.html">Courses</a>
+					<ul>
+					  <li><a href="intro_neural_network.html">Introduction to Neural Networks</a></li>
+                    </ul>
+			      	</li>
+			   	</ul> <!-- end #nav -->
+
+	 	  	</div>
+
+	   </nav> <!-- end #nav-wrap -->
+
+
+   </header> <!-- Header End -->
+
+   <!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eleven columns">
+
+   			<section class="page">
+
+					<h2>Image Recognition with Neural Networks</h2>
+					<div class="row">
+						<div class="twelve columns">
+
+
+
+
+
+					<p> This is a gentle introduction to Neural Networks. The goal of this Video Lecture Series is to write a Python program from
+						scratch that recognizes handwritten digits. </p>
+						<p>
+						The course attempts to make the material as accessible as possible. The programming prerequisites are minimal: 1) Basic Python or some programming
+						experience in another language. 2) Numpy. Both of these are covered in the Jupyter Notebook tutorials
+						below. The video lectures cover basic Python and Numpy necessary for writing the program.
+						</p>
+						<p>	The mathematical requirements are also minimal. A precalculus background is all that is required. The course, however,
+						will cover some basic multivariable calculus, including the discussion of partial derivatives, the chain rule and the gradient,
+							necessary to understand Gradient Descent and backpropagation.
+					</p>
+					<p>	This curriculum was originally created for a 2-3 week implementation for AP Computer Science Principles. Here is a
+						<a href="https://www.youtube.com/playlist?list=PLYNGZdVGGmHxfiQSulJm7eCKN-zOvQjao">link</a> to the
+						entire playlist of lecture videos.
+					</p>
+
+
+						<h3>Prerequisites</h3>
+							<p>The essentials of Python and Numpy needed for the course are covered
+							in the following three Jupyter Notebooks tutorials.</p>
+						<ol>
+							<li>Python Crash Course Part I (<a href="python1.html">html</a>, <a href="python1.ipynb">ipynb</a>):
+							Numbers, Booleans, Strings, Conditionals and Loops</li>
+							<li>Python Crash Course Part 2 (<a href="python2.html">html</a>, <a href="python2.ipynb">ipynb</a>):
+							Functions Containers: Lists, Tuples.</li>
+							<li>Introduction to Numpy (<a href="numpy.html">html</a>, <a href="numpy.ipynb">ipynb</a>):
+							Numpy: Working with Arrays, Matrix operations, Broadcasting.</li>
+
+
+						</ol>
+
+						<h4>Lecture 1(<a href="https://youtu.be/r5RRIYG4BJA">Video</a>):
+							Introduction to Neural Networks</h4>
+							Overview. MNIST Dataset. Training set. Affine and sigmoid functions.
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/r5RRIYG4BJA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<ul>
+							<!-- Write your comments here <li>Slides: <a href="neural_net/lecture1.pdf">lecture1.pdf</a></li>-->
+							<li>Python Code From Lecture Video: <a href="code1.ipynb">Jupyter Notebook</a>, <a href="code1.html">HTML</a></li>
+							<li>Homework: <a href="lecture1_notebook.zip">lecture1_notebook.zip</a></li>
+						</ul>
+						<h4>Lecture 2(<a href="https://youtu.be/fL3eTzHiNp0">Video</a>):
+							Functions and Their Computational Graphs</h4>
+							Real and vector-valued functions. Matrix Operations. Computational Graphs. N-layer Neural Networks.
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/fL3eTzHiNp0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<ul>
+							<!--<li>Slides: <a href="neural_net/lecture2.pdf">lecture2.pdf</a></li>-->
+							<li>Python Code From Lecture Video: <a href="code2.ipynb">Jupyter Notebook</a>, <a href="code2.html">HTML</a></li>
+							<li>Homework: <a href="lecture2_notebook.zip">lecture2_notebook.zip</a></li>
+						</ul>
+						<h4>Lecture 3(<a href="https://youtu.be/10NSz_zLEl4">Video</a>):
+							Formalizing the Problem</h4>
+							Computing the loss and objective functions. Vectorization. Broadcasting. Training the classifier.
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/10NSz_zLEl4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<ul>
+							<!--<li>Slides: <a href="neural_net/lecture3.pdf">lecture3.pdf</a></li>-->
+							<li>Python Code From Lecture Video: <a href="code3.ipynb">Jupyter Notebook</a>, <a href="code3.html">HTML</a></li>
+							<li>Homework: <a href="lecture3_notebook.zip">lecture3_notebook.zip</a></li>
+						</ul>
+						<h4>Lecture 4(<a href="https://youtu.be/he5woWlhFP0">Video</a>):
+							What is a derivative? A gradient?</h4>
+							Intuitive definitions of the derivative. Partial Derivatives. The gradient.
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/he5woWlhFP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<ul>
+							<!--<li>Slides: <a href="neural_net/lecture4.pdf">lecture4.pdf</a></li>-->
+						</ul>
+
+						<h4>Lecture 5(<a href="https://youtu.be/5DRTxPFiVw4">Video</a>):
+							Gradient Descent and Backpropagation</h4>
+							The Gradient Descent Algorithm. Four Equations of Backpropagation. Mini-batch Gradient Descent.
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/5DRTxPFiVw4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<ul>
+							<!--<li>Slides: <a href="neural_net/lecture5.pdf">lecture5.pdf</a></li>-->
+							<li>Homework: <a href="lecture5_notebook.zip">lecture5_notebook.zip</a></li>
+						</ul>
+
+						<h4>Lecture 6(<a href="https://youtu.be/5DRTxPFiVw4">Video</a>):
+							Writing an Image Recognition in Python. </h4>
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/uFCWBF0tv6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+				</section> <!-- End page -->
+
+   		</div> <!-- End main -->
+
+
+
+   	</div> <!-- end row -->
+
+   </div> <!-- end content-wrap -->
+
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="../js/main.js"></script>
+
+</body>
+
+</html>
