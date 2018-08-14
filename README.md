@@ -1,4 +1,4 @@
-Repository for my website [longbaonguyen.github.io](https://longbaonguyen.github.io/)
+Repository for my website at [longbaonguyen.github.io.](https://longbaonguyen.github.io/)
 
 The website hosts resources, lecture notes, mini-courses in Computer Science and Math.
 
