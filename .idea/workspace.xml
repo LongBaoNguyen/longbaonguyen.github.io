@@ -3,48 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture10.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture11.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture12.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture13.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture16.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture17.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture23.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture24.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture3.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture3.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture4.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture4.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture5.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture5.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture7.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture7.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture9.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Lecture4-Intro to Programming.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Lecture5-Operations and Variables.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/Lecture5-Operations and Variables.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture10.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture11.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture12.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture13.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture14.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture15.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture16.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture17.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture18.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture19.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture2.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture2.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture20.ppt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture3.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture3.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture4.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture5.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture6.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture7.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture8.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture9.ppt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +40,8 @@
       <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+            <state relative-caret-position="381">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -288,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+        <state relative-caret-position="381">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
