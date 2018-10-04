@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture10-Arrays.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture11-More Arrays.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture9-More on String and Boolean.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture7.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture7.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/Lecture5B-Basic Java Syntax.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/~$lecture4.ppt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture6.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture6.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,8 +85,8 @@
       <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="135" column="99" selection-start-line="135" selection-start-column="99" selection-end-line="135" selection-end-column="99" />
+            <state relative-caret-position="563">
+              <caret line="148" column="63" selection-start-line="148" selection-start-column="63" selection-end-line="148" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -510,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="135" column="99" selection-start-line="135" selection-start-column="99" selection-end-line="135" selection-end-column="99" />
+        <state relative-caret-position="563">
+          <caret line="148" column="63" selection-start-line="148" selection-start-column="63" selection-end-line="148" selection-end-column="63" />
         </state>
       </provider>
     </entry>
