@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture7.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture7.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apjava.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apjava.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
+            <state relative-caret-position="312">
+              <caret line="118" column="59" selection-start-line="118" selection-start-column="59" selection-end-line="118" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="136" column="99" selection-start-line="136" selection-start-column="99" selection-end-line="136" selection-end-column="99" />
+              <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/courses/animation/eel.html" />
-        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
+        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
       </list>
     </option>
   </component>
@@ -546,17 +546,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/eel.html" />
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="136" column="99" selection-start-line="136" selection-start-column="99" selection-end-line="136" selection-end-column="99" />
+          <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="118" column="59" selection-start-line="118" selection-start-column="59" selection-end-line="118" selection-end-column="59" />
         </state>
       </provider>
     </entry>
