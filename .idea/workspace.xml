@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture8.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture8.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/~$lecture8.ppt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +25,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apjava.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apjava.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="162" column="78" selection-start-line="162" selection-start-column="78" selection-end-line="162" selection-end-column="78" />
+            <state relative-caret-position="356">
+              <caret line="128" column="119" selection-start-line="128" selection-start-column="119" selection-end-line="128" selection-end-column="119" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#1;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#1;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -84,12 +89,12 @@
         <option value="$PROJECT_DIR$/mandelbrot2.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/courses/animation/reflection.html" />
-        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
+        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="7" />
     <option name="y" value="58" />
     <option name="width" value="1411" />
@@ -183,10 +188,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="745" extended-state="6" />
+    <frame x="7" y="58" width="1411" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20605469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14953934" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -504,17 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="162" column="78" selection-start-line="162" selection-start-column="78" selection-end-line="162" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -524,6 +518,19 @@
             <element signature="n#style#0;n#li#1;n#ul#0;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#2;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#2;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="128" column="119" selection-start-line="128" selection-start-column="119" selection-end-line="128" selection-end-column="119" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#1;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#1;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
