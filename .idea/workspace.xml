@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture13-Processing.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture14-Object-Oriented Processing.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture17-Inheritance.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture18-More Inheritance.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture19-Arraylist.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture20-More on Boolean.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture20-Polymorphism.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture21-Polymorphism II.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture22-Recursion.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture23-Interfaces and Abstract Classes.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture24-Number Systems.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture26-Searching and Sorting.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Lecture14-Recursions and Strings.ppt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +28,8 @@
       <file leaf-file-name="apjava.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="151" column="93" selection-start-line="151" selection-start-column="93" selection-end-line="151" selection-end-column="93" />
+            <state relative-caret-position="394">
+              <caret line="152" column="94" selection-start-line="152" selection-start-column="94" selection-end-line="152" selection-end-column="94" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -503,6 +492,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ThinkDSP/code/thinkdsp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -517,9 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ThinkDSP/code/thinkdsp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/reflection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -529,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="151" column="93" selection-start-line="151" selection-start-column="93" selection-end-line="151" selection-end-column="93" />
+        <state relative-caret-position="394">
+          <caret line="152" column="94" selection-start-line="152" selection-start-column="94" selection-end-line="152" selection-end-column="94" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
