@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/basic_exercises-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/basic_exercises-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/conditionals_exercises-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/conditionals_exercises-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/conditionals_exercises_pdf-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/.ipynb_checkpoints/conditionals_exercises_pdf-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/basic_exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/basic_exercises.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/basic_exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/basic_exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/basic_exercises_pdf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/basic_exercises_pdf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/conditionals_exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/conditionals_exercises.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/conditionals_exercises.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/python/conditionals_exercises_pdf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/conditionals_exercises_pdf.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/python/python.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/python/python.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +41,8 @@
       <file leaf-file-name="python.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/python/python.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="132" column="60" selection-start-line="132" selection-start-column="60" selection-end-line="132" selection-end-column="60" />
+            <state relative-caret-position="432">
+              <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -188,6 +179,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1440" height="818" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20347223" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/python/python.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="132" column="60" selection-start-line="132" selection-start-column="60" selection-end-line="132" selection-end-column="60" />
+        <state relative-caret-position="432">
+          <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
         </state>
       </provider>
     </entry>
