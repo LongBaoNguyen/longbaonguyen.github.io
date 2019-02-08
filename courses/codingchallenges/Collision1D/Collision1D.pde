@@ -20,7 +20,10 @@ void collision(Ball b1, Ball b2){
   
   
   // if balls are close
-  // calculate velocities after collision
-  // (Hint: Use temporary variables. Do you see why?)
+  // calculate new velocities after collision
+  // (Hint: Use temporary variables for velocities. Do you see why?)
+  
+  
+  
   
 }
