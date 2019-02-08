@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+  <meta charset="utf-8">
+	<title>An Introduction to The Discrete Fourier Transform with Python</title>
+	<meta name="description" content="an introduction to the discrete fourier transform,
+								dft, Python, Python tutorial">
+	<meta name="author" content="Long Nguyen, University of Boston Massachusetts">
+
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="../../css/default.css">
+	<link rel="stylesheet" href="../../css/layout.css">
+	<link rel="stylesheet" href="../../css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="../../js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126746295-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-126746295-1');
+	</script>
+
+
+</head>
+
+<body class="page">
+
+   <!-- Header
+   ================================================== -->
+   <header id="top">
+
+   	<div class="row">
+
+   		<div class="header-content twelve columns">
+
+			<h1 id="logo-text"><a href="../../index.html" title="">Long Nguyen</a></h1>
+            <p id="intro">Resources and online courses for Math and Computer Science.</p>
+
+			</div>
+
+	   </div>
+		<nav id="nav-wrap">
+
+	   	<a class="mobile-btn" href="../../index.html" title="Show navigation">Show Menu</a>
+		  <a class="mobile-btn" href="../../index.html" title="Hide navigation">Hide Menu</a>
+
+			<div class="row">
+
+			   	<ul id="nav" class="nav">
+			      	<li><a href="../../index.html">Home</a></li>
+
+              		<li class="has-children current"><a href="intro_neural_network.html">Courses</a>
+					<ul>
+					  <li><a href="../python/python.html">An Introduction to Python</a></li>
+					  <li><a href="../neural_network/intro_neural_network.html">Image Recognition with Neural Networks</a></li>
+					  <li><a href="../apcsp/apprinciples.html">AP Computer Science Principles</a></li>
+					  <li><a href="../apcsa/apjava.html">AP Computer Science A</a></li>
+                    </ul>
+			      	</li>
+			   	</ul> <!-- end #nav -->
+
+	 	  	</div>
+
+	   </nav> <!-- end #nav-wrap -->
+
+
+   </header> <!-- Header End -->
+
+   <!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eleven columns">
+
+   			<section class="page">
+
+					<h2>An Introduction to the Discrete Fourier Transform</h2>
+					<div class="row">
+						<div class="twelve columns">
+
+						<p> The <strong>Discrete Fourier Transform(DFT)</strong> lies at the beautiful intersection of math and music. It is one of
+						the most useful and widely used tools in many applications. If you have
+						opened a JPEG, listened to an MP3, watch an MPEG movie, used the voice recognition capabilities of Amazon's
+						Alexa, you've used some variant of the DFT. Its efficient implementation, the <strong>Fast Fourier Transform</strong>, is
+						considered one of the most important algorithms in computer science. </p>
+
+					<p> The goals of this short course is to understand the math behind the algorithm and to appreciate its utility
+						by analyzing and manipulating audio files with Python. No programming experience is necessary although some understanding of
+						basic trig(sine and cosine) is useful. </p>
+
+					<p>	A lot of effort was made to make this curriculum as accessible as possible. At the time of this writing, this
+						curriculum is used in my AP Computer Science courses. I am also working on adapting it to an Algebra 2 or
+						Precalculus course. </p>
+
+
+
+
+					<h5><a href="">Lecture 1: Overview</a></h5>
+						What is the Discrete Fourier Transform? Reading .txt and .wav files with Python.
+						Working with Numpy. Plotting Graphs with Matplotlib. Determine the note/chord of a piano recording with the DFT.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+					<h5><a href = "">Lecture 2: Digital Audio Basics</a></h5>
+						Waveforms. Digital Audio. Sampling Rate. Amplitude, Frequency and Phase of Sinusoids. Frequency is Pitch.
+						Logarithm of Frequency. Fundamental Frequency. Overtones and Harmonics. Time Domain vs. Frequency Domain. Discrete
+						Fourier Transform. Inverse Discrete Fourier Transform.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+					<h5><a href = "">Lecture 3: Aliasing and the Nyquist Frequency</a></h5>
+						Aliasing. The Sampling Theorem. The Nyquist Frequency. Distortion of Audio. Reconstruction of Audio. Lowpass Filters.
+						CD Quality Sampling Rate.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+					<h5><a href = "">Lecture 4: Complex Exponentials</a></h5>
+						Complex Numbers. Complex Exponentials. Polar Form of a Complex Number. Working with Complex Exponentials in Python.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+					<h5><a href = "">Lecture 5: Complex Sinusoids</a></h5>
+						Real vs. Complex Sinusoids.  Positive vs. Negative Frequency. Symmetry of the Spectrum of a Real Signal.
+						Harmonics. Fundamental Frequency. Frequency vs. Time Resolution.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+					<h5><a href = "">Lecture 6: The Discrete Fourier Transform</a></h5>
+						The Discrete Fourier Transform. The DFT is a Frequency Detector. An in-depth Example. Understanding the DFT
+						as an Inner Product. Complex Sinusoids are Basis Vectors for Audio Signals. Using Numpy's fft Module.
+					<ul>
+						<li>Exercises: <a href="basic_exercises.ipynb">Jupyter Notebook</a>, <a href="basic_exercises.pdf">PDF</a></li>
+					</ul>
+
+				</section> <!-- End page -->
+
+   		</div> <!-- End main -->
+
+
+
+   	</div> <!-- end row -->
+
+   </div> <!-- end content-wrap -->
+
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="../js/main.js"></script>
+
+</body>
+
+</html>
