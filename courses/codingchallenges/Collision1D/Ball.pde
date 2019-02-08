@@ -3,6 +3,7 @@ class Ball{
   float vx, mass;
   // write a constructor with input paramters
   // do not randomize!
+  // mass should be a function of radius
    
    
   void display(){
