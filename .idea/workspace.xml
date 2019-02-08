@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture16.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture16.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lecture16.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +71,8 @@
       <file leaf-file-name="apprinciples.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="192" column="68" lean-forward="true" selection-start-line="192" selection-start-column="68" selection-end-line="192" selection-end-column="68" />
+            <state relative-caret-position="295">
+              <caret line="174" column="66" selection-start-line="174" selection-start-column="66" selection-end-line="174" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -535,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="192" column="68" lean-forward="true" selection-start-line="192" selection-start-column="68" selection-end-line="192" selection-end-column="68" />
+        <state relative-caret-position="295">
+          <caret line="174" column="66" selection-start-line="174" selection-start-column="66" selection-end-line="174" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#ol#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
