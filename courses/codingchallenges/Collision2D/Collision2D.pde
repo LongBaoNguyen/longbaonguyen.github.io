@@ -50,14 +50,6 @@ void collision(Ball b1, Ball b2){
     b1.vy = 
     b2.vx = 
     b2.vy = 
-    
-    // rotate positions back
-    float x2final = 
-    float y2final = 
-    
-    // update actual positions
-    b2.x = b1.x + x2final;
-    b2.y = b1.y + y2final;
 
     }
  
