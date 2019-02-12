@@ -2,12 +2,16 @@ class Ball{
   float x,y,radius;
   float vx, vy, mass;
   Ball(float x_, float y_, float radius_){
-    x = x_;
-    y = y_;
-    radius = radius_;
-    vy = random(4,7);
-    vx = random(3, 10);
-    mass = radius/50;   
+    // initialize x, y and radius
+    
+    
+    // randomize vx, xy
+    
+    
+    // set mass to be proportional to radius
+    // for example mass = radius/2.
+    
+    
   }  
   void display(){
     fill(255,0,0);

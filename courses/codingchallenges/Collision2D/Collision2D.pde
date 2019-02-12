@@ -26,11 +26,6 @@ void collision(Ball b1, Ball b2){
     float sin = 
     float cos = 
     
-    // rotate second's ball relative position
-    float x1 = 0, y1 = 0;
-    float x2 = 
-    float y2 = 
-    
     // rotate velocity
     float vx1 = 
     float vy1 =
