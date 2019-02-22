@@ -6,7 +6,5 @@ Currently, the entire curriculum for [AP Computer Science Principles](https://lo
 
 Future mini-courses:
 - Introduction Neural Networks with TensorFlow
-- Introduction to Convolutional Neural Networks
-- Introduction to Recurrent Neural Networks
-- Programming: A Visual Approach
+- Introduction to the Discrete Fourier Transform
 - Explorations with Python
