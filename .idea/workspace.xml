@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/codingchallenges/Collision1D/Ball.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/codingchallenges/Collision1D/Collision1D.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/codingchallenges/Collision2D/Ball.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/codingchallenges/Collision2D/Collision2D.pde" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/dft/lec1_exercises.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/lec1_exercises.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/dft/lec2_exercises.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/lec2_exercises.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/dft/lec3_exercises.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/lec3_exercises.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +41,8 @@
       <file leaf-file-name="discrete_fourier.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="132" column="80" selection-start-line="132" selection-start-column="80" selection-end-line="132" selection-end-column="80" />
+            <state relative-caret-position="652">
+              <caret line="160" column="155" selection-start-line="160" selection-start-column="155" selection-end-line="160" selection-end-column="155" />
             </state>
           </provider>
         </entry>
@@ -546,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="132" column="80" selection-start-line="132" selection-start-column="80" selection-end-line="132" selection-end-column="80" />
+        <state relative-caret-position="652">
+          <caret line="160" column="155" selection-start-line="160" selection-start-column="155" selection-end-line="160" selection-end-column="155" />
         </state>
       </provider>
     </entry>
