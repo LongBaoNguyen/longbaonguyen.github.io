@@ -2,133 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Final Project.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Final Project.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Keyboard_Mouse Lab.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/LECTURE28-Search and Sort.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/LECTURE28x-Search and Sort.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/LargestObject.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture24-Object-Oriented Processing.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture24-Processing.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture25-More on Boolean.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture25-More on Interfaces and For Each.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture27-Wrapper Classes.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture28 - Final MC.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture28-AP Exam Prep.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture28-Misc copy.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture29-More Loops.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Lecture29-Search and Sort (Part II).pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Object Lab.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/PolymorphismLab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Processing Lab.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Programming Exercises.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/Python.ppt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture1.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture1.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture10.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture11.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture11.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture12.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture12.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture13.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture13.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture16.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture16.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture17.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture17.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture25.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture3.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture3.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture4.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture5.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture7.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture8.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture8.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture9.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture9.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/ArrayListLab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/ExactChange.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/Grid.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/ManyBalls.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/Object Lab.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/ObjectsLab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/ShootLab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/Stopwatch.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/create_task.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/create_task_submission.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/create_task_submission.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect1.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect2.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect2.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect3.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture1.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture10.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture11.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture11.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture11a.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture12.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture12.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture13.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture13.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture14.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture14.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture15.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture15.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture16.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture16.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture17.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture17.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture18.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture18.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture19.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture19.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture2.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture20.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture20.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture21.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture21.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture3.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture4.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture5.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture6.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture7.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture8.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture8.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture9.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture9.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/~$Lecture5-Operations and Variables.ppt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="106" column="99" selection-start-line="106" selection-start-column="99" selection-end-line="106" selection-end-column="99" />
+            <state relative-caret-position="275">
+              <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -193,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="131" column="104" selection-start-line="131" selection-start-column="104" selection-end-line="131" selection-end-column="104" />
+            <state relative-caret-position="275">
+              <caret line="116" column="132" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="132" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -233,8 +107,8 @@
         <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
         <option value="$PROJECT_DIR$/courses/python/python.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/archived/apprinciples.html" />
-        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
+        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
       </list>
     </option>
   </component>
@@ -449,20 +323,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="106" column="99" selection-start-line="106" selection-start-column="99" selection-end-line="106" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="131" column="104" selection-start-line="131" selection-start-column="104" selection-end-line="131" selection-end-column="104" />
+        <state relative-caret-position="275">
+          <caret line="116" column="132" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="132" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
         </state>
       </provider>
     </entry>
