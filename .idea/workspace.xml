@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture1.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture1.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture2.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="137" column="97" selection-start-line="137" selection-start-column="97" selection-end-line="137" selection-end-column="97" />
+            <state relative-caret-position="334">
+              <caret line="130" column="129" selection-start-line="130" selection-start-column="129" selection-end-line="130" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -335,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="137" column="97" selection-start-line="137" selection-start-column="97" selection-end-line="137" selection-end-column="97" />
+        <state relative-caret-position="334">
+          <caret line="130" column="129" selection-start-line="130" selection-start-column="129" selection-end-line="130" selection-end-column="129" />
         </state>
       </provider>
     </entry>
