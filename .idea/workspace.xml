@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture1.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture2.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture3.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture4.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture5.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture6.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture7.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture8.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture9.ppt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -41,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/courses/animation/kinematics.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-165">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -83,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="116" column="132" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="132" />
+            <state relative-caret-position="316">
+              <caret line="143" column="108" selection-start-line="143" selection-start-column="108" selection-end-line="143" selection-end-column="108" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -122,11 +133,11 @@
         <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
         <option value="$PROJECT_DIR$/courses/python/python.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/archived/apprinciples.html" />
-        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
         <option value="$PROJECT_DIR$/courses/animation/collisions.html" />
         <option value="$PROJECT_DIR$/courses/animation/reflection.html" />
         <option value="$PROJECT_DIR$/courses/animation/kinematics.html" />
         <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
+        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
       </list>
     </option>
   </component>
@@ -340,16 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="116" column="132" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="132" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/collisions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -367,7 +368,7 @@
     <entry file="file://$PROJECT_DIR$/courses/animation/kinematics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
@@ -375,6 +376,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="151" column="74" selection-start-line="151" selection-start-column="74" selection-end-line="151" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="143" column="108" selection-start-line="143" selection-start-column="108" selection-end-line="143" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
