@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/animation/Ball.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/animation/BounceGroundsSol.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/animation/Ground.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/animation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/animation/reflection.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/animation/reflection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/animation/kinematics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -165,13 +158,6 @@
               <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
               <item name="animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
-              <item name="kinematics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -387,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/kinematics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+        <state relative-caret-position="60">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
