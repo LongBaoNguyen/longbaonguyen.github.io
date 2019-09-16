@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture3a.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture6.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture6.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect3.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect4.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect4.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="131" column="135" selection-start-line="131" selection-start-column="135" selection-end-line="131" selection-end-column="135" />
+            <state relative-caret-position="193">
+              <caret line="124" column="30" lean-forward="true" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="122" column="68" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
+            <state relative-caret-position="348">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,8 +77,8 @@
         <option value="$PROJECT_DIR$/courses/animation/collisions.html" />
         <option value="$PROJECT_DIR$/courses/animation/reflection.html" />
         <option value="$PROJECT_DIR$/courses/animation/kinematics.html" />
-        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
         <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
+        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
       </list>
     </option>
   </component>
@@ -311,20 +313,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="122" column="68" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="124" column="30" lean-forward="true" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="131" column="135" selection-start-line="131" selection-start-column="135" selection-end-line="131" selection-end-column="135" />
+        <state relative-caret-position="348">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
