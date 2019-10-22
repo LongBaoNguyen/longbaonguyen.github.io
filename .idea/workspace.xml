@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Introduction_Jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/Introduction_Jupyter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Tuples and Dictionaries Problem Set.ipynb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="29" />
     <option name="width" value="1280" />
     <option name="height" value="765" />
@@ -171,10 +174,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1280" height="765" extended-state="0" />
+    <frame x="0" y="23" width="1024" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1477363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18544367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,7 +187,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15750371" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16232772" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -304,7 +307,7 @@
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
