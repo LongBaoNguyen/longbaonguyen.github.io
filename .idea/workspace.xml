@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture10.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture10.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/Introduction_Jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/Introduction_Jupyter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/jupyter/.ipynb_checkpoints/Tuples and Dictionaries Problem Set-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/jupyter/.ipynb_checkpoints/Tuples and Dictionaries Problem Set-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/jupyter/Tuples and Dictionaries Problem Set.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/jupyter/Tuples and Dictionaries Problem Set.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12c.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect6.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect6.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect9.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect9b.pptx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
