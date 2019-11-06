@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect8.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect8a.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect8a.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="156" column="40" lean-forward="true" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+            <state relative-caret-position="267">
+              <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -311,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="156" column="40" lean-forward="true" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+        <state relative-caret-position="267">
+          <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
         </state>
       </provider>
     </entry>
