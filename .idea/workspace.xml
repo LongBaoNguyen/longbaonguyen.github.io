@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/explore_task/Explore Task.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/explore_task/Explore Task.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/.ipynb_checkpoints/Luhn-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/.ipynb_checkpoints/Luhn-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/Luhn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/Luhn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect17.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect18.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect19.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect9.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect9.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="1017">
+              <caret line="161" column="24" selection-start-line="112" selection-start-column="49" selection-end-line="161" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -306,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="1017">
+          <caret line="161" column="24" selection-start-line="112" selection-start-column="49" selection-end-line="161" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
