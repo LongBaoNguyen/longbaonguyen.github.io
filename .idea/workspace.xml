@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing.ppt" beforeDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="177">
+              <caret line="148" selection-start-line="148" selection-end-line="149" />
             </state>
           </provider>
         </entry>
@@ -183,7 +178,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="170" width="1280" height="765" extended-state="0" />
+    <frame x="0" y="46" width="1280" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1477363" />
@@ -318,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="177">
+          <caret line="148" selection-start-line="148" selection-end-line="149" />
         </state>
       </provider>
     </entry>
