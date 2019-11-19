@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/processing1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/processing1.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/processing2.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/processing2.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/processinga1.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/processinga2.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect10.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect10.pptx" afterDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="378">
+              <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -319,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="378">
+          <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
         </state>
       </provider>
     </entry>
