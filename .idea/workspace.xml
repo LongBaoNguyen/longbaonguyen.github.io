@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/jupyter/Introduction_Jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/jupyter/Introduction_Jupyter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/dft/discrete_fourier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="370">
+              <caret line="124" column="24" lean-forward="true" selection-start-line="120" selection-end-line="124" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,7 +103,6 @@
         <option value="$PROJECT_DIR$/courses/animation/eel.html" />
         <option value="$PROJECT_DIR$/mandelbrot2.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
         <option value="$PROJECT_DIR$/courses/python/python.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/archived/apprinciples.html" />
         <option value="$PROJECT_DIR$/courses/animation/collisions.html" />
@@ -99,6 +111,7 @@
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
         <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" />
+        <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
       </list>
     </option>
   </component>
@@ -129,19 +142,7 @@
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="codingchallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="neural_network" type="462c0819:PsiDirectoryNode" />
+              <item name="dft" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -195,7 +196,7 @@
     <frame x="0" y="46" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26286116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15856236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
@@ -327,8 +321,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="370">
+          <caret line="124" column="24" lean-forward="true" selection-start-line="120" selection-end-line="124" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
         </state>
       </provider>
     </entry>
