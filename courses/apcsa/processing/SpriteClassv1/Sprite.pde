@@ -15,11 +15,11 @@ public class Sprite{
   
   
   /* declare three constructors: 
-  1) one parameter: a PImage and initialize the rest to default values(0.0)
-  2) two parameters: a PImage and a scale(float) variable to set the scale of the image
+  1) one parameter: a String for the name of the image file and initialize the rest to default values(0.0)
+  2) two parameters: a filename(String) and a scale(float) variable to set the scale of the image
      a PImage object has variables width and height specifying the width/height of the image.
      Use these variables and the scale variable to initialize w and h. Everything else to 0.0.
-  3) four parameters: a PImage, a scale, and x and y for position. Everything else to 0.0.
+  3) four parameters: a filename(String), a scale, and x and y for position. Everything else to 0.0.
   
   */
   
