@@ -1,13 +1,19 @@
+# YOU MAY MODIFY THIS FILE.
+# The Window class here is very similar to the arcade.Window class.
+# PUT ALL OF YOUR CLASSES/FUNCTIONS HERE.
+
 from __future__ import division
 import arcade
 from constants import *
 
 class Window:
     def __init__(self):
+        """ Declare your variables. """
         self.player = None
         self.brick_list = None
         self.physics_engine = None
     def setup(self):
+        """ Initialize your variables. Call this setup method to reset your game. """
         self.player = arcade.Sprite("tank.png", 1.0, WIDTH/2, HEIGHT/2)
         self.player.center_x = 200
         self.player.center_y = 300

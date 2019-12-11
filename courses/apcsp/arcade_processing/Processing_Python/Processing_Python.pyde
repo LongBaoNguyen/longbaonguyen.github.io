@@ -1,3 +1,6 @@
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
 from __future__ import division
 import arcade
 import main
@@ -27,9 +30,12 @@ def keyReleased():
         window.on_key_release(keyCode)
     else:
         window.on_key_release(key)
+
 def mouseMoved():
     window.on_mouse_motion(mouseX, mouseY, pmouseX, pmouseY)
+
 def mousePressed():
     window.on_mouse_press(mouseX, mouseY, mouseButton)
+
 def mouseReleased():
     window.on_mouse_release(mouseX, mouseY, mouseButton)

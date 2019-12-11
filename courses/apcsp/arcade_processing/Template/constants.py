@@ -1,3 +1,0 @@
-WIDTH = 800
-HEIGHT = 600
-BACKGROUND_COLOR = color(255) # or RGB: color(255, 0, 255)

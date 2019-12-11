@@ -1,3 +1,10 @@
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+
+# Useful classes: Sprite, SpriteList, PhysicsEngineSimple
+# Useful functions: check_for_collision, check_for_collision_with_list
+
+
 from __future__ import division
 
 
@@ -9,6 +16,7 @@ def check_for_collision(sprite1, sprite2):
     if no_y_overlap:
         return False
     return True
+
 def check_for_collision_with_list(sprite, sprite_list):
     collision_list = [sprite2 for sprite2 in sprite_list 
                       if sprite is not sprite2 and check_for_collision(sprite, sprite2)]
@@ -16,7 +24,7 @@ def check_for_collision_with_list(sprite, sprite_list):
 
 
 class Sprite:
-    def __init__(self, filename, scale=1.0, center_x=0, center_y=0):
+    def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):
         self.texture = loadImage(filename)
         self.center_x = center_x
         self.center_y = center_y
@@ -24,8 +32,8 @@ class Sprite:
         self.change_y = 0
         self.width = self.texture.width*scale
         self.height = self.texture.height*scale
-        self.angle = 0.0  # in degrees
-        self.alpha = 255 # 255 is fully opaque, 0 is fully transparent
+        self.angle = angle  # in degrees
+        self.alpha = alpha # 255 is fully opaque, 0 is fully transparent
     
     def draw(self):
         pushMatrix();
@@ -126,6 +134,12 @@ class PhysicsEngineSimple:
             else:
                 print("Error, collision while player wasn't moving.")
     
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
         
                       
     
