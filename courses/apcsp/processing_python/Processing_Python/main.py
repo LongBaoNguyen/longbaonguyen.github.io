@@ -12,17 +12,20 @@ class Window:
         self.player = None
         self.brick_list = None
         self.physics_engine = None
+        self.num_coins = 0
     def setup(self):
         """ Initialize your variables. Call this setup method to reset your game. """
-        self.player = arcade.Sprite("tank.png", 1.0, WIDTH/2, HEIGHT/2)
-        self.player.center_x = 200
-        self.player.center_y = 300
-
+        self.player = arcade.Sprite("tank.png", 1.0, 100, 500)
         self.brick_list = arcade.SpriteList()
-        
+        self.coin_list = arcade.SpriteList()
+
         for x in range(100, 300, 64):
-            brick = arcade.Sprite("brick.png", 0.5, x, width/2)
+            brick = arcade.Sprite("brick.png", 0.5, x, height/2)
             self.brick_list.append(brick)
+        
+        for x in range(100, 800, 100):
+            coin = arcade.Sprite("coin.png", 0.5, x, height/4)
+            self.coin_list.append(coin)
 
         self.physics_engine = arcade.PhysicsEngineSimple(self.player, self.brick_list)
         
@@ -31,10 +34,22 @@ class Window:
         """ Called automatically 60 times a second to draw objects."""
         self.brick_list.draw()
         self.player.draw()
+        self.coin_list.draw()
+        arcade.draw_text("Coins: " + str(self.num_coins), 50, HEIGHT - 50)
+        arcade.draw_circle_filled(WIDTH/2, HEIGHT/2, 100, color(255,0,0))
+        arcade.draw_line(100, 200, 500, 400, color(255,0,0), 4)
+        arcade.draw_rectangle_filled(100,100,200,400,color(255,0,0))
         
     def on_update(self):
         """ Called automatically 60 times a second to update our objects."""
         self.physics_engine.update()
+        
+        collision_list = arcade.check_for_collision_with_list(self.player, self.coin_list)
+        if len(collision_list) > 0:
+            for coin in collision_list:
+                self.coin_list.remove(coin)
+                self.num_coins += 1
+            
 
     def on_mouse_motion(self, x, y, dx, dy):        
         """ Called whenever the mouse moves. """

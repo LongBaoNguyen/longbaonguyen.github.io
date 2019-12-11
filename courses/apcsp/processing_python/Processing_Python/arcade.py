@@ -7,6 +7,29 @@
 
 from __future__ import division
 
+def draw_text(txt, x, y, clr=color(0), font_size=32, anchor_x=LEFT, anchor_y=BOTTOM):
+    textSize(font_size)
+    textAlign(anchor_x, anchor_y)
+    fill(clr)
+    text(txt, x, y)
+
+def draw_circle_filled(center_x, center_y, radius, fill_clr=color(0), stroke_clr=color(0), line_width=1):
+    fill(fill_clr)
+    stroke(stroke_clr)
+    strokeWeight(line_width)
+    ellipse(center_x, center_y, 2 * radius, 2 * radius)
+
+def draw_rectangle_filled(center_x, center_y, w, h, fill_clr=color(0), stroke_clr=color(0), line_width=1):
+    fill(fill_clr)
+    stroke(stroke_clr)
+    strokeWeight(line_width)
+    rect(center_x, center_y, w, h)
+    
+def draw_line(start_x, start_y, end_x, end_y, stroke_clr=color(0), line_width=1):
+    stroke(stroke_clr)
+    strokeWeight(line_width)
+    line(start_x, start_y, end_x, end_y)
+    
 
 def check_for_collision(sprite1, sprite2):
     no_x_overlap = sprite1.get_right() <= sprite2.get_left() or sprite2.get_right() <= sprite1.get_left()

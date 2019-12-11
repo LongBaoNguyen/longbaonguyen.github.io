@@ -10,6 +10,7 @@ window = main.Window()
 
 def setup():
     size(WIDTH, HEIGHT)
+    rectMode(CENTER)
     imageMode(CENTER)
     window.setup()
     
