@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/arcade/1_Lab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/Game.pyde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/arcade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/data/coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/data/tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Game/sketch.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/Processing_Python.pyde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/arcade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/data/coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/data/tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_python/Processing_Python/sketch.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/bouncing_ball/bouncing_ball.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/bouncing_ball/bouncing_ball.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_circle/is_in_circle.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_circle/is_in_circle.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/is_in_rectangle.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/is_in_rectangle.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/reset_sprite/reset_sprite.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/reset_sprite/reset_sprite.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/main.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="155" column="81" selection-start-line="155" selection-start-column="81" selection-end-line="155" selection-end-column="81" />
+            <state relative-caret-position="180">
+              <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -235,10 +227,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="46" width="1440" height="805" extended-state="0" />
+    <frame x="0" y="23" width="1024" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,7 +240,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1486676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16232772" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -367,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="155" column="81" selection-start-line="155" selection-start-column="81" selection-end-line="155" selection-end-column="81" />
+        <state relative-caret-position="180">
+          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

@@ -14,8 +14,7 @@ class Window:
         self.brick_list = None
         self.physics_engine = None
         self.num_coins = 0
-        self.player = Player("right_tank.png", 1.0)
-
+        self.player = None
         
         
     def setup(self):

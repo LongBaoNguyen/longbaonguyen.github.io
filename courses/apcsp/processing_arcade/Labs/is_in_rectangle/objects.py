@@ -26,7 +26,7 @@ class Window:
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects."""
-        pass
+        arcade.draw_circle_filled(WIDTH/2, HEIGHT/2, 100, color(255,0,0))
 
     def on_update(self):
         """ Called to update our objects. Happens approximately 60 times per second."""

@@ -4,7 +4,7 @@
 
 from __future__ import division, print_function
 
-import main
+import objects
 import arcade
 from constants import *
 
@@ -15,7 +15,7 @@ def setup():
     size(WIDTH, HEIGHT)
     rectMode(CENTER)
     imageMode(CENTER)
-    window = main.Window()
+    window = objects.Window()
     window.setup()
     
 
