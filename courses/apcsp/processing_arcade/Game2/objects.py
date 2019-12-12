@@ -15,7 +15,9 @@ class Window:
         self.num_coins = 0
     def setup(self):
         """ Initialize your variables. Call this setup method to reset your game. """
-        self.player = arcade.Sprite("tank.png", 1.0, 100, 500)
+        self.player = Player("right_tank.png", 1.0)
+        print(self.player.cur_texture_index)
+
         self.brick_list = arcade.SpriteList()
         self.coin_list = arcade.SpriteList()
 
@@ -35,14 +37,14 @@ class Window:
         self.brick_list.draw()
         self.player.draw()
         self.coin_list.draw()
+        arcade.draw_text("hi", 50, HEIGHT - 100)
         arcade.draw_text("Coins: " + str(self.num_coins), 50, HEIGHT - 50)
-        arcade.draw_circle_filled(WIDTH/2, HEIGHT/2, 100, color(255,0,0))
-        arcade.draw_line(100, 200, 500, 400, color(255,0,0), 4)
-        arcade.draw_rectangle_filled(100,100,200,400,color(255,0,0))
         
     def on_update(self):
         """ Called automatically 60 times a second to update our objects."""
+
         self.physics_engine.update()
+        self.player.update()
         
         collision_list = arcade.check_for_collision_with_list(self.player, self.coin_list)
         if len(collision_list) > 0:
@@ -75,9 +77,7 @@ class Window:
         elif key == DOWN:
             self.player.change_y = 5
         elif key == 'a':
-            self.player.angle += 90
-        elif key == 's':
-            self.player.angle += -90
+            self.player.set_texture(1)
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. """
@@ -89,3 +89,23 @@ class Window:
             self.player.change_y = 0
         elif key == DOWN:
             self.player.change_y = 0
+            
+            
+class Player(arcade.Sprite):
+    def __init__(filename, scale):
+        super().__init__(filename, scale)
+        texture = arcade.load_texture("left_tank.png")
+        self.textures.append(texture)
+        print(len(self.textures))
+        self.set_texture(0)
+    def update(self):
+        super().update()
+        if self.change_x > 0:
+            self.texture = self.textures[0]
+        if self.change_x < 0:
+            self.texture = self.textures[1]
+        
+
+        
+        
+    

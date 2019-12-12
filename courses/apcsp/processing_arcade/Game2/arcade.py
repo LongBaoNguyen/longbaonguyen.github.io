@@ -30,6 +30,9 @@ def draw_line(start_x, start_y, end_x, end_y, stroke_clr=color(0), line_width=1)
     strokeWeight(line_width)
     line(start_x, start_y, end_x, end_y)
     
+    
+def load_texture(filename): 
+    return loadImage(filename)   
 
 def check_for_collision(sprite1, sprite2):
     no_x_overlap = sprite1.get_right() <= sprite2.get_left() or sprite2.get_right() <= sprite1.get_left()
@@ -48,16 +51,19 @@ def check_for_collision_with_list(sprite, sprite_list):
 
 class Sprite:
     def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):
-        self.texture = loadImage(filename)
         self.center_x = center_x
         self.center_y = center_y
         self.change_x = 0
         self.change_y = 0
-        self.width = self.texture.width*scale
-        self.height = self.texture.height*scale
-        self.angle = angle  # in degrees
+        self.texture = loadImage(filename)
+        self.textures = [self.texture]
+        self.cur_texture_index = 0
+        self.scale = scale
+        self.width = self.texture.width * self.scale
+        self.height = self.texture.height * self.scale
+        self.angle = 0.0  # in degrees
+        self.change_angle = 0.0
         self.alpha = alpha # 255 is fully opaque, 0 is fully transparent
-    
     def draw(self):
         pushMatrix();
         translate(self.center_x, self.center_y);
@@ -69,6 +75,8 @@ class Sprite:
     def update(self):
         self.center_x += self.change_x
         self.center_y += self.change_y
+    def set_texture(self, index):
+        self.texture = self.textures[index]
     def get_left(self):
         return self.center_x - self.width/2
     def set_left(self, l):
