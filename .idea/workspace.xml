@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/bouncing_ball/bouncing_ball.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/bouncing_ball/bouncing_ball.pyde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_circle/is_in_circle.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_circle/is_in_circle.pyde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/is_in_rectangle.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/is_in_rectangle.pyde" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/reset_sprite/reset_sprite.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/reset_sprite/reset_sprite.pyde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/arcade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/left_tank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/right_tank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/tank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/sketch.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+            <state relative-caret-position="49">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -227,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="745" extended-state="6" />
+    <frame x="-120" y="23" width="1024" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22333" />
@@ -359,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+        <state relative-caret-position="49">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

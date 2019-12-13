@@ -17,11 +17,12 @@ class Window:
         self.player = None
         
         
+        
     def setup(self):
         """ Initialize your variables. Call this setup method to reset your game. """
         self.brick_list = arcade.SpriteList()
         self.coin_list = arcade.SpriteList()
-
+        self.player = arcade.Sprite("tank.png", 0.5, 10, 10)
         for x in range(100, 300, 64):
             brick = arcade.Sprite("brick.png", 0.5, x, height/2)
             self.brick_list.append(brick)
@@ -43,7 +44,6 @@ class Window:
         """ Called automatically 60 times a second to update our objects."""
 
         self.physics_engine.update()
-        self.player.update()
         collision_list = arcade.check_for_collision_with_list(self.player, self.coin_list)
         if len(collision_list) > 0:
             for coin in collision_list:
