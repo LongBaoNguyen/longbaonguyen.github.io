@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/is_in_rectangle/objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/Processing_Arcade.pyde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/arcade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/left_tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/right_tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/data/tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/objects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Processing_Arcade/sketch.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2728">
-              <caret line="124" column="24" selection-start-line="120" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="-498">
+              <caret line="113" column="39" lean-forward="true" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -76,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="49">
@@ -229,10 +217,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-120" y="23" width="1024" height="745" extended-state="0" />
+    <frame x="0" y="46" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -242,7 +230,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16232772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1486676" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -345,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2728">
-          <caret line="124" column="24" selection-start-line="120" selection-end-line="124" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3256">
@@ -366,6 +347,13 @@
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-498">
+          <caret line="113" column="39" lean-forward="true" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
         </state>
       </provider>
     </entry>
