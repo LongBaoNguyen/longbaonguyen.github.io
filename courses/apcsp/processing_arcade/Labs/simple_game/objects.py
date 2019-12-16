@@ -19,9 +19,11 @@ Use arcade.check_for_collision function which returns whether two sprites are co
 
 4) Add a lives variable that keep track of the number of lives of the player, initialize it to 3.
 5) Each time the player gets caught, decrease his lives by 1.
-6) If the player's lives is 0, display "Game Over" and "Press r to restart" screen.
+6) If the player's lives is 0, display "Game Over" and "Press r to restart" screen. At this point
+the player and boss should still be drawn but they are frozen. 
 7) If user presses "r", call setup() to restart the game.
-
+8) (Optional) Add a respawning feature. If the player is reset, gives him 4-5 seconds where the boss
+can't get him. (Hint: use transparency(alpha attribute), 0-255, 255 is opaque, 0 is invisible))
 
 """
 
@@ -32,31 +34,21 @@ from constants import *
 class Window:    
     def __init__(self):
         """ Declare the variables, set them to None. """
-        self.player = None
-        self.boss = None
-
+        
     def setup(self):
         """ Set up the game and initialize the variables. """
-        self.player = arcade.Sprite("tank.png", 0.5)
-        self.boss = arcade.Sprite("boss.png", 0.5)
-
-        
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects."""
-        self.player.draw()
+        
 
     def on_update(self):
         """ Called to update our objects. Happens approximately 60 times per second."""
+        pass
         
-        self.player.update()
-
-
     def on_mouse_motion(self, x, y, dx, dy):        
         """ Called whenever the mouse moves. """
-        # if x is within width of rectangle and y within height of rectangle
-        # return True otherwise return False.
-        pass    
+        pass
     
     def on_mouse_press(self, x, y, button):
         """ Called whenever the mouse is pressed. """
@@ -71,25 +63,13 @@ class Window:
         """ Called automatically whenever a key is pressed. """
         if key == LEFT:
             self.player.change_x = -5
-        elif key == RIGHT:
-            self.player.change_x = 5
-        elif key == UP:
-            self.player.change_y = -5 
-        elif key == DOWN:
-            self.player.change_y = 5
 
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. """
         if key == LEFT:
             self.player.change_x = 0
-        elif key == RIGHT:
-            self.player.change_x = 0
-        elif key == UP:
-            self.player.change_y = 0
-        elif key == DOWN:
-            self.player.change_y = 0
-            
+        
             
         
         
