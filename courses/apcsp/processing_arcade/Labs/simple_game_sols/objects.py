@@ -22,6 +22,8 @@ Use arcade.check_for_collision function which returns whether two sprites are co
 6) If the player's lives is 0, display "Game Over" and "Press r to restart" screen. At this point
 the player and boss should still be drawn but they are frozen. 
 7) If user presses "r", call setup() to restart the game.
+8) (Optional) Add a respawning feature. If the player is reset, gives him 4-5 seconds where the boss
+can't get him. (Hint: use transparency(alpha attribute), 0-255, 255 is opaque, 0 is invisible))
 
 """
 
