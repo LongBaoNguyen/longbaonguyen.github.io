@@ -56,31 +56,22 @@ class Window:
         self.player.draw()
         self.boss.draw()
         arcade.draw_text("Lives: " + str(self.lives), 50, HEIGHT - 50)
-        
-        
-        
-        
         if self.game_over:
             arcade.draw_text("GAME OVER. Press r to restart!", WIDTH/2 - 200, HEIGHT/2)
 
 
     def on_update(self):
         """ Called to update our objects. Happens approximately 60 times per second."""
-        
         if not self.game_over:
             self.player.update()
-            self.boss.update()    
             if arcade.check_for_collision(self.player, self.boss) and not self.respawning:
                 self.lives -= 1
                 self.respawning = True
                 self.player.alpha = 0
                 self.player.set_left(0)
                 self.player.center_y = HEIGHT/2
-            
-            
             if self.lives == 0:
                 self.game_over = True
-                
             if self.respawning:
                 self.player.alpha += 1
                 if self.player.alpha >= 255:
