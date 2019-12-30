@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/arcade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/data/boss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/data/tank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/objects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/sketch.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/sprite_lab/sprite_lab.pyde" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="166">
+              <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -361,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="166">
+          <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
         </state>
       </provider>
     </entry>
