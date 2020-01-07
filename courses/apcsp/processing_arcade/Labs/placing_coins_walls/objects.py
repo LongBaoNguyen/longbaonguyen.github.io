@@ -1,13 +1,13 @@
 """
-Resolving Collisions Lab
+Placing Coins Away from Bricks and Other Coins
 
 Do the following:
 
-1) Create a SpriteList of "brick.png" Sprites. 
-2) Initialize two rows of brick sprites. One with all adjacent bricks and one with spacing
-enough for the tank to go in between. 
-3) Use PhysicsEngineSimple class to detect/resolve collision! 
-See the arcade.py for the source code. Note: This part will only require 2 lines of code!
+1) Use nested loop to create rows of bricks(e.g., 4 rows, each with 10 bricks).  
+2) Use for loop to create set of coins where each coin is placed away from bricks and other coins.
+Note: Each iteration of for loop, use while loop until a coin is placed successfully.
+3) Use PhysicsEngineSimple class to detect/resolve brick collision.
+4) In update(), use code from Pick Up Coins Lab to pick up coins. 
 
 
 """
@@ -21,41 +21,67 @@ import random
 class Window:    
     def __init__(self):
         """ Declare the variables, set them to None. """
+        
         self.player = None
-        # declare the variables: brick_list, physics_engine
+        self.brick_list = None
+        self.coin_list = None
+        self.physics_engine = None
+        self.num_coins = None
 
     def setup(self):
         """ Set up the game and initialize the variables. """
-
         self.player = arcade.Sprite("tank.png", 0.5)
+        self.num_coins = 30
 
-        # initialize brick_list as a SpriteList
-        
-        # use a for loop to create a set of HORIZONTAL, ADJACENT "brick.png" Sprites.
-        # Remember to add them to brick_list
-        # Hint: Use for loop with range(begin, end, step)
-        
-        
-        
-        # use a for loop to create a set of HORIZONTAL, "brick.png" Sprites
-        # with spacing enough for tank to go between them.
+        # Initialize brick_list as a SpriteList
+        # Then use nested for loops to place rows of bricks. 
+        # (Hint: Outer for loop is y coordinate skipping every 150 pixels
+        #        Inner for loop is x coordinate skipping every 64 pixels)
+        # Append bricks to brick_list
+
+
+
 
         
-        # initialize physics_engine, see source code in arcade.py
-        # use PhysicsEngineSimple class.
-
+        # Initialize coin_list as a SpriteList
+        self.coin_list = arcade.SpriteList()
+        
+        # PSEUDOCODE for how to place coins. 
+        # for each i in range of number of coins 
+        #       create coin Sprite
+        #       set boolean variable successfully_placed to False
+        #       while not successfully_placed
+        #           set center_x and center_y randomly
+        #           compute collision lists for coin with bricks
+        #           AND coin with other coins (2 lists)
+        #           if both lists have 0 length, then we have successfully placed the coin
+        #                  add coin to coin_list
+    
+    
+    
+    
+    
+    
+                
+        # initialize physics_engine
+        
+        
+            
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects."""
-        self.player.draw()
-        # draw SpriteList
+        # draw everything
 
 
     def on_update(self):
         """ Called to update our objects. Happens approximately 60 times per second."""
-
-        # update physics engine    
-        # If you call physics engine's update(), do not call self.player.update() otherwise it will
-        # update player twice moving it twice as fast.     
+        
+        # update physics engine
+        
+        
+        # use code from pick up coins lab to pick up coins
+        # you don't need all of the code from that lab(no gameover or reset)
+        
+                
                                         
     def on_mouse_motion(self, x, y, dx, dy):        
         """ Called whenever the mouse moves. """
