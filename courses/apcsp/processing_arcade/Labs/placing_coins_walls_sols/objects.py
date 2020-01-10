@@ -32,7 +32,7 @@ class Window:
     def setup(self):
         """ Set up the game and initialize the variables. """
         self.player = arcade.Sprite("tank.png", 0.5)
-        self.num_coins = 30
+        self.num_coins = 130
 
         # initialize brick_list as a SpriteList
         self.brick_list = arcade.SpriteList()
@@ -48,7 +48,6 @@ class Window:
         for i in range(self.num_coins):
             coin = arcade.Sprite("coin.png", 0.5)
             successfully_placed = False
-            
             while not successfully_placed:
                 coin.center_x = random.randrange(WIDTH)
                 coin.center_y = random.randrange(HEIGHT)

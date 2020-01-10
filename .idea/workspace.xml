@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/resolving_collisions.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/resolving_collisions.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/resolving_collisions/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/resolving_collisions/objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/placing_coins_walls_sols/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/Labs/placing_coins_walls_sols/objects.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="109">
               <caret line="142" column="102" selection-start-line="142" selection-start-column="102" selection-end-line="142" selection-end-column="102" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -115,8 +115,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-140" />
-    <option name="y" value="70" />
+    <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
@@ -228,7 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-140" y="70" width="1440" height="805" extended-state="0" />
+    <frame x="41" y="61" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
@@ -360,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="109">
           <caret line="142" column="102" selection-start-line="142" selection-start-column="102" selection-end-line="142" selection-end-column="102" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
