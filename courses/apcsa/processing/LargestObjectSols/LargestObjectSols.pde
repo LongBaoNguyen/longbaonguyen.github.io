@@ -4,6 +4,7 @@ void setup(){
   size(600,600);
   // initialize and populate b array.
   // all ball objects have the same color
+  
   color c = color(255, 0, 255);
   b = new Ball[20];
   
