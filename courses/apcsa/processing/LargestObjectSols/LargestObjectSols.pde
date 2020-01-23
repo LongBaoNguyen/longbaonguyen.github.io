@@ -6,7 +6,7 @@ void setup(){
   // all ball objects have the same color
   
   color c = color(255, 0, 255);
-  b = new Ball[20];
+  b = new Ball[30];
   
   for(int i = 0; i < b.length; i++)
     b[i] = new Ball(c);

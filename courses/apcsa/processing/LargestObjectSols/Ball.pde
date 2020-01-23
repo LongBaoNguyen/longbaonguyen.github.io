@@ -12,9 +12,9 @@ public class Ball{
   public Ball(color c){
     x = (float)(Math.random() * width);  
     y = (float)(Math.random() * height);
-    radius = (int)(Math.random() * 20) + 10;
-    change_x = (int)(Math.random() * 20) - 10;
-    change_y = (int)(Math.random() * 20) - 10;
+    radius = (float)(Math.random() * 20) + 10;
+    change_x = (float)(Math.random() * 20) - 10;
+    change_y = (float)(Math.random() * 20) - 10;
     this.c = c;
   }
   
