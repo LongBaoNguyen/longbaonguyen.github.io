@@ -18,11 +18,7 @@ public class Ball{
     this.c = c;
   }
   
-  
-  //write another constructor that accepts 
-  // six parameters 
-    
-  
+   
   // write the display() method to draw the ball
   public void display(){
     fill(c);

@@ -23,12 +23,17 @@ void draw(){
    
   // call largest and set its color to a different color
   // than the other ball objects
+  Ball largest = largest(b);
+  largest.c = color(0, 0, 255);
 }
 
 // returns Ball that has the largest radius
 // return the first one if there are multiples. 
-public Ball largest(Ball[] balls)
-{
-  return null;
-  
+public Ball largest(Ball[] balls){
+  Ball largest = balls[0];
+  for(Ball b: balls){
+    if(b.radius > largest.radius)
+      largest = b;
+  }
+  return largest;
 }

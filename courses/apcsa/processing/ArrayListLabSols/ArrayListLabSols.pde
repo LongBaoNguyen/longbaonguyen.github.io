@@ -17,7 +17,7 @@ void draw(){
   // display and move all the objects
   // if the mouse is inside a Ball object 
   // remove it from list
-  for(int i=0;i<list.size();i++){
+  for(int i=list.size()-1; i>=0; i--){
     list.get(i).display();
     list.get(i).update();
     if(distanceToMouse(list.get(i))<=list.get(i).radius)
