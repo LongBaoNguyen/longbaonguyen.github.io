@@ -5,21 +5,8 @@
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab/ArrayListLab.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab/Ball.pde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLabSols/ArrayListLabSols.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLabSols/ArrayListLabSols.pde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/CollisionDetection.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/CollisionDetection.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/LargestObjectSols/Ball.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/LargestObjectSols/Ball.pde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/LargestObjectSols/LargestObjectSols.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/LargestObjectSols/LargestObjectSols.pde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/Geometry.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/Resolving_Wall_Collisions.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/Sprite.pde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/data/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/data/character.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/Resolving_Wall_Collisions/data/sunflower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/.ipynb_checkpoints/image_processing_lect_lab-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/.ipynb_checkpoints/image_processing_lect_lab-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/image_processing_lect_lab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/image_processing_lect_lab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="203" column="52" lean-forward="true" selection-start-line="203" selection-start-column="52" selection-end-line="203" selection-end-column="52" />
+            <state relative-caret-position="245">
+              <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -131,9 +118,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="61" />
+    <option name="y" value="155" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -218,7 +205,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="61" width="1440" height="805" extended-state="0" />
+    <frame x="0" y="155" width="1440" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
@@ -231,7 +218,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1486676" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16232772" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -353,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="203" column="52" lean-forward="true" selection-start-line="203" selection-start-column="52" selection-end-line="203" selection-end-column="52" />
+        <state relative-caret-position="245">
+          <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
         </state>
       </provider>
     </entry>

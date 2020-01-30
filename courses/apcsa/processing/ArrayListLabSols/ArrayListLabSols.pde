@@ -18,9 +18,10 @@ void draw(){
   // if the mouse is inside a Ball object 
   // remove it from list
   for(int i=list.size()-1; i>=0; i--){
-    list.get(i).display();
-    list.get(i).update();
-    if(distanceToMouse(list.get(i))<=list.get(i).radius)
+    Ball current = list.get(i);
+    current.display();
+    current.update();
+    if(distanceToMouse(current)<=current.radius)
       list.remove(i);
     
   }
