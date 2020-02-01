@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLab.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLabSols/ArrayListLabSols.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/ArrayListLabSols/ArrayListLabSols.pde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_lab_sols.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_lab_sols.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+            <state relative-caret-position="127">
+              <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -118,7 +116,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="155" />
+    <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="745" />
   </component>
@@ -205,7 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="155" width="1440" height="745" extended-state="0" />
+    <frame x="0" y="61" width="1440" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
@@ -340,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+        <state relative-caret-position="127">
+          <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
         </state>
       </provider>
     </entry>
