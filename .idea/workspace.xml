@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lab/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_lab_sols.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_lab_sols.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture18.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture19.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect15.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect15.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
+            <state relative-caret-position="199">
+              <caret line="196" column="24" lean-forward="true" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -71,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="3322">
               <caret line="151" column="84" selection-start-line="151" selection-start-column="84" selection-end-line="151" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,14 +144,14 @@
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="apcsp" type="462c0819:PsiDirectoryNode" />
+              <item name="apcsa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="apcsp" type="462c0819:PsiDirectoryNode" />
-              <item name="image_processing" type="462c0819:PsiDirectoryNode" />
+              <item name="apcsa" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -283,13 +285,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -328,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="3322">
           <caret line="151" column="84" selection-start-line="151" selection-start-column="84" selection-end-line="151" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -338,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="191" column="39" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
+        <state relative-caret-position="199">
+          <caret line="196" column="24" lean-forward="true" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
         </state>
       </provider>
     </entry>
