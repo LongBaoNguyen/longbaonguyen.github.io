@@ -84,7 +84,7 @@ class Window:
         #     if bullet leaves screen, remove it
         for bullet in self.bullet_list:
             collision_list = arcade.check_for_collision_with_list(bullet, self.brick_list)
-            if collision_list:
+            if len(collision_list) > 0:
                 self.bullet_list.remove(bullet)
                 self.brick_list.remove(collision_list[0])
             if bullet.get_left() > WIDTH:
@@ -109,10 +109,9 @@ class Window:
         # set change_x to 10
         
         # append to bullet_list
-        
         bullet = arcade.Sprite("bullet.png", 0.5)
         bullet.center_y = self.player.center_y
-        bullet.set_left(self.player.get_right())
+        bullet.center_x = self.player.center_x
         bullet.change_x = 15
         self.bullet_list.append(bullet)
         
