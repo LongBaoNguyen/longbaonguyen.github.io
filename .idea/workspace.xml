@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture20.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apcspwhy.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apcspwhy.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/audio_processing/lec1_overview_live.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/audio_processing/lec1_overview_live.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect16.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect18.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect19.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/audio_processing/.ipynb_checkpoints/audio_signal_processing_lab_sols-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/audio_processing/.ipynb_checkpoints/audio_signal_processing_lab_sols-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/audio_processing/audio_signal_processing_lab_sols.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/audio_processing/audio_signal_processing_lab_sols.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect17.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect17.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4620">
-              <caret line="210" column="54" selection-start-line="210" selection-start-column="54" selection-end-line="210" selection-end-column="54" />
+            <state relative-caret-position="317">
+              <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -77,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="146" column="75" lean-forward="true" selection-start-line="146" selection-start-column="75" selection-end-line="146" selection-end-column="75" />
+            <state relative-caret-position="350">
+              <caret line="157" column="114" selection-start-line="157" selection-start-column="114" selection-end-line="157" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -304,13 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="210" column="54" selection-start-line="210" selection-start-column="54" selection-end-line="210" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/kinematics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2046">
@@ -339,10 +330,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="146" column="75" lean-forward="true" selection-start-line="146" selection-start-column="75" selection-end-line="146" selection-end-column="75" />
+        <state relative-caret-position="350">
+          <caret line="157" column="114" selection-start-line="157" selection-start-column="114" selection-end-line="157" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
