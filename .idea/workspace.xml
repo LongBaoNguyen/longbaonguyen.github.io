@@ -4,6 +4,10 @@
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture21.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture22.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture23.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture23.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/6_cryptography.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/6_cryptography.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/create_task/create_task_temp_processing.zip" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/create_task/create_task_temp_processing.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="213" column="91" selection-start-line="213" selection-start-column="91" selection-end-line="213" selection-end-column="91" />
+            <state relative-caret-position="291">
+              <caret line="208" column="28" selection-start-line="208" selection-start-column="28" selection-end-line="208" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -337,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="213" column="91" selection-start-line="213" selection-start-column="91" selection-end-line="213" selection-end-column="91" />
+        <state relative-caret-position="291">
+          <caret line="208" column="28" selection-start-line="208" selection-start-column="28" selection-end-line="208" selection-end-column="28" />
         </state>
       </provider>
     </entry>
