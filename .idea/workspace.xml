@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture21.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture22.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture23.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/GridSol/Cell.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/GridSol/Cell.pde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture21.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="216" column="25" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
+            <state relative-caret-position="365">
+              <caret line="210" column="90" selection-start-line="210" selection-start-column="90" selection-end-line="210" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -66,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="-93">
               <caret line="134" column="121" selection-start-line="134" selection-start-column="121" selection-end-line="134" selection-end-column="121" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,11 +111,11 @@
         <option value="$PROJECT_DIR$/courses/animation/collisions.html" />
         <option value="$PROJECT_DIR$/courses/animation/reflection.html" />
         <option value="$PROJECT_DIR$/courses/animation/kinematics.html" />
-        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
         <option value="$PROJECT_DIR$/courses/neural_network/intro_neural_network.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
+        <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
       </list>
     </option>
   </component>
@@ -296,13 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="216" column="25" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/neural_network/intro_neural_network.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-316">
@@ -326,11 +325,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="-93">
           <caret line="134" column="121" selection-start-line="134" selection-start-column="121" selection-end-line="134" selection-end-column="121" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="210" column="90" selection-start-line="210" selection-start-column="90" selection-end-line="210" selection-end-column="90" />
         </state>
       </provider>
     </entry>
