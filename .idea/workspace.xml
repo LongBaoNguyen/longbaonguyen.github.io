@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture20.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture21.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture22.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture23.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/GridSol/Cell.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/GridSol/Cell.pde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lecture21.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
