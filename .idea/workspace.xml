@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect18.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect18.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect18.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect19.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect19.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="230" column="49" lean-forward="true" selection-start-line="230" selection-start-column="49" selection-end-line="230" selection-end-column="49" />
+            <state relative-caret-position="256">
+              <caret line="225" column="99" selection-start-line="225" selection-start-column="99" selection-end-line="225" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -144,13 +141,6 @@
               <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
               <item name="apcsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="courses" type="462c0819:PsiDirectoryNode" />
-              <item name="apcsa" type="462c0819:PsiDirectoryNode" />
-              <item name="processing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -345,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="230" column="49" lean-forward="true" selection-start-line="230" selection-start-column="49" selection-end-line="230" selection-end-column="49" />
+        <state relative-caret-position="256">
+          <caret line="225" column="99" selection-start-line="225" selection-start-column="99" selection-end-line="225" selection-end-column="99" />
         </state>
       </provider>
     </entry>
