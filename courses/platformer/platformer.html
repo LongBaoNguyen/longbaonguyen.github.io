@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+  <meta charset="utf-8">
+	<title>How to Write a Platformer Game in Java</title>
+	<meta name="description" content="How to Write a Platfomer Game like Super Mario">
+	<meta name="author" content="Long Nguyen, University of Boston Massachusetts">
+
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="../../css/default.css">
+	<link rel="stylesheet" href="../../css/layout.css">
+	<link rel="stylesheet" href="../../css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="../../js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126746295-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-126746295-1');
+	</script>
+
+
+</head>
+
+<body class="page">
+
+   <!-- Header
+   ================================================== -->
+   <header id="top">
+
+   	<div class="row">
+
+   		<div class="header-content twelve columns">
+
+			<h1 id="logo-text"><a href="../../index.html" title="">Long Nguyen</a></h1>
+            <p id="intro">Resources and online courses for Math and Computer Science.</p>
+
+			</div>
+
+	   </div>
+		<nav id="nav-wrap">
+
+	   	<a class="mobile-btn" href="../../index.html" title="Show navigation">Show Menu</a>
+		  <a class="mobile-btn" href="../../index.html" title="Hide navigation">Hide Menu</a>
+
+			<div class="row">
+
+			   	<ul id="nav" class="nav">
+			      	<li><a href="../../index.html">Home</a></li>
+
+              		<li class="has-children current"><a href="intro_neural_network.html">Courses</a>
+					<ul>
+                      <li><a href="../dft/discrete_fourier.html">An Introduction to the Discrete Fourier Transform</a></li>
+					  <li><a href="../python/python.html">An Introduction to Python</a></li>
+					  <li><a href="../neural_network/intro_neural_network.html">Image Recognition with Neural Networks</a></li>
+					  <li><a href="../apcsp/apprinciples.html">AP Computer Science Principles</a></li>
+					  <li><a href="../apcsa/apjava.html">AP Computer Science A</a></li>
+                    </ul>
+			      	</li>
+			   	</ul> <!-- end #nav -->
+
+	 	  	</div>
+
+	   </nav> <!-- end #nav-wrap -->
+
+
+   </header> <!-- Header End -->
+
+   <!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eleven columns">
+
+   			<section class="page">
+
+					<h2>How to Write a Platformer(e.g. Super Mario) Game in Java</h2>
+					<div class="row">
+						<div class="twelve columns">
+					<p> In this short video series course, we will learn how to write a platformer (or side-scrolling) game like Super Mario.
+						We will write this game from scratch with very basic algebra without relying on any physics engine!
+					</p>
+					<p>
+						Below are all of the resources
+						including video lectures, code, and labs. I created this curriculum for my AP Computer Science A course during the current
+						school closures due to the coronavirus. I only started creating the videos the week of April 1, 2020.
+						Every week, I hope to upload a few new videos. Lab assignments will also be uploaded.
+					</p>
+					<p>
+						If you teach AP Computer Science A and would like solutions, feel free to contact me directly.
+
+					</p>
+
+
+
+						<h4><a href="https://youtu.be/bde7PWCPw-A">1) Game Preview</a></h4>
+						A preview of the platformer game that we will write.
+						<!--
+						<ul>
+							<!-- Write your comments here <li>Slides: <a href="neural_net/lecture1.pdf">lecture1.pdf</a></l>
+							<li>Python Code From Lecture Video: <a href="code1.ipynb">Jupyter Notebook</a>, <a href="code1.html">HTML</a></li>
+							<li>Homework: <a href="lec1_hw_and_solutions.zip">lec1_hw_and_solutions.zip</a></li>
+						</ul>
+						-->
+						<h4><a href="https://youtu.be/nUWsmxisuQM">2) Introduction to Processing</a></h4>
+						A quick introduction to Processing, a software sketchbook that allows us to easily create animations/games
+						with simple Java code.
+						<h4><a href="https://youtu.be/0Lk7WSDAIbk">3) Creating the Sprite Class</a></h4>
+						Making our game object-oriented by creating the Sprite class, which is the superclass of all of
+						our game objects.
+						<h4><a href="https://youtu.be/OAjyunGPW_s">4) Controlling a Sprite Using the Keyboard </a></h4>
+						Controlling our player using the keyboard.
+						<h4><a href="https://youtu.be/RhD6bzSHBeI">5) Creating the Game Map by Using a CSV File</a></h4>
+						Create a game map or level stage using a comma-separated values (CSV) file.
+						<h4>6) Collision Detection </a></h4>
+						Detecting collision between two sprites and a sprite and an ArrayList of sprites.
+						<h4>7) Resolving Platform Collisions Part 1 </a></h4>
+						Understanding the math behind resolving platform collisions.
+						<h4>8) Resolving Platform Collisions Part 2 </a></h4>
+						Implement the code to resolve platform collisions.
+						<h4>9) Add Jumping </a></h4>
+						Add in jumping ability to the player.
+						<h4>10) Animating the Sprite </a></h4>
+						Create AnimatedSprite class for simple animated Sprites(e.g. coins, enemies).
+						<h4>11) Animating the Player(uses inheritance) </a></h4>
+						Create Player class which inherits from the AnimatedSprite class to animate the player.
+						<h4>12) Scrolling</a></h4>
+						Add scrolling to the game.
+						<h4>13) Finish Up Game</a></h4>
+						Finish up the game. Recommendations for other game ideas.
+
+
+				</section> <!-- End page -->
+
+   		</div> <!-- End main -->
+
+
+
+   	</div> <!-- end row -->
+
+   </div> <!-- end content-wrap -->
+
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="../js/main.js"></script>
+
+</body>
+
+</html>
