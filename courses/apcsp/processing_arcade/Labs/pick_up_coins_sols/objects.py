@@ -20,22 +20,27 @@ from constants import *
 
 import random
 
+WIDTH = 800
+HEIGHT = 600
+BACKGROUND_COLOR = color(255) # or RGB: color(255, 0, 255)
+
+PLAYER_SCALE = 0.5
+TANK_SCALE = 0.5
+PLAYER_SPEED = 5
+
 class Window:    
     def __init__(self):
         """ Declare the variables, set them to None. """
-        self.player = None
-        self.coin_list = None
-        self.num_coins = None
-        self.game_over = None
-        self.total_coins = None
+        self.setup()
 
     def setup(self):
         """ Set up the game and initialize the variables. """
         self.player = arcade.Sprite("tank.png", 0.5)
-        self.coin_list = arcade.SpriteList()
         self.num_coins = 0
         self.total_coins = 5
         self.game_over = False
+        
+        self.coin_list = arcade.SpriteList()
         for i in range(self.total_coins):
             coin = arcade.Sprite("coin.png", 0.5)
             coin.center_x = random.randrange(WIDTH)
@@ -57,15 +62,21 @@ class Window:
         
         if not self.game_over:
             self.player.update()
-            collision_list = arcade.check_for_collision_with_list(self.player, self.coin_list)
-            if len(collision_list) > 0:
-                for coin in collision_list:
-                    self.num_coins += 1
-                    self.coin_list.remove(coin)
+            self.check_coin_collision()
+            self.check_game_over()
+            
                 
-            if self.num_coins == self.total_coins:
+    def check_coin_collision(self):
+        collision_list = arcade.check_for_collision_with_list(self.player, self.coin_list)
+        if len(collision_list) > 0:
+            for coin in collision_list:
+                self.num_coins += 1
+                self.coin_list.remove(coin)
+                    
+    def check_game_over(self):
+        if self.num_coins == self.total_coins:
                 self.game_over = True
-                
+                                        
     def on_mouse_motion(self, x, y, dx, dy):        
         """ Called whenever the mouse moves. """
         # if x is within width of rectangle and y within height of rectangle
