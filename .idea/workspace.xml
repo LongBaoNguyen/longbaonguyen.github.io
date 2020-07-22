@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="2684">
               <caret line="122" column="131" selection-start-line="122" selection-start-column="131" selection-end-line="122" selection-end-column="131" />
             </state>
           </provider>
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="120" column="95" selection-start-line="120" selection-start-column="95" selection-end-line="120" selection-end-column="95" />
+            <state relative-caret-position="126">
+              <caret line="136" column="115" selection-start-line="136" selection-start-column="115" selection-end-line="136" selection-end-column="115" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -134,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,10 +152,18 @@
               <item name="courses" type="462c0819:PsiDirectoryNode" />
               <item name="apcsp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+              <item name="apcsp" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,15 +340,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/dft/discrete_fourier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="2684">
           <caret line="122" column="131" selection-start-line="122" selection-start-column="131" selection-end-line="122" selection-end-column="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="120" column="95" selection-start-line="120" selection-start-column="95" selection-end-line="120" selection-end-column="95" />
+        <state relative-caret-position="126">
+          <caret line="136" column="115" selection-start-line="136" selection-start-column="115" selection-end-line="136" selection-end-column="115" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
