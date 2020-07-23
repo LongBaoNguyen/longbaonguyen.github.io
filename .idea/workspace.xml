@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/principles_pacing.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="162" column="69" selection-start-line="162" selection-start-column="69" selection-end-line="162" selection-end-column="69" />
+            <state relative-caret-position="171">
+              <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -211,7 +211,7 @@
     <frame x="0" y="23" width="1440" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18252291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14094433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -347,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="162" column="69" selection-start-line="162" selection-start-column="69" selection-end-line="162" selection-end-column="69" />
+        <state relative-caret-position="171">
+          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
