@@ -62,7 +62,7 @@ class Sprite(object):
         self.scale = scale
         self.width = self.texture.width * self.scale
         self.height = self.texture.height * self.scale
-        self.angle = 0.0  # in degrees
+        self.angle = angle  # in degrees
         self.change_angle = 0.0
         self.alpha = alpha # 255 is fully opaque, 0 is fully transparent
     def draw(self):
@@ -87,13 +87,13 @@ class Sprite(object):
     def set_right(self, r):
         self.center_x = r - self.width/2
     def get_top(self):
-        return self.center_y - self.width/2
+        return self.center_y - self.height/2
     def set_top(self, t):
-        self.center_y = t + self.width/2
+        self.center_y = t + self.height/2
     def get_bottom(self):
-        return self.center_y + self.width/2
+        return self.center_y + self.height/2
     def set_bottom(self, b):
-        self.center_y = b - self.width/2
+        self.center_y = b - self.height/2
 
 class SpriteList:
     def __init__(self):
