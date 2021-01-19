@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture13.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect9.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect9.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/create_task_temp_processing/arcade.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/create_task_temp_processing/arcade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/shakespeare/analyzing_shakespeare_sols.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/shakespeare/analyzing_shakespeare_sols.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture13.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture13.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture14.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
