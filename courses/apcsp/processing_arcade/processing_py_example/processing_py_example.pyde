@@ -33,8 +33,6 @@ def keyReleased():
     else:
         window.on_key_release(key)
 
-def mouseMoved():
-    window.on_mouse_motion(mouseX, mouseY)
 
 def mousePressed():
     window.on_mouse_press(mouseX, mouseY, mouseButton)

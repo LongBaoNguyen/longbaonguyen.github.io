@@ -1,16 +1,11 @@
+# DO NOT MODIFY THIS FILE!!!!!!!!
+# DO NOT MODIFY THIS FILE!!!!!!!!
+
+
 from __future__ import division, print_function
 
-# PUT UTILITY FUNCTIONS HERE.(for example, collision detection)
-#
-
-
-
-
-
-#***********************DO NOT MODIFY BELOW THIS LINE*********************
-#***********************DO NOT MODIFY BELOW THIS LINE*********************
 class Sprite(object):
-    def __init__(self, filename, center_x=0, center_y=0, scale=1.0, angle=0, alpha=255):
+    def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):
         self.center_x = center_x
         self.center_y = center_y
         self.change_x = 0
@@ -35,6 +30,7 @@ class Sprite(object):
     def update(self):
         self.center_x += self.change_x
         self.center_y += self.change_y
+        self.angle += self.change_angle
     def set_texture(self, index):
         self.texture = self.textures[index]
     def get_left(self):

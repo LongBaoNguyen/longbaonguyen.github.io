@@ -1,6 +1,5 @@
 """
 Main logic of game is here.
-   
 """
 
 from __future__ import division, print_function
@@ -21,25 +20,24 @@ class Window:
             self.lives = 3
             self.score = 0
         """
-        self.coin = arcade.Sprite("coin.png", WIDTH/2, HEIGHT/2)
-        self.player = arcade.Sprite("right_tank.png")
+        self.player = arcade.Sprite("tank.png")
         self.player.center_x = 100
-        self.player.center_y = 200
-
+        self.player.center_y = HEIGHT/2
+        self.player.change_x = 5
+        
+        
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
         """
         self.player.draw()
-        self.coin.draw()
-        fill(255,0,0)
-        ellipse(mouseX, mouseY, 300, 300)
         
     def on_update(self):
         """ Called to update our objects about 60 times per second.
             Write code to update all objects(for animation).
         """
-        
+        self.player.update()
+
    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
