@@ -19,27 +19,25 @@ class Window:
             For example:
             self.lives = 3
             self.score = 0
-            
+                        
             Create Sprite object at the origin, default 1.0 scale.
             self.player = arcade.Sprite("tank.png")
             
             Create Sprite object with 2.0 scale position at (200, 300)
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
-        pass
         
         
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
-        """
-        pass
+        """    
         
     def on_update(self):
         """ Called to update our objects about 60 times per second.
             Write code to update all objects(for animation).
         """
-        pass
+        
    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
