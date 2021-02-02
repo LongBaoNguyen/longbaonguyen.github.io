@@ -37,12 +37,11 @@ def load_texture(filename):
 
 def check_for_collision(sprite1, sprite2):
     no_x_overlap = sprite1.get_right() <= sprite2.get_left() or sprite2.get_right() <= sprite1.get_left()
-    if no_x_overlap:
-        return False
     no_y_overlap = sprite1.get_top() >= sprite2.get_bottom() or sprite2.get_top() >= sprite1.get_bottom()
-    if no_y_overlap:
+    if no_x_overlap or no_y_overlap:
         return False
-    return True
+    else:
+        return True
 
 def check_for_collision_with_list(sprite, sprite_list):
     collision_list = [sprite2 for sprite2 in sprite_list 
