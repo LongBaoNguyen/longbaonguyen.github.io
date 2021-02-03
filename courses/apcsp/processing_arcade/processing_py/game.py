@@ -4,6 +4,9 @@ Main logic of game is here.
 
 from __future__ import division, print_function
 import arcade
+import random
+
+
 
 WIDTH = 800 # width of screen in pixels
 HEIGHT = 600 # height of screen in pixels
@@ -26,12 +29,29 @@ class Window:
             Create Sprite object with 2.0 scale position at (200, 300)
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
+        self.player = arcade.Sprite("tank.png")
+        self.player.center_x = WIDTH/2
+        self.player.center_y = HEIGHT/2
+        
+        self.coins = []
+        for i in range(100):
+            # create a coin Sprite, add to list
+            coin = arcade.Sprite("coin.png")
+            coin.center_x = random.randrange(WIDTH)
+            coin.center_y = random.randrange(HEIGHT)
+            self.coins.append(coin)
+
         
         
+        
+
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
         """    
+        self.player.draw()
+        for coin in self.coins:
+            coin.draw()
         
     def on_update(self):
         """ Called to update our objects about 60 times per second.
