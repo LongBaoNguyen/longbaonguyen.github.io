@@ -1,12 +1,15 @@
 """
-Main logic of game is here.
+Pick Up Coins Lab
+
+Follow the instructions given by the comments below.
+Tank moves about the screen and picks up coins. Text coin counter is updated appropriately.
+
 """
+
 
 from __future__ import division, print_function
 import arcade
 import random
-
-
 
 WIDTH = 800 # width of screen in pixels
 HEIGHT = 600 # height of screen in pixels
@@ -29,23 +32,20 @@ class Window:
             Create Sprite object with 2.0 scale position at (200, 300)
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
-        self.player = arcade.Sprite("tank.png")
+        
+        self.player = arcade.Sprite("tank.png", 0.8)
         self.player.center_x = WIDTH/2
         self.player.center_y = HEIGHT/2
         
-
-        
         self.coins = []
-        for i in range(10):
+        self.num_coins = 10
+        for i in range(self.num_coins):
             # create a coin Sprite, add to list
-            coin = arcade.Sprite("coin.png")
+            coin = arcade.Sprite("coin.png", 0.8)
             coin.center_x = random.randrange(WIDTH)
             coin.center_y = random.randrange(HEIGHT)
             self.coins.append(coin)
 
-        
-        
-        
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
@@ -54,6 +54,13 @@ class Window:
         self.player.draw()
         for coin in self.coins:
             coin.draw()
+            
+        # display text, left-center align    
+        textSize(32)
+        textAlign(LEFT, CENTER)
+        fill(255,0,0) # for text color
+        text("Coins:" + str(self.num_coins), 20, 40)
+
         
     def on_update(self):
         """ Called to update our objects about 60 times per second.
@@ -61,7 +68,49 @@ class Window:
         """
         self.player.update()
         
+        # TODO
+        # call check_for_collision_list and store result in collision_list variable
+        collision = self.check_for_collision_list(self.player, self.coins)
+        
+        # TODO
+        # for each sprite in collision_list:
+        #    remove it from self.coins
+        #    update self.num_coins
+        for sp in collision:
+            self.coins.remove(sp)
+            self.num_coins -= 1
+                
+        
+    def check_for_collision(self, sprite1, sprite2):
+        """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
+        """
+        
+        # TODO
+        # follow intersection rules from lecture notes to implement collision detection
+        x_overlap = sprite1.get_right() > sprite2.get_left() and sprite1.get_left() < sprite2.get_right()
+        y_overlap = sprite1.get_bottom() > sprite2.get_top() and sprite1.get_top() < sprite2.get_bottom()
+        return x_overlap and y_overlap 
    
+    def check_for_collision_list(self, sprite, sprite_list):
+        """ Returns list of sprites in sprite_list which intersect with sprite.
+            Call check_for_collision method above. Use self and dot notation.
+            For example:
+                
+            if self.check_for_collision(sprite1, sprite2):
+                # do something here.
+        """
+        # TODO
+        # create empty list collision_list
+        # for each sprite sp in sprite_list:
+        #     if there's collision between sp and sprite 
+        #     add to collision_list 
+        # remember to return collision_list
+        collision_list = []
+        for sp in sprite_list:
+            if self.check_for_collision(sp, sprite):
+                collision_list.append(sp)
+        return collision_list
+
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
         Example:
@@ -83,13 +132,11 @@ class Window:
         elif key == LEFT:
             self.player.change_x = -5
         elif key == UP:
-            self.player.change_y = -5 
+            self.player.change_y = -5
         elif key == DOWN:
             self.player.change_y = 5
-            
-            
-            
-
+    
+        
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
@@ -102,7 +149,7 @@ class Window:
             self.player.change_y = 0
         elif key == DOWN:
             self.player.change_y = 0
-                    
+            
         
     def on_mouse_press(self, x, y, button):
         """ Called whenever the mouse is pressed. 
