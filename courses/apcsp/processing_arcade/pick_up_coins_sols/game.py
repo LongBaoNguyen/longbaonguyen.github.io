@@ -54,7 +54,7 @@ class Window:
         self.player.draw()
         for coin in self.coins:
             coin.draw()
-            
+                        
         # display text, left-center align    
         textSize(32)
         textAlign(LEFT, CENTER)

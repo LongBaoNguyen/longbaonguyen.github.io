@@ -1,9 +1,32 @@
 """
-Pick Up Coins Lab
+Tank Shooting Lab
 
-Follow the instructions given by the comments below.
-Tank moves about the screen and picks up coins. Text coin counter is updated appropriately.
+Tank shoots bullets whenever mouse is clicked. 
+Place 10 bricks randomly on the screen. 
+If bullet hits brick, both are removed. 
+If bullet leaves the screen, it is removed. 
 
+Do the following. Make sure each part works before moving on the next part!
+
+1) In __init__ create a list brick_list and randomly, placed 10 bricks in brick_list. 
+   Draw them in on_draw().
+2) In __init__, create an empty list bullet_list. 
+3) In on_mouse_press, each time mouse is pressed, create a bullet, initialize
+   it to be at the location of the player(same center_y, but left side of bullet
+   should be equal to right side of player)
+   Set change_x of bullet to 10. Append to bullet_list.
+   Update and draw bullet_list in on_draw and on_update.
+   If 1) and 2) works, you are now able to shoot each time mouse is clicked. 
+4) In update():
+   for each bullet in bullet_list, call check_for_collision_list 
+   with brick_list to get collision list
+       if collision_list is not empty:
+           remove bullet from bullet_list
+           remove first element of collision_list from brick_list  
+       if bullet leaves screen, it is removed  
+5) Add a score variable to keep track of how many bricks are hit. Display score.
+
+   
 IMPLEMENT ALL PARTS LABELED "TODO".
 """
 
@@ -39,14 +62,16 @@ class Window:
         self.player.center_y = HEIGHT/2
         
         
-        self.coins = []
-        self.num_coins = 100
-        for i in range(self.num_coins):
+        self.brick_list = []
+        self.bullet_list = []
+        self.num_bricks = 10
+        self.score = 0
+        for i in range(self.num_bricks):
             # create a coin Sprite, add to list
-            coin = arcade.Sprite("coin.png", 0.8)
-            coin.center_x = random.randrange(WIDTH)
-            coin.center_y = random.randrange(HEIGHT)
-            self.coins.append(coin)
+            brick = arcade.Sprite("brick.png", 0.4)
+            brick.center_x = random.randrange(WIDTH)
+            brick.center_y = random.randrange(HEIGHT)
+            self.brick_list.append(brick)
             
 
     def on_draw(self):
@@ -54,14 +79,16 @@ class Window:
             Write code to draw all objects.
         """    
         self.player.draw()
-        for coin in self.coins:
-            coin.draw()
+        for brick in self.brick_list:
+            brick.draw()
+        for bullet in self.bullet_list:
+            bullet.draw()
             
         # display text, left-center align    
         textSize(32)
         textAlign(LEFT, CENTER)
         fill(255,0,0) # for text color
-        text("Coins:" + str(self.num_coins), 20, 40)
+        text("Score:" + str(self.score), 20, 40)
 
         
     def on_update(self):
@@ -69,18 +96,18 @@ class Window:
             Write code to update all objects(for animation).
         """
         self.player.update()
+        for bullet in self.bullet_list:
+            bullet.update()
+
+        for bullet in self.bullet_list:
+            collision_list = self.check_for_collision_list(bullet, self.brick_list)
+            if len(collision_list) > 0:
+                self.bullet_list.remove(bullet)
+                self.brick_list.remove(collision_list[0])
+                self.score += 1
+            if bullet.get_left() > WIDTH:
+                self.bullet_list.remove(bullet)
         
-        # TODO
-        # call check_for_collision_list and store result in collision_list variable
-        collision_list = self.check_for_collision_list(self.player, self.coins)
-                                                
-        # TODO
-        # for each sprite in collision_list:
-        for sprite in collision_list:
-        #    remove it from self.coins
-            self.coins.remove(sprite)
-        #    update self.num_coins
-            self.num_coins -= 1
                 
         
     def check_for_collision(self, sprite1, sprite2):
@@ -106,9 +133,9 @@ class Window:
         # create empty list collision_list
         collision_list = []
         # for each sprite sp in sprite_list:
-        for sp in self.coins:
+        for sp in sprite_list:
         #     if there's collision between sp and sprite 
-            if self.check_for_collision(self.player, sp):
+            if self.check_for_collision(sp, sprite):
         #     add to collision_list 
                 collision_list.append(sp)
         # remember to return collision_list
@@ -165,7 +192,21 @@ class Window:
             Parameters: x, y location of the mouse
                         button: LEFT, RIGHT, CENTER
         """
-        pass
+        # create bullet Sprite
+        
+        # set center_y to equal player center_y
+        
+        # set left side of bullet to equal right side of player
+        
+        # set change_x to 10
+        
+        # append to bullet_list
+        bullet = arcade.Sprite("bullet.png", 0.5)
+        bullet.center_y = self.player.center_y
+        bullet.center_x = self.player.center_x
+        bullet.change_x = 15
+        self.bullet_list.append(bullet)
+        
         
     def on_mouse_release(self, x, y, button):
         """ Called whenever the mouse is released. 
