@@ -46,15 +46,16 @@ class Window:
         
         self.player = arcade.Sprite("tank.png", 0.8)
         # TODO, call set_left on player object to set left side of player to left screen
-
+        self.player.set_left(0)
         # TODO, call set_bottom on player to set bottom side of player to center of screen
+        self.player.set_bottom(HEIGHT/2)
         
         
         # TODO, create empty brick_list and bullet_list
-
-        
+        self.brick_list = []
+        self.bullet_list = []
         # TODO, create variable score, initialize to 0
-       
+        self.score = 0
 
         self.num_bricks = 10
         for i in range(self.num_bricks):
@@ -72,10 +73,12 @@ class Window:
         self.player.draw()
         
         # TODO, iterate through brick_list and draw 
-        
+        for brick in self.brick_list:
+            brick.draw()
             
         # TODO, iterate through bullet_list and draw
-        
+        for bullet in self.bullet_list:
+            bullet.draw()
             
         textSize(32)
         textAlign(LEFT, CENTER)
@@ -88,10 +91,11 @@ class Window:
             Write code to update all objects(for animation).
         """
         # TODO, update player 
-        
+        self.player.update()
         
         # TODO, iterate through bullet_list, update each bullet(to move bullets)
-        
+        for bullet in self.bullet_list:
+            bullet.update()
             
         
         
@@ -105,7 +109,15 @@ class Window:
         #     update score
         #   if bullet leaves right side of screen
         #      remove bullet 
-
+        for bullet in self.bullet_list:
+            collision_list = self.check_for_collision_list(bullet, self.brick_list)
+            if len(collision_list) > 0:
+                self.bullet_list.remove(bullet)
+                self.brick_list.remove(collision_list[0])
+                self.score += 1
+            if bullet.get_left() > WIDTH:
+                self.bullet_list.remove(bullet)
+        
                 
         
     def check_for_collision(self, sprite1, sprite2):
@@ -200,7 +212,11 @@ class Window:
         # set change_x to 10(velocity)
         
         # append to bullet_list
-        
+        bullet = arcade.Sprite("bullet.png", 0.5)
+        bullet.center_y = self.player.center_y
+        bullet.center_x = self.player.center_x
+        bullet.change_x = 15
+        self.bullet_list.append(bullet)
         
         
     def on_mouse_release(self, x, y, button):

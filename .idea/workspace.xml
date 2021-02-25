@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture15.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/processing_py/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/processing_py/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_temp1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/image_processing/image_processing_lect_temp1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/processing_arcade/tank_shoot/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/processing_arcade/tank_shoot/game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="202" column="33" lean-forward="true" selection-start-line="202" selection-start-column="33" selection-end-line="202" selection-end-column="33" />
+            <state relative-caret-position="299">
+              <caret line="201" column="96" selection-start-line="201" selection-start-column="96" selection-end-line="201" selection-end-column="96" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -121,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +152,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="202" column="33" lean-forward="true" selection-start-line="202" selection-start-column="33" selection-end-line="202" selection-end-column="33" />
+        <state relative-caret-position="299">
+          <caret line="201" column="96" selection-start-line="201" selection-start-column="96" selection-end-line="201" selection-end-column="96" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#ol#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
