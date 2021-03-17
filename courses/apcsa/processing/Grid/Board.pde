@@ -25,11 +25,15 @@ public class Board{
     
     // use for loop to draw horizontal lines
     // use line(begin_x, begin_y, end_x, end_y)
+    // Draw five horizontal lines
+    for(int i = 1;i < 6;i++)
+      line(0,100 * i,700,100 * i);
 
     
     // use for loop to draw vertical lines
     // use line(begin_x, begin_y, end_x, end_y)
-
+    // Hint: Draw six vertical lines
+    
       
     // use nested loop to traverse grid 2D array
     // for each nonempty cell, draw red circle if 0
