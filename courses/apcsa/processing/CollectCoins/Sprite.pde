@@ -1,10 +1,10 @@
 // YOU DO NOT NEED TO MODIFY THIS CLASS.
 
 public class Sprite{
+  PImage image;
   float center_x, center_y;
   float change_x, change_y;
   float w, h;
-  PImage image; 
   
   public Sprite(String filename, float scale, float x, float y){
     image = loadImage(filename);
@@ -14,12 +14,9 @@ public class Sprite{
     center_y = y;
     change_x = 0;
     change_y = 0;
-  }  
-  public Sprite(String filename){
-    this(filename, 1.0, 0.0, 0.0);
   }
   public Sprite(String filename, float scale){
-    this(filename, scale, 0.0, 0.0);
+    this(filename, scale, 0, 0);
   }
   public Sprite(PImage img, float scale){
     image = img;
@@ -28,16 +25,16 @@ public class Sprite{
     center_x = 0;
     center_y = 0;
     change_x = 0;
-    change_y = 0;  
+    change_y = 0;
   }
-
-  void display(){
-    image(image, center_x, center_y, w, h);  
+  public void display(){
+     image(image, center_x, center_y, w, h); 
   }
-  void update(){
-    center_x += change_x;
-    center_y += change_y;
+  public void update(){
+     center_x += change_x;
+     center_y += change_y;
   }
+  
   void setLeft(float left){
     center_x = left + w/2;
   }
