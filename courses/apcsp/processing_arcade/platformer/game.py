@@ -2,6 +2,9 @@
 Simple Platformer Game
 
 In this lab, you will need to fill in code for the following IN THIS ORDER:
+
+FOR some of the functions, REMOVE THE WORD "pass" and fill in the code as directed.    
+    
 1) __init__
 2) on_draw
 3) resolve_collisions_platforms
@@ -9,7 +12,10 @@ In this lab, you will need to fill in code for the following IN THIS ORDER:
 5) is_on_platforms
 6) on_key_press
 
+Note that create_platforms function is given to you in its entirety and you'll need
+to call it.
 
+Complete all parts with "TODO" directions.
 
 """
 
@@ -47,8 +53,8 @@ class Window:
         """
         # TODO call create_platforms with "map.csv" to create platform list
         # store returned platforms in variable self.platforms
-        self.platforms = self.create_platforms("map.csv")
-        
+
+                
         # initialize player
         self.player = arcade.Sprite("player.png", 0.8)
         self.player.center_x = 300
@@ -60,11 +66,9 @@ class Window:
             Write code to draw all objects.
         """    
         # TODO draw player
-        self.player.draw()
-        
+
+                
         # TODO draw platforms
-        for platform in self.platforms:
-            platform.draw()
 
         
     def on_update(self):
@@ -72,20 +76,20 @@ class Window:
             Write code to update all objects(for animation).
         """
         # TODO call resolve_collisions_platforms
-        self.resolve_collisions_platforms(self.player)
         
         
     def resolve_collisions_platforms(self, sprite):
+        pass
         # TODO add gravity to change_y of sprite
-        sprite.change_y += GRAVITY;
+  
   
         # TODO move in y-direction by adding change_y to center_y to update y position.
-        sprite.center_y += sprite.change_y;
+  
   
         # TODO Now resolve any collision in the y-direction:
         # compute collision_list between sprite and walls(platforms).
-        col_list = self.check_for_collision_list(sprite, self.platforms)
-        
+
+                
         # TODO
         # if collision list is nonempty:
         #   get the first platform from collision list
@@ -95,23 +99,17 @@ class Window:
         #     set top of sprite to equal bottom of platform
         #   set sprite's change_y to 0
 
-        if len(col_list) != 0:
-            platform = col_list[0]
-            if sprite.change_y > 0:
-                sprite.set_bottom(platform.get_top())
-            elif sprite.change_y < 0:
-                sprite.set_top(platform.get_bottom())
-            sprite.change_y = 0
-            
+
+                        
 
         # TODO move in x-direction by adding change_x to center_x to update x position.
-        sprite.center_x += self.player.change_x;
-  
+
+    
         # TODO
         # Now resolve any collision in the x-direction:
         # compute collision_list between sprite and walls(platforms).
-        col_list = self.check_for_collision_list(sprite, self.platforms)
-   
+
+      
         # TODO
         # if collision list is nonempty:
         #   get the first platform from collision list
@@ -120,26 +118,22 @@ class Window:
         #   else if sprite is moving left
         #      set left side of sprite to equal right side of platform        
         
-        if len(col_list) != 0:
-            platform = col_list[0]
-            if sprite.change_x > 0:
-                sprite.set_right(platform.get_left())
-            elif sprite.change_x < 0:
-                sprite.set_left(platform.get_right())
+
     
+            
     def is_on_platforms(self, sprite):
-        
+        pass
         # TODO move down 5 pixels
-        sprite.center_y += 5
-        
+
+                
         # TODO compute collision list between player with platforms
-        col_list = self.check_for_collision_list(sprite, self.platforms)
+
         # TODO move back up 5 pixels to restore original position
-        sprite.center_y -= 5
-        
+
+                
         # TODO return whether list is nonempty
-        return len(col_list) > 0
-        
+
+                
     def check_for_collision(self, sprite1, sprite2):
         """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
         """
@@ -224,8 +218,6 @@ class Window:
         # TODO
         # add and elif key pressed is 'a' and is_on_platforms returns True:
             # change player change_y to -JUMP_SPEED 
-        elif key == 'a' and self.is_on_platforms(self.player):
-            self.player.change_y = -JUMP_SPEED
         
 
     def on_key_release(self, key):
