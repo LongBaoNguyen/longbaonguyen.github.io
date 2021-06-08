@@ -8,7 +8,7 @@ FOR some of the functions, REMOVE THE WORD "pass" and fill in the code as direct
 1) __init__
 2) on_draw
 3) resolve_collisions_platforms
-3) on_update
+4) on_update
 5) is_on_platforms
 6) on_key_press
 
