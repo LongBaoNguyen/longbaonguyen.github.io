@@ -76,6 +76,7 @@ class Window:
         
         
     def resolve_collisions_platforms(self, sprite):
+                
         # TODO add gravity to change_y of sprite
         sprite.change_y += GRAVITY;
   
