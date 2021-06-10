@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect22.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect22.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/archive/lect5.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/archive/lect6.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/archive/lect7.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/archive/lect8.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/lec12.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/lec5.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/lec6.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/lect9.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/platformer/platformer.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/platformer/platformer.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="120" column="34" selection-start-line="120" selection-end-line="121" />
+            <state relative-caret-position="18">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -46,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="207" column="99" lean-forward="true" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
+            <state relative-caret-position="366">
+              <caret line="207" column="99" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -100,9 +111,9 @@
         <option value="$PROJECT_DIR$/courses/dft/discrete_fourier.html" />
         <option value="$PROJECT_DIR$/courses/python/python.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/courses/platformer/platformer.html" />
         <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
         <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
+        <option value="$PROJECT_DIR$/courses/platformer/platformer.html" />
       </list>
     </option>
   </component>
@@ -153,6 +164,12 @@
               <item name="courses" type="462c0819:PsiDirectoryNode" />
               <item name="apcsp" type="462c0819:PsiDirectoryNode" />
               <item name="processing_arcade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longbaonguyen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longbaonguyen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+              <item name="platformer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,16 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="120" column="34" selection-start-line="120" selection-end-line="121" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsa/apjava.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5280">
@@ -379,8 +386,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="207" column="99" lean-forward="true" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
+        <state relative-caret-position="366">
+          <caret line="207" column="99" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
