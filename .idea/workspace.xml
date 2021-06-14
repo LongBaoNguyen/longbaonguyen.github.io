@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11a.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11a.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11b.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect13.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect13.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect13.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect15.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect15.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/data1.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/data2.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/pandas/.ipynb_checkpoints/pandas_live-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/pandas/.ipynb_checkpoints/pandas_live-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/pandas/pandas_live.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/pandas/pandas_live.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14a.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect14a.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="156" column="37" lean-forward="true" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
+            <state relative-caret-position="329">
+              <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -124,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="783" />
@@ -227,7 +211,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="783" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="783" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14094433" />
@@ -403,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="156" column="37" lean-forward="true" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
+        <state relative-caret-position="329">
+          <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
