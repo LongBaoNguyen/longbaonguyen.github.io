@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/apprinciples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11a.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11a.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect11b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect12.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect13.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect13.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect14.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect15.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect16.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/data1.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/lectures/data2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/pandas/.ipynb_checkpoints/pandas_live-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/pandas/.ipynb_checkpoints/pandas_live-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apcsp/pandas/pandas_live.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/pandas/pandas_live.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
@@ -46,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="207" column="99" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
+            <state relative-caret-position="269">
+              <caret line="156" column="37" lean-forward="true" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -101,8 +119,8 @@
         <option value="$PROJECT_DIR$/courses/python/python.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/courses/apcsa/apjava.html" />
-        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
         <option value="$PROJECT_DIR$/courses/platformer/platformer.html" />
+        <option value="$PROJECT_DIR$/courses/apcsp/apprinciples.html" />
       </list>
     </option>
   </component>
@@ -116,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,13 +319,13 @@
     <entry file="file://$PROJECT_DIR$/courses/apcsp/archived/apprinciples.html" />
     <entry file="file://$PROJECT_DIR$/courses/animation/collisions.html" />
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/animation/reflection.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -373,20 +391,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
+    <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="207" column="99" selection-start-line="207" selection-start-column="99" selection-end-line="207" selection-end-column="99" />
+        <state relative-caret-position="131">
+          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/platformer/platformer.html">
+    <entry file="file://$PROJECT_DIR$/courses/apcsp/apprinciples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+        <state relative-caret-position="269">
+          <caret line="156" column="37" lean-forward="true" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
