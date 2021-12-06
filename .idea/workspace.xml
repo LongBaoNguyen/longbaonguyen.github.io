@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/apjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/apjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/lecture12.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/lecture12.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/ControllingImage/ControllingImage.pde" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/ControllingImage/ControllingImage.pde" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsa/processing/processing2.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsa/processing/processing2.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apcsp/lect8.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/apcsp/~$lect8.pptx" beforeDir="false" />
-    </list>
+    <list default="true" id="4a827447-2109-4c45-8dd1-349305e89bff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
