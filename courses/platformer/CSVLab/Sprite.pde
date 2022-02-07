@@ -1,3 +1,5 @@
+********** DO NOT MODIFY****************
+
 public class Sprite{
   PImage image;
   float center_x, center_y;

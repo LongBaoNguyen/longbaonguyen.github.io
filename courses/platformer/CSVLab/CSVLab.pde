@@ -21,7 +21,9 @@ final static float SPRITE_SIZE = 50;
 //declare global variables
 Sprite p;
 PImage snow, crate, red_brick, brown_brick;
-ArrayList<Sprite> platforms;
+
+
+// ****** declare an ArrayList of Sprite objects called platforms*********
 
 
 //initialize them in setup().
@@ -31,12 +33,15 @@ void setup(){
   p = new Sprite("player.png", 1.0, 100, 300);
   p.change_x = 0;
   p.change_y = 0;
-  platforms = new ArrayList<Sprite>();
   red_brick = loadImage("red_brick.png");
   brown_brick = loadImage("brown_brick.png");
   crate = loadImage("crate.png");
   snow = loadImage("snow.png");
-  createPlatforms("map.csv");
+  
+  
+  // ****** call createPlatforms(String filename) and store the returned ArrayList in variable platforms*********
+  
+  
 }
 
 // modify and update them in draw().
@@ -46,12 +51,14 @@ void draw(){
   p.display();
   p.update();
   
-  for(Sprite s: platforms)
-    s.display();
+  // loop through platforms ArrayList and display each Sprite. USE a for-each loop 
+
+
 } 
 
 
-void createPlatforms(String filename){
+public ArrayList<Sprite> createPlatforms(String filename){
+  ArrayList<Sprite> platforms = new ArrayList<Sprite>();
   String[] lines = loadStrings(filename);
   for(int row = 0; row < lines.length; row++){
     String[] values = split(lines[row], ",");
@@ -82,6 +89,7 @@ void createPlatforms(String filename){
       }
     }
   }
+  return platforms;
   
   
 }
