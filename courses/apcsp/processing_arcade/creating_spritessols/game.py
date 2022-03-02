@@ -44,9 +44,6 @@ class Window:
             self.coins.append(coin)
         
         
-        
-        
-        
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
@@ -58,14 +55,13 @@ class Window:
         for coin in self.coins:
             coin.draw()
         
-        
-        
     def on_update(self):
         """ Called to update our objects about 60 times per second.
             Write code to update all objects(for animation).
         """
         # call update on self.player
         self.player.update()
+        
    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
