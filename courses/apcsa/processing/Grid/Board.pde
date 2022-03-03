@@ -1,6 +1,6 @@
 public class Board{
   // declare 2D array of Cell objects.
-  private Cell[][] grid;
+  Cell[][] grid;
   
   public Board(int rows, int cols){
     // initialize 2D array of Cell objects(null)
