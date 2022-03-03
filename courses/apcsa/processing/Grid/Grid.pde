@@ -11,15 +11,16 @@ void setup()
 {
   size(700,600);
   // initialize currentPLayer, default first player is red = 0
-  
-  // initialize board to have 6 rows 7 columns 
 
+  // initialize board to have 6 rows 7 columns 
+  
   
 }
 
 void draw(){
   background(255);
   // call drawBoard() on board object.
+
 
 }
 
@@ -31,9 +32,9 @@ void mouseClicked(){
 
   
   
-  // if Cell at row and col is empty, call selectCell
-  // with currentPlayer and row and col to set Cell
-  // call updatePlayer() to update currentPlayer.
+  // if Cell at row and col is empty
+  //    call selectCell with currentPlayer and row and col to set Cell
+  //    call updatePlayer() to update currentPlayer.
 
   
   
@@ -42,7 +43,6 @@ void mouseClicked(){
 void updatePlayer(){
   // update currentPlayer variable.
   // if 0 then 1, conversely if 1 then 0.
-
 
 
 }

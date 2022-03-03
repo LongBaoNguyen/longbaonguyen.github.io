@@ -36,15 +36,19 @@ class Window:
         # create an empty list called self.coins
         self.coins = []
         
+        
+        
+        
         # use a for loop to populate self.coins with 10 "coin.png" Sprites placed randomly on the screen
         # Hint: coin.center_x = random(0, WIDTH)
-        
         for i in range(10):
             coin = arcade.Sprite("coin.png")
             coin.center_x = random(0, WIDTH)
             coin.center_y = random(0, HEIGHT)
             self.coins.append(coin)
         
+        
+
             
         
         
@@ -59,7 +63,6 @@ class Window:
         # loop through self.coins and draw each Sprite
         for coin in self.coins:
             coin.draw()
-        
         
     def on_update(self):
         """ Called to update our objects about 60 times per second.
