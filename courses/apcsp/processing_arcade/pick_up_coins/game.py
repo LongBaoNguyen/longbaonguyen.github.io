@@ -40,7 +40,7 @@ class Window:
         
         
         self.coins = []
-        self.num_coins = 100
+        self.num_coins = 20
         for i in range(self.num_coins):
             # create a coin Sprite, add to list
             coin = arcade.Sprite("coin.png", 0.8)
@@ -72,15 +72,13 @@ class Window:
         
         # TODO
         # call check_for_collision_list and store result in collision_list variable
-        collision_list = self.check_for_collision_list(self.player, self.coins)
-                                                
+
+                                                                                
         # TODO
         # for each sprite in collision_list:
-        for sprite in collision_list:
         #    remove it from self.coins
-            self.coins.remove(sprite)
+
         #    update self.num_coins
-            self.num_coins -= 1
                 
         
     def check_for_collision(self, sprite1, sprite2):
@@ -88,6 +86,8 @@ class Window:
         """
         # TODO
         # follow intersection rules from lecture notes to implement collision detection
+        # see this link to see the math:
+        # https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing3.pdf
         x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right() 
         y_overlap = sprite2.get_bottom() > sprite1.get_top() and sprite2.get_top() < sprite1.get_bottom()
         return x_overlap and y_overlap
@@ -104,15 +104,14 @@ class Window:
         
         # TODO
         # create empty list collision_list
-        collision_list = []
+        
         # for each sprite sp in sprite_list:
-        for sp in self.coins:
+        
         #     if there's collision between sp and sprite 
-            if self.check_for_collision(self.player, sp):
+        
         #     add to collision_list 
-                collision_list.append(sp)
+        
         # remember to return collision_list
-        return collision_list
         
         
         
