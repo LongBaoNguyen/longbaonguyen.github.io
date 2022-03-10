@@ -72,14 +72,18 @@ class Window:
         
         # TODO
         # call check_for_collision_list and store result in collision_list variable
-
-                                                                                
+        collision_list = self.check_for_collision_list(self.player, self.coins)                     
+                                                                                                                                   
         # TODO
         # for each sprite in collision_list:
         #    remove it from self.coins
-
         #    update self.num_coins
+        for sprite in collision_list:
+            self.coins.remove(sprite)
+            self.num_coins -= 1
+            
                 
+        
         
     def check_for_collision(self, sprite1, sprite2):
         """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
@@ -104,15 +108,19 @@ class Window:
         
         # TODO
         # create empty list collision_list
+        collision_list = []
         
         # for each sprite sp in sprite_list:
-        
         #     if there's collision between sp and sprite 
-        
         #     add to collision_list 
+        for sp in sprite_list:
+            if self.check_for_collision(sp, sprite):
+                collision_list.append(sp)
+        return collision_list
+            
+        
         
         # remember to return collision_list
-        
         
         
         
