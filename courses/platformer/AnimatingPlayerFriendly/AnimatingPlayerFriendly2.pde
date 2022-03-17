@@ -9,12 +9,11 @@
   2) More Challenging Version. Less helper code is provided.
   For more detail, see the tutorial: https://youtu.be/l7kKqx6puAo
    
-  This is the friendly version.
+  This is the more friendly version.
   
   Complete the code as indicated by the comments.
   Do the following:
-  1) Implement the Player class. It might be helpful to look at the sprite images 
-  in the data folder. Follow the comments in the Player class. 
+  1) Implement the AnimatedSprite and Player class. 
   2) In draw, call display, update and updateAnimation on player. 
  
 */
@@ -38,7 +37,10 @@ void setup(){
 
 void draw(){
   background(255);
+  // TODO:
   // call display, update and updateAnimation on player.
+  
+  
 
 }
 

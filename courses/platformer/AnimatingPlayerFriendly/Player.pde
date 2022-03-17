@@ -20,6 +20,7 @@ public class Player extends AnimatedSprite{
   }
   @Override
   public void updateAnimation(){
+    // TODO:
     // update inPlace variable: player is inPlace if it is not moving
     // in both direction.
     // call updateAnimation of parent class AnimatedSprite.
@@ -35,6 +36,7 @@ public class Player extends AnimatedSprite{
   }
   @Override
   public void selectCurrentImages(){
+    // TODO: Some of the code is already given to you.
     // if direction is RIGHT_FACING
     //    if inPlace
     //       select standRight images
@@ -43,6 +45,14 @@ public class Player extends AnimatedSprite{
     //    if inPlace
     //       select standLeft images
     //    else select moveLeft images
+    if(direction == RIGHT_FACING){
+      if(inPlace){
+        currentImages = standRight;
+      }
+      else
+        currentImages = moveRight;
+    }
+
     
   }
 }

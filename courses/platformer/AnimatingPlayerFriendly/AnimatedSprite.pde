@@ -1,5 +1,3 @@
-// YOU DO NOT NEED TO MODIFY THIS CLASS.
-
 public class AnimatedSprite extends Sprite{
   PImage[] currentImages;
   PImage[] standNeutral;
@@ -12,23 +10,26 @@ public class AnimatedSprite extends Sprite{
   // initialize direction, index and frame. The PImage arrays can be initialized
   // as null. 
   public AnimatedSprite(PImage img, float scale){
-    super(img, scale);    
+    // TODO: fill in one line of code
+
+    
     direction = NEUTRAL_FACING;
     index = 0;
     frame = 0;
   }
+  public void updateAnimation(){
+  // TODO:
   // frame is increased by 1
   // every 5 frames do:
   //    call selectionDirection
   //    call selectCurrentImages
   //    call advanceToNextImage
-  public void updateAnimation(){
-    frame++;
-    if(frame % 5 == 0){
-      selectDirection();
-      selectCurrentImages();
-      advanceToNextImage();
-    }
+  
+  
+  
+  
+  
+  
   }
   // if sprite is moving right, set direction to RIGHT_FACING
   // else if it is moving left, set direction to LEFT_FACING
@@ -52,13 +53,13 @@ public class AnimatedSprite extends Sprite{
     else
       currentImages = standNeutral;
   }
-  // increase index by 1
-  // if index is at end of array loop back to 0
-  // assign image variable(from Sprite class) to currentImages at index.
   public void advanceToNextImage(){
-    index++;
-    if(index >= currentImages.length)
-      index = 0;
-    image = currentImages[index];
+    // TODO:
+    // increase index by 1
+    // if index is at end of array loop back to 0
+    // assign image variable(from Sprite class) to currentImages at index.
+
+    
+    
   }
 }
