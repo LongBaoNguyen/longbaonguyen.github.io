@@ -24,8 +24,9 @@ public class Player extends AnimatedSprite{
     // update inPlace variable: player is inPlace if it is not moving
     // in both direction.
     // call updateAnimation of parent class AnimatedSprite.
-
-
+    inPlace = change_x == 0 && change_y == 0;
+    super.updateAnimation();
+    
   }
   @Override
   public void selectDirection(){
@@ -45,6 +46,7 @@ public class Player extends AnimatedSprite{
     //    if inPlace
     //       select standLeft images
     //    else select moveLeft images
+    
     
   }
 }

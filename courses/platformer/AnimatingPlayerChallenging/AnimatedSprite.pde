@@ -11,8 +11,7 @@ public class AnimatedSprite extends Sprite{
   // as null. 
   public AnimatedSprite(PImage img, float scale){
     // TODO: fill in one line of code
-
-    
+    super(img, scale);
     direction = NEUTRAL_FACING;
     index = 0;
     frame = 0;
@@ -24,10 +23,13 @@ public class AnimatedSprite extends Sprite{
   //    call selectionDirection
   //    call selectCurrentImages
   //    call advanceToNextImage
-  
-  
-  
-  
+  frame++;
+  if(frame % 5 == 0){
+    selectDirection();
+    selectCurrentImages();
+    advanceToNextImage();
+    
+  }
   
   
   }
@@ -58,8 +60,12 @@ public class AnimatedSprite extends Sprite{
     // increase index by 1
     // if index is at end of array loop back to 0
     // assign image variable(from Sprite class) to currentImages at index.
+    index++;
+    if(index >= currentImages.length){
+      index = 0;
+    }
+    image = currentImages[index];
+    
 
-    
-    
   }
 }
