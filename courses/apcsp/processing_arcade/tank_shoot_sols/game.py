@@ -45,15 +45,12 @@ class Window:
         """
         
         self.player = arcade.Sprite("tank.png", 0.8)
-        # TODO, call set_left on player object to set left side of player to left screen
-        self.player.set_left(0)
-        # TODO, call set_bottom on player to set bottom side of player to center of screen
-        self.player.set_bottom(HEIGHT/2)
         
         
         # TODO, create empty brick_list and bullet_list
         self.brick_list = []
         self.bullet_list = []
+
         # TODO, create variable score, initialize to 0
         self.score = 0
 

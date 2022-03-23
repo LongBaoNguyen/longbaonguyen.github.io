@@ -46,13 +46,16 @@ class Window:
         
         self.player = arcade.Sprite("tank.png", 0.8)
         # TODO, set player's center to middle of screen
-        
-        
+        self.player.center_x = WIDTH // 2
+        self.player.center_y = HEIGHT // 2 
+                
         # TODO, create empty brick_list and bullet_list
+        self.brick_list = []
+        self.bullet_list = []
 
-        
         # TODO, create variable score, initialize to 0
-       
+        self.score = 0
+ 
 
         self.num_bricks = 10
         for i in range(self.num_bricks):
@@ -70,9 +73,13 @@ class Window:
         self.player.draw()
         
         # TODO, iterate through brick_list and draw 
+        for brick in self.brick_list:
+            brick.draw()
         
             
         # TODO, iterate through bullet_list and draw
+        for bullet in self.bullet_list:
+            bullet.draw()
         
             
         textSize(32)
@@ -86,11 +93,11 @@ class Window:
             Write code to update all objects(for animation).
         """
         # TODO, update player 
-        
+        self.player.update()
         
         # TODO, iterate through bullet_list, update each bullet(to move bullets)
-        
-            
+        for bullet in self.bullet_list:
+            bullet.update()    
         
         
 
@@ -103,6 +110,18 @@ class Window:
         #     update score
         #   if bullet leaves right side of screen
         #      remove bullet 
+        
+        for bullet in self.bullet_list:
+            collision_list = self.check_for_collision_list(bullet, self.brick_list)
+            if len(collision_list) != 0:
+                self.bullet_list.remove(bullet)
+                self.brick_list.remove(collision_list[0])
+                self.score += 1
+            if bullet.center_x > WIDTH:
+                self.bullet_list.remove(bullet)
+                
+
+        
 
                 
         
@@ -190,14 +209,19 @@ class Window:
         """
         # TODO
         # create bullet Sprite
-        
         # set center_y to equal player's center_y
-        
+        bullet = arcade.Sprite("bullet.png")
+        bullet.center_y = self.player.center_y
+
+
         # set left side of bullet to equal right side of player
+        bullet.set_left(self.player.get_right())
         
         # set change_x to 10(velocity)
+        bullet.change_x = 10
         
         # append to bullet_list
+        self.bullet_list.append(bullet)
         
         
         
