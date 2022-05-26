@@ -49,7 +49,10 @@ class Window:
         # update diameter by adding 1 
         self.diameter += 1
         
-   
+        # if diameter is >= 300, reset it to 0. 
+        if self.diameter >= 300:
+            self.diameter = 0
+
     
         
     

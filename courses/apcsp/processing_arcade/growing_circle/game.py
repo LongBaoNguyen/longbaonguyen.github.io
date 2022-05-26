@@ -45,6 +45,9 @@ class Window:
         """
         # update diameter by adding 1 
         
+        
+        # if diameter is >= 300, reset it to 0. 
+        
    
     
         
