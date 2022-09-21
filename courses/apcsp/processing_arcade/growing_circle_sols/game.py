@@ -30,8 +30,8 @@ class Window:
         self.diameter = 10
                 
     def on_draw(self):
-        """ Called automatically 60 times a second to draw objects.
-            Write code to draw all objects.
+        """ Called automatically 60 times a second to draw and update objects.
+            Write code to draw and update all objects.
         """
         # set the fill to red. Call fill(red, green, blue).
         # Then call ellipse(x, y, length, width)
@@ -42,10 +42,6 @@ class Window:
         ellipse(WIDTH//2, HEIGHT//2, self.diameter, self.diameter)
         
         
-    def on_update(self):
-        """ Called to update our objects about 60 times per second.
-            Write code to update all objects(for animation).
-        """
         # update diameter by adding 1 
         self.diameter += 1
         
