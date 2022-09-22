@@ -3,8 +3,12 @@ This lab introduces you to how to create instance variables
 and update them in each frame of animation. 
 
 Objective: 
-    Draw a red circle and the grows larger and larger. 
-    You only have to write four lines of code!
+    Draw a red circle and make it move to the right. 
+    
+    Drawing API:
+    ellipse(x, y, width, height): (x, y) center of ellipse.
+    rect(x, y, width, height): (x, y) top left corner of rectangle.
+    line(x1, y1, x2, y2): line connecting (x1, y1) and (x2, y2)
 
 """
 from __future__ import division, print_function
@@ -25,30 +29,25 @@ class Window:
             self.lives = 3
             self.score = 0    
         """
-        
-        # create a variable called diameter. Don't forget to prefix it with "self."!
-        self.diameter = 10
-                
+        # create two variable x and y for the center of the circle.
+        # Don't forget to prefix it with "self."!
+
+                                
     def on_draw(self):
-        """ Called automatically 60 times a second to draw and update objects.
-            Write code to draw and update all objects.
+        """ Called automatically 60 times a second to draw and update all objects.
+            Write code to draw/update all objects.
         """
         # set the fill to red. Call fill(red, green, blue).
+
         # Then call ellipse(x, y, width, height)
         # to draw ellipse centered in the 
         # middle of the screen at (WIDTH//2, HEIGHT//2) with diameter 300
+                
+                
+        # update the center by adding 5 pixels to x every frame(use self. notation) 
         
-        fill(255, 0, 0)
-        ellipse(WIDTH//2, HEIGHT//2, self.diameter, self.diameter)
         
-        
-        # update diameter by adding 1 
-        self.diameter += 1
-        
-        # if diameter is >= 300, reset it to 0. 
-        if self.diameter >= 300:
-            self.diameter = 0
-
+   
     
         
     

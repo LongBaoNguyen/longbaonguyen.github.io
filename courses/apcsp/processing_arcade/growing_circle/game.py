@@ -34,7 +34,7 @@ class Window:
         """
         # set the fill to red. Call fill(red, green, blue).
         
-        # Then call ellipse(x, y, length, width)
+        # Then call ellipse(x, y, width, height)
         # to draw ellipse centered in the 
         # middle of the screen at (WIDTH//2, HEIGHT//2) with diameter 300
 
