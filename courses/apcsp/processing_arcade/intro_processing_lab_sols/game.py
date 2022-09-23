@@ -6,7 +6,7 @@ See the following slides for an intro to Processing.
 https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing1.pdf
 
 To do: 
-    1) Draw a rectangle with top left corner at (100, 400) and width = 100, height = 300
+    1) Draw a rectangle with center at (100, 400) and width = 50, height = 10
     2) Draw a line connecting the top left corner and bottom right corner. 
     3) Display some text on the screen. Use the text() method.
     4) Print out some text on the console. Use the print() method. 
@@ -48,12 +48,12 @@ class Window:
         """ Called automatically 60 times a second to draw and update all objects.
             Write code to draw/update all objects.
         """
-        # draw a blue rectangle with top left corner at (100, 400) and width = 100, height = 300
+        # draw a blue rectangle center at (100, 400) and width = 50, height = 100
         # Call fill(red, green, blue).
 
         fill(0, 0, 255)
         strokeWeight(2)
-        rect(100, 400, 100, 300)
+        rect(100, 400, 50, 100)
         
         # draw a line connecting the top left corner and bottom right corner. 
         strokeWeight(3)

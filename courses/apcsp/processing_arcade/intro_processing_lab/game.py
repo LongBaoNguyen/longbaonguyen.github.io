@@ -6,7 +6,7 @@ See the following slides for an intro to Processing.
 https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing1.pdf
 
 To do: 
-    1) Draw a rectangle with top left corner at (100, 400) and width = 100, height = 300
+    1) Draw a rectangle with center at (100, 400) and width = 100, height = 300
     2) Draw a line connecting the top left corner and bottom right corner. 
     3) Display some text on the screen. Use the text() method.
     4) Print out some text on the console. Use the print() method. 
@@ -14,7 +14,7 @@ To do:
     
     Drawing API:
     ellipse(x, y, width, height): (x, y) center of ellipse.
-    rect(x, y, width, height): (x, y) top left corner of rectangle.
+    rect(x, y, width, height): (x, y) center of rectangle.
     line(x1, y1, x2, y2): line connecting (x1, y1) and (x2, y2)
     text(str, x, y): display str at location (x, y).
 
