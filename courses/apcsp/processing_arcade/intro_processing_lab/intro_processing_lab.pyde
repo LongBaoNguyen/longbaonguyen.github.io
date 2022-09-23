@@ -17,4 +17,4 @@ def setup():
 
 def draw():
     background(game.BACKGROUND_COLOR)
-    window.on_draw()
+    window.draw()
