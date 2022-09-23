@@ -52,7 +52,6 @@ void draw(){
   strokeWeight(1);
         
           
-  // update the center by adding 5 pixels to x every frame(use self. notation) 
-
+  // update the center by adding 5 pixels to x every frame
 
 }
