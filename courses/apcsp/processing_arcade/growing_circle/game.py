@@ -3,8 +3,7 @@ This lab introduces you to how to create instance variables
 and update them in each frame of animation. 
 
 Objective: 
-    Draw a red circle and the grows larger and larger. 
-    You only have to write four lines of code!
+    Draw a red circle that grows larger and larger. 
 
 """
 from __future__ import division, print_function
@@ -36,7 +35,8 @@ class Window:
         
         # Then call ellipse(x, y, width, height)
         # to draw ellipse centered in the 
-        # middle of the screen at (WIDTH//2, HEIGHT//2) with diameter 300
+        # middle of the screen at (WIDTH//2, HEIGHT//2) with diameter 
+        # given by self.diameter
 
                 
         # update diameter by adding 1 
