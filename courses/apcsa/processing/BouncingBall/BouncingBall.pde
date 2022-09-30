@@ -9,19 +9,19 @@ https://longbaonguyen.github.io/courses/apcsa/processing/processing1.pdf
 // declare int variables x, y(do not initialize) for center of ball
 // and velocities in each component: change_x, change_y(integers)
 int x, y;
-int change_x, change_y;
 // declare a variable for the radius of the ball
-int radius;
+int change_x, change_y, radius;
 
 void setup(){
   // set size of window and initialize x, y, change_x, change_y, radius
-  size(1000, 600);
+  size(800, 600);
   x = width / 2;
   y = height / 2; // width and height are reserved variables representing
                   // width and height of screen(in this case, 800, 600)
   change_x = 3;
   change_y = 5;
   radius = 30;
+
 }
 
 void draw(){
@@ -43,9 +43,8 @@ void draw(){
   // Note: use radius in the conditional so that the ball bounces exactly at edge.
   // Hint: Use width variable
   if(x + radius >= width || x - radius <= 0){
-    change_x *= -1;
+    change_x *= -1; 
   }
-
 
 
   // if top edge of ball passes top side of screen or 
@@ -53,8 +52,6 @@ void draw(){
   // Note: use radius in the conditional so that the ball bounces exactly at edge.
   // Hint: Use height variable
   if(y + radius >= height || y - radius <= 0){
-    change_y *= -1;
+    change_y *= -1; 
   }
-
-  
 }
