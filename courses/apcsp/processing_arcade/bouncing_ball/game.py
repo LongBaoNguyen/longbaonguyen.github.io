@@ -27,7 +27,7 @@ class Window:
         self.y = 300
         self.change_x = 5
         self.change_y = 3
-        self.radius = 50
+        self.radius = 10
                 
     def on_draw(self):
         """ Called automatically 60 times a second to draw and update objects.
