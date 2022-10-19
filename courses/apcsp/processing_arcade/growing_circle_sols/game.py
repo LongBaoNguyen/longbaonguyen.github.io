@@ -9,8 +9,8 @@ Objective:
 from __future__ import division, print_function
 
 
-WIDTH = 800 # width of screen in pixels
-HEIGHT = 600 # height of screen in pixels
+WIDTH = 1000 # width of screen in pixels
+HEIGHT = 800 # height of screen in pixels
 
 BACKGROUND_COLOR = color(255)  # 0(black), 255(white)
 
@@ -24,10 +24,9 @@ class Window:
             self.lives = 3
             self.score = 0    
         """
-        
         # create a variable called diameter. Don't forget to prefix it with "self."!
-        self.diameter = 10
-                
+        self.diameter = 100
+                                
     def on_draw(self):
         """ Called automatically 60 times a second to draw and update objects.
             Write code to draw and update all objects.
@@ -36,13 +35,13 @@ class Window:
         # Then call ellipse(x, y, width, height)
         # to draw ellipse centered in the 
         # middle of the screen at (WIDTH//2, HEIGHT//2) with self.diameter 
-        
         fill(255, 0, 0)
-        ellipse(WIDTH//2, HEIGHT//2, self.diameter, self.diameter)
+        ellipse(WIDTH // 2, HEIGHT // 2, self.diameter , self.diameter) 
         
         
         # update diameter by adding 1 
         self.diameter += 1
+        
         
         # if diameter is >= 300, reset it to 0. 
         if self.diameter >= 300:
