@@ -84,17 +84,18 @@ class Window:
         # (x, y) is the TOP LEFT corner of the rectangle.(2 lines of code)
         
         
-        
+        fill(0) # grayscale
+        rect(50, mouseY, self.paddle_width, self.paddle_height)
         
         # fill in the code below for sides of paddle(3 lines)
-        right_side_paddle = 
-        top_side_paddle = 
-        bottom_side_paddle = 
+        right_side_paddle = 50 + self.paddle_width
+        top_side_paddle = mouseY
+        bottom_side_paddle = mouseY + self.paddle_height
         
         # fill in code for sides of ball(3 lines)
-        left_side_ball = 
-        top_side_ball = 
-        bottom_side_ball = 
+        left_side_ball = self.x - self.radius
+        top_side_ball = self.y - self.radius
+        bottom_side_ball = self.y + self.radius
         
         
         # ball hits paddle if:
@@ -102,7 +103,16 @@ class Window:
         # 2) top side of ball is greater than top side of paddle(y-axis inverted)
         # 3) bottom side of ball is less than bottom side of paddle
         # change x direction if all above are true. (2 lines)
-
-                
+        right = left_side_ball <= right_side_paddle
+        top = top_side_ball >= top_side_paddle
+        bottom = bottom_side_ball <= bottom_side_paddle
+        if right and top and bottom:
+            self.change_x *= -1
+        elif right:
+            self.x = WIDTH//2
+            self.y = HEIGHT//2
+            
+        
+        
         # else if ball passes without hitting paddle, reset position of ball
         # to middle of screen.(2 lines)
