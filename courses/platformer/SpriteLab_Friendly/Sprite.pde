@@ -9,23 +9,25 @@ public class Sprite{
   
   public Sprite(String filename, float scale, float x, float y){
     // inititalize variables in this constructor.
-    // initialize image by calling loadImage(filename)
-
-
+    image = 
     w = image.width * scale;
-    
-    
+    h = 
+    center_x = 
+    center_y = 
+    change_x = 0;
+    change_y = 0;
   }
-  // write constructor with filename and scale parameters only.
+  public Sprite(String filename, float scale){
+    // use this() to call the previous constructor.
 
-  
+}
   
   public void display(){
     // use image(image_file, x, y, width_image, height_image) to draw image.
 
-  }
+}
   public void update(){
-    // update position by adding velocity in each direction
+    // update position by adding velocity.
 
 
   }

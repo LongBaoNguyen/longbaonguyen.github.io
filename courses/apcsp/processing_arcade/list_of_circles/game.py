@@ -23,11 +23,22 @@ class Window:
             self.score = 0    
         """
         # create an empty list called self.circles
+        self.circles = []
 
         # loop 10 times to create 10 circles: each circle is a tuple of 
         # (x, y, diameter) where each of the value is randomized:
         # Use random.randrange(start, stop, step) to generate random numbers
         # append each circle tuple to self.circles
+        for i in range(10):
+            x = random.randrange(0, WIDTH)
+            y = random.randrange(0, HEIGHT)
+            diameter = random.randrange(10, 80)
+            r = random.randrange(0, 255)
+            g = random.randrange(0, 255)
+            b = random.randrange(0, 255)
+            circle = (x, y, diameter, r, g, b)
+            self.circles.append(circle)
+            
             
 
                                 
@@ -37,7 +48,9 @@ class Window:
         """
         # loop through self.circles and draw each(use tuple unpacking)
         # use fill(r, g, b) and ellipse(x, y, diameter, diameter)
-                
+        for x, y, diameter, r, g, b in self.circles:
+            fill(r, g, b)
+            ellipse(x, y, diameter, diameter)    
         
    
     
