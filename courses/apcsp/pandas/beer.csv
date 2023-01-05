@@ -1,0 +1,194 @@
+country,continent,beer_servings
+Afghanistan,Asia,0
+Albania,Europe,89
+Algeria,Africa,25
+Andorra,Europe,245
+Angola,Africa,217
+Antigua & Barbuda,North America,102
+Argentina,South America,193
+Armenia,Europe,21
+Australia,Oceania,261
+Austria,Europe,279
+Azerbaijan,Europe,21
+Bahamas,North America,122
+Bahrain,Asia,42
+Bangladesh,Asia,0
+Barbados,North America,143
+Belarus,Europe,142
+Belgium,Europe,295
+Belize,North America,263
+Benin,Africa,34
+Bhutan,Asia,23
+Bolivia,South America,167
+Bosnia-Herzegovina,Europe,76
+Botswana,Africa,173
+Brazil,South America,245
+Brunei,Asia,31
+Bulgaria,Europe,231
+Burkina Faso,Africa,25
+Burundi,Africa,88
+Cote d'Ivoire,Africa,37
+Cabo Verde,Africa,144
+Cambodia,Asia,57
+Cameroon,Africa,147
+Canada,North America,240
+Central African Republic,Africa,17
+Chad,Africa,15
+Chile,South America,130
+China,Asia,79
+Colombia,South America,159
+Comoros,Africa,1
+Congo,Africa,76
+Cook Islands,Oceania,0
+Costa Rica,North America,149
+Croatia,Europe,230
+Cuba,North America,93
+Cyprus,Europe,192
+Czech Republic,Europe,361
+North Korea,Asia,0
+DR Congo,Africa,32
+Denmark,Europe,224
+Djibouti,Africa,15
+Dominica,North America,52
+Dominican Republic,North America,193
+Ecuador,South America,162
+Egypt,Africa,6
+El Salvador,North America,52
+Equatorial Guinea,Africa,92
+Eritrea,Africa,18
+Estonia,Europe,224
+Ethiopia,Africa,20
+Fiji,Oceania,77
+Finland,Europe,263
+France,Europe,127
+Gabon,Africa,347
+Gambia,Africa,8
+Georgia,Europe,52
+Germany,Europe,346
+Ghana,Africa,31
+Greece,Europe,133
+Grenada,North America,199
+Guatemala,North America,53
+Guinea,Africa,9
+Guinea-Bissau,Africa,28
+Guyana,South America,93
+Haiti,North America,1
+Honduras,North America,69
+Hungary,Europe,234
+Iceland,Europe,233
+India,Asia,9
+Indonesia,Asia,5
+Iran,Asia,0
+Iraq,Asia,9
+Ireland,Europe,313
+Israel,Asia,63
+Italy,Europe,85
+Jamaica,North America,82
+Japan,Asia,77
+Jordan,Asia,6
+Kazakhstan,Asia,124
+Kenya,Africa,58
+Kiribati,Oceania,21
+Kuwait,Asia,0
+Kyrgyzstan,Asia,31
+Laos,Asia,62
+Latvia,Europe,281
+Lebanon,Asia,20
+Lesotho,Africa,82
+Liberia,Africa,19
+Libya,Africa,0
+Lithuania,Europe,343
+Luxembourg,Europe,236
+Madagascar,Africa,26
+Malawi,Africa,8
+Malaysia,Asia,13
+Maldives,Asia,0
+Mali,Africa,5
+Malta,Europe,149
+Marshall Islands,Oceania,0
+Mauritania,Africa,0
+Mauritius,Africa,98
+Mexico,North America,238
+Micronesia,Oceania,62
+Monaco,Europe,0
+Mongolia,Asia,77
+Montenegro,Europe,31
+Morocco,Africa,12
+Mozambique,Africa,47
+Myanmar,Asia,5
+Namibia,Africa,376
+Nauru,Oceania,49
+Nepal,Asia,5
+Netherlands,Europe,251
+New Zealand,Oceania,203
+Nicaragua,North America,78
+Niger,Africa,3
+Nigeria,Africa,42
+Niue,Oceania,188
+Norway,Europe,169
+Oman,Asia,22
+Pakistan,Asia,0
+Palau,Oceania,306
+Panama,North America,285
+Papua New Guinea,Oceania,44
+Paraguay,South America,213
+Peru,South America,163
+Philippines,Asia,71
+Poland,Europe,343
+Portugal,Europe,194
+Qatar,Asia,1
+South Korea,Asia,140
+Moldova,Europe,109
+Romania,Europe,297
+Russian Federation,Asia,247
+Rwanda,Africa,43
+St. Kitts & Nevis,North America,194
+St. Lucia,North America,171
+St. Vincent & the Grenadines,North America,120
+Samoa,Oceania,105
+San Marino,Europe,0
+Sao Tome & Principe,Africa,56
+Saudi Arabia,Asia,0
+Senegal,Africa,9
+Serbia,Europe,283
+Seychelles,Africa,157
+Sierra Leone,Africa,25
+Singapore,Asia,60
+Slovakia,Europe,196
+Slovenia,Europe,270
+Solomon Islands,Oceania,56
+Somalia,Africa,0
+South Africa,Africa,225
+Spain,Europe,284
+Sri Lanka,Asia,16
+Sudan,Africa,8
+Suriname,South America,128
+Swaziland,Africa,90
+Sweden,Europe,152
+Switzerland,Europe,185
+Syria,Asia,5
+Tajikistan,Asia,2
+Thailand,Asia,99
+Macedonia,Europe,106
+Timor-Leste,Asia,1
+Togo,Africa,36
+Tonga,Oceania,36
+Trinidad & Tobago,North America,197
+Tunisia,Africa,51
+Turkey,Asia,51
+Turkmenistan,Asia,19
+Tuvalu,Oceania,6
+Uganda,Africa,45
+Ukraine,Europe,206
+United Arab Emirates,Asia,16
+United Kingdom,Europe,219
+Tanzania,Africa,36
+USA,North America,249
+Uruguay,South America,115
+Uzbekistan,Asia,25
+Vanuatu,Oceania,21
+Venezuela,South America,333
+Vietnam,Asia,111
+Yemen,Asia,6
+Zambia,Africa,32
+Zimbabwe,Africa,64
