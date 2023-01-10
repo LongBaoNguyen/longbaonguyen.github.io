@@ -22,30 +22,21 @@ class Window:
             self.score = 0
             
             Create Sprite object at the origin, default 1.0 scale.
-            self.player = arcade.Sprite("tank.png")
+            self.player = Sprite("tank.png")
             
             Create Sprite object with 2.0 scale position at (200, 300)
-            self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
+            self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a Sprite called self.player using "tank.png", place it in the middle of the screen
-        self.player = arcade.Sprite("tank.png")
-        self.player.center_x = 100
-        self.player.center_y = 200
         
         
         # create an empty list called self.coins
-        self.coins = []
         
         
         
         
         # use a for loop to populate self.coins with 10 "coin.png" Sprites placed randomly on the screen
         # Hint: coin.center_x = random(0, WIDTH)
-        for i in range(10):
-            coin = arcade.Sprite("coin.png")
-            coin.center_x = random(0, WIDTH)
-            coin.center_y = random(0, HEIGHT)
-            self.coins.append(coin)
         
         
 
@@ -54,22 +45,14 @@ class Window:
         
         
     def on_draw(self):
-        """ Called automatically 60 times a second to draw objects.
-            Write code to draw all objects.
+        """ Called automatically 60 times a second to draw/update objects.
+            Write code to draw/update all objects.
         """
         # draw self.player
-        self.player.draw()
         
         # loop through self.coins and draw each Sprite
-        for coin in self.coins:
-            coin.draw()
         
-    def on_update(self):
-        """ Called to update our objects about 60 times per second.
-            Write code to update all objects(for animation).
-        """
-        # call update on self.player
-        self.player.update()
+        # call move on self.player
         
         
    
@@ -94,14 +77,6 @@ class Window:
         # Then under on_key_release below, if the same LEFT key is pressed, set change_x back to 0
         # similarly for other keys and directions. 
         
-        if key == LEFT:
-            self.player.change_x = -5
-        elif key == RIGHT:
-            self.player.change_x = 5
-        elif key == UP:
-            self.player.change_y = -5
-        elif key == DOWN:
-            self.player.change_y = 5
             
 
 
@@ -110,15 +85,6 @@ class Window:
         """
         # See comment above in on_key_press: if LEFT key is pressed, set change_x back to 0
 
-        if key == LEFT:
-            self.player.change_x = 0
-        elif key == RIGHT:
-            self.player.change_x = 0
-        elif key == UP:
-            self.player.change_y = 0
-        elif key == DOWN:
-            self.player.change_y = 0
-        
             
         
     def on_mouse_press(self, x, y, button):
