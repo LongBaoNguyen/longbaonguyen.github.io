@@ -33,29 +33,20 @@ class Window:
             Create Sprite object with 2.0 scale position at (200, 300)
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
+        # create a player Sprite using "tank.png"
         
-        self.player = arcade.Sprite("tank.png", 0.8)
-        self.player.center_x = WIDTH/2
-        self.player.center_y = HEIGHT/2
-        
-        
+        # create empty list called self.coins
         self.coins = []
         self.num_coins = 20
-        for i in range(self.num_coins):
-            # create a coin Sprite, add to list
-            coin = arcade.Sprite("coin.png", 0.8)
-            coin.center_x = random.randrange(WIDTH)
-            coin.center_y = random.randrange(HEIGHT)
-            self.coins.append(coin)
+        
+        # use a loop to create coins(use self.num_coins)
             
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
         """    
-        self.player.draw()
-        for coin in self.coins:
-            coin.draw()
+        # draw player and all coins
             
         # display text, left-center align    
         textSize(32)
@@ -64,10 +55,6 @@ class Window:
         text("Coins:" + str(self.num_coins), 20, 40)
 
         
-    def on_update(self):
-        """ Called to update our objects about 60 times per second.
-            Write code to update all objects(for animation).
-        """
         self.player.update()
         
         # TODO
