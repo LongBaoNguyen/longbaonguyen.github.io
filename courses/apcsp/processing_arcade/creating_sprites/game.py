@@ -28,22 +28,14 @@ class Window:
             self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a Sprite called self.player using "tank.png", place it in the middle of the screen
-        self.player = Sprite("tank.png")
-        self.player.center_x = 100
-        self.player.center_y = 200
+
         
         
         # create an empty list called self.coins
-        self.coins = []
         
         
         # use a for loop to populate self.coins with 10 "coin.png" Sprites placed randomly on the screen
         # Hint: coin.center_x = random(0, WIDTH)
-        for i in range(10):
-            coin = Sprite("coin.png")
-            coin.center_x = random(0, WIDTH)
-            coin.center_y = random(0, HEIGHT)
-            self.coins.append(coin)
             
         
         
@@ -57,14 +49,10 @@ class Window:
             Write code to draw/update all objects.
         """
         # draw self.player
-        self.player.draw()
         # loop through self.coins and draw each Sprite
         
         # call move on self.player
-        self.player.move()
         
-        for coin in self.coins:
-            coin.draw()
         
         
    
@@ -88,16 +76,12 @@ class Window:
         # Hint: if key pressed is LEFT, set Sprite's change_x to -5
         # Then under on_key_release below, if the same LEFT key is pressed, set change_x back to 0
         # similarly for other keys and directions. 
-        if key == RIGHT:
-            self.player.change_x = 5
             
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
         # See comment above in on_key_press: if LEFT key is pressed, set change_x back to 0
-        if key == RIGHT:
-            self.player.change_x = 0
         
     def on_mouse_press(self, x, y, button):
         """ Called whenever the mouse is pressed. 
