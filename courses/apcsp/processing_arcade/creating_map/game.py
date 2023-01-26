@@ -32,32 +32,24 @@ class Window:
         self.player.center_x = WIDTH//2
         self.player.center_y = HEIGHT//2
         
-        # call read_map with argument "c
-        self.bricks, self.coins = read_map("map.csv")
+        # call read_map with argument "map.csv" or any csv file
         
         
         
     def on_draw(self):
-        """ Called automatically 60 times a second to draw objects.
-            Write code to draw all objects.
+        """ Called automatically 60 times a second to draw/update objects.
+            Write code to draw/update all objects.
         """
-        # draw self.player
-        self.player.draw()
+        # draw player
         
+        # move player
+
+                
         # loop through self.coins and draw each Sprite
-        for coin in self.coins:
-            coin.draw()
+            
             
         # loop through self.coins and draw each Sprite
-        for brick in self.bricks:
-            brick.draw()
-        
-    def on_update(self):
-        """ Called to update our objects about 60 times per second.
-            Write code to update all objects(for animation).
-        """
-        # call move on self.player
-        self.player.move()
+
         
    
     def on_key_press(self, key):
@@ -80,28 +72,14 @@ class Window:
         # Hint: if key pressed is LEFT, set Sprite's change_x to -5
         # Then under on_key_release below, if the same LEFT key is pressed, set change_x back to 0
         # similarly for other keys and directions. 
-        if key == LEFT:
-            self.player.change_x = -5
-        elif key == RIGHT:
-            self.player.change_x = 5
-        elif key == UP:
-            self.player.change_y = -5
-        elif key == DOWN:
-            self.player.change_y = 5
+
+
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
         # See comment above in on_key_press: if LEFT key is pressed, set change_x back to 0
 
-        if key == LEFT:
-            self.player.change_x = 0
-        elif key == RIGHT:
-            self.player.change_x = 0
-        elif key == UP:
-            self.player.change_y = 0
-        elif key == DOWN:
-            self.player.change_y = 0
             
         
     def on_mouse_press(self, x, y, button):

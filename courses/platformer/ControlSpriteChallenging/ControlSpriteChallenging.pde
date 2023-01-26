@@ -47,6 +47,9 @@ void keyPressed(){
    if(keyCode == UP){ 
    }
 */
+  if(key == 'a'){
+    s1.change_x = -5;
+  }
   
   
   

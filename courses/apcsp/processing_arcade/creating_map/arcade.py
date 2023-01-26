@@ -4,7 +4,7 @@
 
 from __future__ import division, print_function
 
-# all sprites are 50 pixels x 50 pixels
+# all sprites are 50 pixels x 50 pixels(can be adjusted for different images)
 TANK_SCALE = 50.0/92
 BRICK_SCALE = 50.0/128
 COIN_SCALE = 50.0/64
@@ -12,6 +12,13 @@ SPRITE_SIZE = 50;
 
 
 def read_map(csv_filename):
+    """ csv_filename is a comma separated file which contains numbers(2D) indicating 
+        objects on a map. For example: "0" is empty space, "1" is a brick, "2" is a coin.
+        The function returns a tuple of two lists: (bricks, coins)
+        You can modify this function to fit your own game. 
+        Scaling factors: TANK_SCALE, BRICK_SCALE can be adjusted according to the images. 
+        Here: Every image is scale to 50 x 50. 
+    """
     bricks = []
     coins = []
     lines = loadStrings(csv_filename)
