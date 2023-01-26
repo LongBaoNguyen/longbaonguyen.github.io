@@ -4,7 +4,7 @@ We will also learn how to control a Sprite using the keyboard.
 """
 
 from __future__ import division, print_function
-import arcade
+from arcade import *
 
 WIDTH = 800 # width of screen in pixels
 HEIGHT = 600 # height of screen in pixels
@@ -28,7 +28,7 @@ class Window:
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
         # create a Sprite called self.player using "tank.png", place it in the middle of the screen
-        self.player = arcade.Sprite("tank.png")
+        self.player = Sprite("tank.png")
         self.player.center_x = WIDTH//2
         self.player.center_y = HEIGHT//2
         
@@ -38,7 +38,7 @@ class Window:
         # use a for loop to populate self.coins with 10 "coin.png" Sprites placed randomly on the screen
         # Hint: coin.center_x = random(0, WIDTH)
         for i in range(10):
-            coin = arcade.Sprite("coin.png")
+            coin = Sprite("coin.png")
             coin.center_x = random(0, WIDTH)
             coin.center_y = random(0, HEIGHT)
             self.coins.append(coin)
@@ -60,7 +60,7 @@ class Window:
             Write code to update all objects(for animation).
         """
         # call update on self.player
-        self.player.update()
+        self.player.move()
         
    
     def on_key_press(self, key):
