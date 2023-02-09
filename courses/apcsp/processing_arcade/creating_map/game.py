@@ -33,7 +33,7 @@ class Window:
         self.player.center_y = HEIGHT//2
         
         # call read_map with argument "map.csv" or any csv file
-        
+        self.bricks, self.coins = read_map("map.csv")
         
         
     def on_draw(self):
@@ -41,16 +41,20 @@ class Window:
             Write code to draw/update all objects.
         """
         # draw player
+        self.player.draw()
         
         # move player
+        self.player.move()
 
                 
-        # loop through self.coins and draw each Sprite
-            
+        # loop through self.bricks and draw each Sprite
+        for brick in self.bricks:
+            brick.draw()
             
         # loop through self.coins and draw each Sprite
 
-        
+        for coin in self.coins:
+            coin.draw()
    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 

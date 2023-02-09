@@ -4,7 +4,9 @@
   Coins are placed randomly on the screen. Player moves around and collect coins.
   The number of coins is updated and displayed on the screen.
   
-  For more detail, see the tutorial: https://youtu.be/RMmo3SktDJo
+  For more detail, see the video tutorial: https://youtu.be/RMmo3SktDJo
+  OR slides tutorial: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
+
    
    
   Complete the code as indicated by the comments.
@@ -12,7 +14,7 @@
   1) In setup, initialize arraylist of coins. Then use a loop to create coin Sprites and placed them
   randomly on the screen. Add each coin to arraylist.
   2) In draw, for loop to display each coin. 
-  3) Now, implement checkCollision and checkCollisionList. (in the video above, I wrote the code for these methods) 
+  3) Now, implement checkCollision and checkCollisionList. 
   4) In draw, call checkCollisionList with parameters player and list of coins to get collision list.
   Loop through collision list and remove them and update score. 
   5) In draw, display score using textSize(), fill() and text().
@@ -33,7 +35,7 @@ int score;
 void setup(){
   size(1024, 768);
   imageMode(CENTER);
-  player = new Sprite("tank.png", TANK_SCALE, width/2, height/2);
+  // initialize player Sprite by calling constructor; use TANK_SCALE for scaling factor
 
   // initialize score
 
@@ -51,8 +53,9 @@ void setup(){
 
 void draw(){
   background(255);
-  player.display();
-  player.update();
+  // display player 
+  
+  // update player
   
   // use for each loop to display coins
 
@@ -71,13 +74,16 @@ void draw(){
   // call textSize(size), fill(r, g, b) and text(str, x, y) to display score. 
   textSize(32);
   fill(255, 0, 0);
-  text("Coins:" + score, 50, 50);
+  // fill in score below
+  text("Coins:", 50, 50);
 }
 
 // returns whether the two Sprites s1 and s2 collide.
 public boolean checkCollision(Sprite s1, Sprite s2){
   // fill in code here.
-  // see https://youtu.be/RMmo3SktDJo
+  // see video: https://youtu.be/RMmo3SktDJo
+  // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
+  
   
 }
 
@@ -88,7 +94,8 @@ public boolean checkCollision(Sprite s1, Sprite s2){
 */ 
 public ArrayList<Sprite> checkCollisionList(Sprite s, ArrayList<Sprite> list){
   // fill in code here
-  // see https://youtu.be/RMmo3SktDJo
+  // see video: https://youtu.be/RMmo3SktDJo
+  // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
 }
 
 
