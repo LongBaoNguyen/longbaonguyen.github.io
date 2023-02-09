@@ -85,7 +85,6 @@ public boolean checkCollision(Sprite s1, Sprite s2){
   boolean yOverlap = s2.getBottom() > s1.getTop() && s2.getTop() < s1.getBottom();
   return xOverlap && yOverlap;
 }
-
 /**
    This method accepts a Sprite s and an ArrayList of Sprites and returns
    the collision list(ArrayList) which consists of the Sprites that collide with the given Sprite. 

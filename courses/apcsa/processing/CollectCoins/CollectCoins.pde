@@ -81,7 +81,6 @@ void draw(){
 // returns whether the two Sprites s1 and s2 collide.
 public boolean checkCollision(Sprite s1, Sprite s2){
   // fill in code here.
-  // see video: https://youtu.be/RMmo3SktDJo
   // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
   
   
@@ -94,7 +93,6 @@ public boolean checkCollision(Sprite s1, Sprite s2){
 */ 
 public ArrayList<Sprite> checkCollisionList(Sprite s, ArrayList<Sprite> list){
   // fill in code here
-  // see video: https://youtu.be/RMmo3SktDJo
   // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
   
   // First create an empty arraylist, populate it appropriately, then return it. 
