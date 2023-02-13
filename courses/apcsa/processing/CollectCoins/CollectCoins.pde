@@ -82,10 +82,10 @@ void draw(){
 public boolean checkCollision(Sprite s1, Sprite s2){
   // fill in code here.
   // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
-  
-  
+  boolean x_overlap = s2.getRight() > s1.getLeft() && s2.getLeft() < s1.getRight();
+  boolean y_overlap = s2.getBottom() > s1.getTop() && s2.getTop() < s1.getBottom();
+  return x_overlap && y_overlap;
 }
-
 /**
    This method accepts a Sprite s and an ArrayList of Sprites and returns
    the collision list(ArrayList) which consists of the Sprites that collide with the given Sprite. 
@@ -96,6 +96,12 @@ public ArrayList<Sprite> checkCollisionList(Sprite s, ArrayList<Sprite> list){
   // or slides: https://longbaonguyen.github.io/courses/apcsa/processing/processing3.pdf
   
   // First create an empty arraylist, populate it appropriately, then return it. 
+  ArrayList<Sprite> collisionList = new ArrayList<Sprite>();
+  for(Sprite sprite : list){
+    if(checkCollision(s, sprite))
+      collisionList.add(sprite);
+  }
+  return collisionList;
   
 }
 
