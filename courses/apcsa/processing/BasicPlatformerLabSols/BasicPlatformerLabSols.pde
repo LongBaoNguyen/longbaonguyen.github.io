@@ -5,15 +5,15 @@
   
   Complete the code as indicated by the comments.
   Do the following:
-  1) Implement resolvePlatformCollisions method.
+  1) Implement resolvePlatformCollisions.
   2) Implement the isOnPlatforms method.
   3) Implement the keyPressed method so that if user presses 'a', player jumps.
-  4) Add a few lines of code in draw() to make everything works. 
   See the comments below for more details. 
+  4) Add a few lines of code in draw() to make everything works. 
   
   For more detail, see the tutorials: 
   Slides:
-  https://longbaonguyen.github.io/courses/apcsa/processing/platformer.pdf
+  
   
   Videos:
   Resolving Platform Collisions Part 1: https://youtu.be/nFOlo6F60FA
@@ -61,17 +61,18 @@ void setup(){
   createPlatforms("map.csv");
 }
 
-
+// modify and update them in draw().
 void draw(){
   background(255);
   
   player.display();
   
   // call resolvePlatformCollisions
-
+  resolvePlatformCollisions(player, platforms);
   
   // display platforms arraylist(for each loop)
-
+  for(Sprite s: platforms)
+    s.display();
 
 } 
 
@@ -80,15 +81,15 @@ void draw(){
 */
 public void resolvePlatformCollisions(Sprite s, ArrayList<Sprite> walls){
   // add gravity to change_y of sprite
-
+  s.change_y += GRAVITY;
   
   // move in y-direction by adding change_y to center_y to update y position.
-
+  s.center_y += s.change_y;
   
   // Now resolve any collision in the y-direction:
   // compute collision_list between sprite and walls(platforms) by calling
   // checkCollisionList and storing the returned arraylist in collision_list
-
+  ArrayList<Sprite> col_list = checkCollisionList(s, walls);
   
   /* if collision_list is nonempty:
        get the first platform from collision list
@@ -98,18 +99,24 @@ public void resolvePlatformCollisions(Sprite s, ArrayList<Sprite> walls){
          set top of sprite to equal bottom of platform
        set sprite's change_y to 0
   */
-
-
-
+  if(col_list.size() > 0){
+    Sprite collided = col_list.get(0);
+    if(s.change_y > 0){
+      s.setBottom(collided.getTop());
+    }
+    else if(s.change_y < 0){
+      s.setTop(collided.getBottom());
+    }
+    s.change_y = 0;
+  }
 
   // move in x-direction by adding change_x to center_x to update x position.
-
+  s.center_x += s.change_x;
   
   // Now resolve any collision in the x-direction:
   // compute collision_list between sprite and walls(platforms) by calling
   // checkCollisionList and storing the returned arraylist in collision_list
-
-
+  col_list = checkCollisionList(s, walls);
 
   /* if collision list is nonempty:
        get the first platform from collision list
@@ -119,27 +126,34 @@ public void resolvePlatformCollisions(Sprite s, ArrayList<Sprite> walls){
          set left side of sprite to equal right side of platform
   */
 
-
-
+  if(col_list.size() > 0){
+    Sprite collided = col_list.get(0);
+    if(s.change_x > 0){
+        s.setRight(collided.getLeft());
+    }
+    else if(s.change_x < 0){
+        s.setLeft(collided.getRight());
+    }
+  }  
 }
 
 // Implement this method
 // returns true if sprite is one a platform.
 public boolean isOnPlatforms(Sprite s, ArrayList<Sprite> walls){
   // move down say 5 pixels
-
+  s.center_y += 5;
 
   // check to see if sprite collide with any walls by calling
   // checkCollisionList and storing the returned arraylist in collision_list
+  ArrayList<Sprite> col_list = checkCollisionList(s, walls);
   
   // move back up 5 pixels to restore sprite to original position.
-
+  s.center_y -= 5;
 
   // if sprite did collide with walls(length of collision list > 0)
   // it must have been on a platform: return true
   // otherwise return false.
-
-
+  return col_list.size() > 0;
 }
 
 
@@ -153,10 +167,9 @@ void keyPressed(){
   else if(keyCode == LEFT){
     player.change_x = -MOVE_SPEED;
   }
-  // add else if key pressed is 'a' and player is on platform:
-  // then change velocity y to jump
-  
-  
+  else if(key == 'a' && isOnPlatforms(player, platforms)){
+      player.change_y = -JUMP_SPEED;
+  }
 }
 
 // called whenever a key is released.
