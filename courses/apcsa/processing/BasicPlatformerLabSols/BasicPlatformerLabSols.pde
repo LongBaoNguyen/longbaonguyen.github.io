@@ -80,6 +80,7 @@ void draw(){
 /* Implement this method. Resolve collision between sprite and arraylist of bricks
 */
 public void resolvePlatformCollisions(Sprite s, ArrayList<Sprite> walls){
+  
   // add gravity to change_y of sprite
   s.change_y += GRAVITY;
   
@@ -146,10 +147,8 @@ public boolean isOnPlatforms(Sprite s, ArrayList<Sprite> walls){
   // check to see if sprite collide with any walls by calling
   // checkCollisionList and storing the returned arraylist in collision_list
   ArrayList<Sprite> col_list = checkCollisionList(s, walls);
-  
   // move back up 5 pixels to restore sprite to original position.
   s.center_y -= 5;
-
   // if sprite did collide with walls(length of collision list > 0)
   // it must have been on a platform: return true
   // otherwise return false.
