@@ -1,10 +1,5 @@
 """
-This lab introduces you to how to create sprites and move them.
-In particular, we will see the difference between:
-    - creating several variables(e.g. position, velocity) to keep
-    track of an object(ball)
-    - (object-oriented programming)creating an object from a class(Sprite) that already has
-    all the necessary variables associated with it(position, velocity).
+Ball and Paddle Lab. 
 
 """
 
@@ -33,44 +28,41 @@ class Window:
             self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         
-        # Remember to use self. notation to create variables.
-        # initialize three variables(center_x, center_x, speed)
-        self.center_x = 100
-        self.center_y = 200
-        self.speed = 4
+        # create two Sprite objects(paddle.png and ball.png, scaling = 0.2)
+        # put paddle at y = 500
+        self.paddle = Sprite("paddle.png", 0.2, mouseX, 500)
+        self.ball = Sprite("ball.png", 0.2, 200, 400)
         
-                                
-        # create the Sprite object called player(see data folder for image)
-        # located at (100, 200).
-        self.player = Sprite("player.png", 1.0, 300, 100)
-        self.tank = Sprite("tank.png", 1.0, 200, 400)
+        # set change_x and change_y properties of ball object
+        self.ball.change_x = 5
+        self.ball.change_y = 5
 
 
-        # set player's change_x property to 5(use dot notation)
 
-        self.player.change_x = 5
-        self.tank.change_x = 11        
                                                                                                                                         
     def on_draw(self):
         """ Called automatically 60 times a second to draw/update objects.
             Write code to draw/update all objects.
         """
-        # draw red circle located at center_x, center_y with radius 50 
-        fill(255, 23, 23)
-        ellipse(self.center_x, self.center_y, 100, 100)
-                                
-        # draw player by calling draw() (use dot notation)
-        self.player.draw()
+        # draw paddle and ball
+        self.paddle.draw()
+        self.ball.draw()
         
-        # move ball by adding speed to center_x
-        self.center_x += self.speed
+        # set paddle position to equal to follow mouseX but at fixed y position(500)
+        self.paddle.center_x = mouseX
+        # make ball move
+        self.ball.move()
         
-        # move player by calling move() on player object(dot notation)
-        self.player.move()
+        # if ball pass right screen or left screen, negate change_x 
+        if self.ball.center_x < 0 or self.ball.center_x > WIDTH:
+            self.ball.change_x *= -1
         
-        # optional: Can you figure out how to make the sprite rotate
-        # by changing one of its property?(see arcade.py)
-        self.player.change_angle = 3
+        # if ball pass top screen or bottom screen, negate change_y 
+        if self.ball.center_y < 0 or self.ball.center_y > HEIGHT:
+            self.ball.change_y *= -1
+        
+        
+        # make ball bounce off top of paddle(Hint: Use get_top(), get_right() etc.., see arcade.py)
    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
