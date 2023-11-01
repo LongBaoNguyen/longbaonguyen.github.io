@@ -30,7 +30,7 @@ class Window:
         
         # create two Sprite objects(paddle.png and ball.png, scaling = 0.2)
         # put paddle at y = 500
-        self.paddle = Sprite("paddle.png", 0.4, 100, 500)
+        self.paddle = Sprite("paddle.png", 0.4, 100, 600)
         self.ball = Sprite("ball.png", 0.4, 100, 300)
 
 
