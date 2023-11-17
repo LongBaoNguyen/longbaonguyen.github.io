@@ -26,6 +26,8 @@ def check_for_collision_list(sprite, sprite_list):
     #     add to collision_list 
     # remember to return collision_list
 
+                
+
 
 
 

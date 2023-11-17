@@ -39,28 +39,32 @@ class Window:
         # create a player Sprite using "player.png"
 
         
-        # create a empty list for flag Sprites 
+        # create a empty list for flag Sprites called flags
 
                 
         # number of flags
         self.num_flags = 10 
         
         # use for loop to repeat num_flags times:
-        #       create a flag Sprite using "flag.png" add to list
+        #       create a flag Sprite using "flag.png"
         #       initialize center_x and center_y attributes of flag Sprite
-        #       use random.randrange(n)
-        #       then append to flags list
+        #       by using random.randrange(n)
+        #       then append flag to flags list
+    
+            
         
         
         
         # inititalize score
-
+        
+        
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
         """    
         # draw player and move player
+
 
 
         # use for each loop to loop through flags list and draw each flag
@@ -70,12 +74,13 @@ class Window:
         # TODO
         # call check_for_collision_list and store result in collision variable
 
-                
+                                
         
         # TODO
         # for each sprite in collision list:
         #    remove it from flags list(for example, lst.remove(flag))
         #    update score
+        
 
         
                         
@@ -106,6 +111,7 @@ class Window:
           elif key == 'b':
               # code to respond to 'b' key being pressed.
         """
+        
     
         
 
