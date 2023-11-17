@@ -1,7 +1,11 @@
 """
-Capture the Flag
+Capture the Flags
 
-Follow the instructions given by the comments below.
+Randomize a list of flags on the screen. Player collects flags and score is updated.
+
+
+1) Implement check_for_collision_list in the arcade.py file.
+2) Follow the instructions given by the comments below.
 
 
 """
@@ -26,29 +30,30 @@ class Window:
             self.lives = 3
             self.score = 0
                         
-            Create Sprite object at the origin, default 1.0 scale.
-            self.player = arcade.Sprite("tank.png")
+            Create Sprite object at the origin, 0.5 scale.
+            self.player = Sprite("tank.png", 0.5)
             
             Create Sprite object with 2.0 scale position at (200, 300)
-            self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
+            self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a player Sprite using "player.png"
-        self.player = Sprite("player.png", 1.0, 200, 300)
 
         
-        # create a flag Sprite using "flag.png"
-        self.flag = Sprite("flag.png", 1.0)
-        
-        
-        # randomize position of flag
-        # for example: x = random.randrange(100)
-        # x is a random value from 0 to 100(exclusive)
-        self.flag.center_x = random.randrange(WIDTH)
-        self.flag.center_y = random.randrange(HEIGHT)
+        # create a empty list for flag Sprites 
 
+                
+        # number of flags
+        self.num_flags = 10 
+        
+        # use for loop to repeat num_flags times:
+        #       create a flag Sprite using "flag.png" add to list
+        #       initialize center_x and center_y attributes of flag Sprite
+        #       use random.randrange(n)
+        #       then append to flags list
+        
+        
         
         # inititalize score
-        self.score = 0
 
 
     def on_draw(self):
@@ -56,29 +61,30 @@ class Window:
             Write code to draw all objects.
         """    
         # draw player and move player
-        self.player.draw()
-        self.player.move()
+
+
+        # use for each loop to loop through flags list and draw each flag
 
                 
-        # draw flag
+                
+        # TODO
+        # call check_for_collision_list and store result in collision variable
 
                 
-        # if player and flag intersect:
-        #     update score
-        #     randomize position of flag(center_x, center_y)\
-        collided = check_for_collision(self.flag, self.player)
-        if collided:
-            self.score += 1
-            self.flag.center_x = random.randrange(WIDTH)
-            self.flag.center_y = random.randrange(HEIGHT)
         
+        # TODO
+        # for each sprite in collision list:
+        #    remove it from flags list(for example, lst.remove(flag))
+        #    update score
+
         
+                        
         # display text, left-center align  
         # TODO: Display score  
         textSize(32)
         textAlign(LEFT, CENTER)
         fill(255,0,0) # for text color
-        text("Score:" + str(self.score), 20, 40)
+        text("Score:" + str(1), 20, 40)
 
         
         
@@ -100,14 +106,13 @@ class Window:
           elif key == 'b':
               # code to respond to 'b' key being pressed.
         """
-        if key == LEFT:
-            self.player.change_x = -5
     
         
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
+
             
         
     def on_mouse_press(self, x, y, button):

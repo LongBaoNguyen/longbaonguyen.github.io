@@ -10,9 +10,11 @@ def check_for_collision(sprite1, sprite2):
     # follow intersection rules from lecture notes to implement collision detection
     # see this link to see the math:
     # https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing4.pdf
-    x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right() 
+
+    x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right()
     y_overlap = sprite2.get_bottom() > sprite1.get_top() and sprite2.get_top() < sprite1.get_bottom()
-    return x_overlap and y_overlap
+    return x_overlap and y_overlap 
+
     
 
 class Sprite(object):

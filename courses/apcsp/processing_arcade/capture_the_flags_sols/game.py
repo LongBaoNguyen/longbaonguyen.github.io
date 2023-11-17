@@ -1,7 +1,11 @@
 """
-Capture the Flag
+Capture the Flags
 
-Follow the instructions given by the comments below.
+Randomize a list of flags on the screen. Player collects flags and score is updated.
+
+
+1) Implement check_for_collision_list in the arcade.py file.
+2) Follow the instructions given by the comments below.
 
 
 """
@@ -26,26 +30,34 @@ class Window:
             self.lives = 3
             self.score = 0
                         
-            Create Sprite object at the origin, default 1.0 scale.
-            self.player = arcade.Sprite("tank.png")
+            Create Sprite object at the origin, 0.5 scale.
+            self.player = Sprite("tank.png", 0.5)
             
             Create Sprite object with 2.0 scale position at (200, 300)
-            self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
+            self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a player Sprite using "player.png"
         self.player = Sprite("player.png", 1.0, 200, 300)
 
         
-        # create a flag Sprite using "flag.png"
-        self.flag = Sprite("flag.png", 1.0)
+        # create a empty list for flag Sprites 
+        self.flags = []
+        
+        # number of flags
+        self.num_flags = 10 
+        
+        # use for loop to repeat num_flags times
+        for i in range(self.num_flags):
+            # create a flag Sprite using "flag.png" add to list
+            flag = Sprite("flag.png", 1.0)
+            # initialize center_x and center_y attributes of flag Sprite
+            # use random.randrange(n)
+            flag.center_x = random.randrange(WIDTH)
+            flag.center_y = random.randrange(HEIGHT)
+            # append to flags list
+            self.flags.append(flag)
         
         
-        # randomize position of flag
-        # for example: x = random.randrange(100)
-        # x is a random value from 0 to 100(exclusive)
-        self.flag.center_x = random.randrange(WIDTH)
-        self.flag.center_y = random.randrange(HEIGHT)
-
         
         # inititalize score
         self.score = 0
@@ -59,19 +71,22 @@ class Window:
         self.player.draw()
         self.player.move()
 
-                
-        # draw flag
-
-                
-        # if player and flag intersect:
-        #     update score
-        #     randomize position of flag(center_x, center_y)\
-        collided = check_for_collision(self.flag, self.player)
-        if collided:
-            self.score += 1
-            self.flag.center_x = random.randrange(WIDTH)
-            self.flag.center_y = random.randrange(HEIGHT)
+        # use for each loop to loop through flags list and draw each flag
+        for flag in self.flags:
+            flag.draw()
         
+                
+        # TODO
+        # call check_for_collision_list and store result in collision_list variable
+        collision = check_for_collision_list(self.player, self.flags)
+        
+        # TODO
+        # for each sprite in collision list:
+        #    remove it from flags list(for example, lst.remove(flag))
+        #    update score
+        for sp in collision:
+            self.flags.remove(sp)
+            self.score += 1
         
         # display text, left-center align  
         # TODO: Display score  
@@ -100,14 +115,29 @@ class Window:
           elif key == 'b':
               # code to respond to 'b' key being pressed.
         """
-        if key == LEFT:
+        if key == RIGHT:
+            self.player.change_x = 5
+        elif key == LEFT:
             self.player.change_x = -5
+        elif key == UP:
+            self.player.change_y = -5
+        elif key == DOWN:
+            self.player.change_y = 5
     
         
 
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
+        if key == RIGHT:
+            self.player.change_x = 0
+        elif key == LEFT:
+            self.player.change_x = 0
+        elif key == UP:
+            self.player.change_y = 0
+        elif key == DOWN:
+            self.player.change_y = 0
+
             
         
     def on_mouse_press(self, x, y, button):
