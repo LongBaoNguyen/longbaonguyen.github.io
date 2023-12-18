@@ -37,26 +37,32 @@ class Window:
             self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a player Sprite using "player.png"
+        self.player = Sprite("player.png", 1.0)
 
         
         # create a empty list for flag Sprites called flags
+        self.flags = []
 
                 
         # number of flags
-        self.num_flags = 10 
+        self.num_flags = 100
         
         # use for loop to repeat num_flags times:
         #       create a flag Sprite using "flag.png"
         #       initialize center_x and center_y attributes of flag Sprite
         #       by using random.randrange(n)
         #       then append flag to flags list
-    
+        for x in range(self.num_flags):
+            flag = Sprite("flag.png", 1.0)
+            flag.center_x = random.randrange(WIDTH)
+            flag.center_y = random.randrange(HEIGHT)
+            self.flags.append(flag)
             
         
-        
+            
         
         # inititalize score
-        
+        self.score = 0
         
 
     def on_draw(self):
@@ -64,10 +70,14 @@ class Window:
             Write code to draw all objects.
         """    
         # draw player and move player
+        self.player.draw()
+        self.player.move()
 
 
 
         # use for each loop to loop through flags list and draw each flag
+        for flag in self.flags:
+            flag.draw()
 
                 
                 
