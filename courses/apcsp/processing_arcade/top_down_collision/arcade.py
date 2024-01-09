@@ -28,34 +28,34 @@ def resolve_top_down_collision(sprite, walls):
     
     # move sprite in the horizontal direction
     
+    
     # call check_for_collision_list to get collision list of bricks
     # and store in collided variable
-
-        
+    
+    
     # if collided is not empty(len not zero)
     #     brick = first brick of collided list
     #     if sprite move right:
     #        set right side of sprite to equal left side of brick
     #     elif sprite move left:
     #        set left side of sprite to equal right side of brick
-                 
-    
-    # move sprite in the horizontal direction
+            
+
+    # move sprite in the vertical direction
     
     
     # call check_for_collision_list to get collision list of bricks
     # and store in collided variable
-    
-    
+
+
+
     # if collided is not empty(len not zero)
     #     brick = first brick of collided list
     #     if sprite move down:
     #        set bottom side of sprite to equal top side of brick
     #     elif sprite move up:
     #        set top side of sprite to equal bottom side of brick
-    
-
-
+    pass
                 
 def check_for_collision(sprite1, sprite2):
     """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)

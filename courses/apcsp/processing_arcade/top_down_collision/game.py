@@ -28,6 +28,7 @@ class Window:
         """
         # create a Sprite called self.player using "tank.png", 
         # place it in the middle of the screen
+        
         self.player = Sprite("tank.png", TANK_SCALE)
         self.player.center_x = WIDTH//2
         self.player.center_y = HEIGHT//2
@@ -35,7 +36,6 @@ class Window:
         
         # call read_map with "map.csv" to return list of bricks
         # and store in self.bricks variable
-        
         
     
     def on_draw(self):
