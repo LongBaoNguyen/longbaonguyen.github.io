@@ -27,11 +27,11 @@ def read_map(csv_filename):
 def resolve_top_down_collision(sprite, walls):
     
     # move sprite in the horizontal direction
-    
+    sprite.center_x += sprite.change_x
     
     # call check_for_collision_list to get collision list of bricks
     # and store in collided variable
-    
+    collision_list = check_for_collision_list(sprite, walls)
     
     # if collided is not empty(len not zero)
     #     brick = first brick of collided list
@@ -39,15 +39,25 @@ def resolve_top_down_collision(sprite, walls):
     #        set right side of sprite to equal left side of brick
     #     elif sprite move left:
     #        set left side of sprite to equal right side of brick
+    if len(collision_list) != 0:
+        brick = collision_list[0]
+        if sprite.change_x > 0:
+            sprite.set_right(brick.get_left())
+        elif sprite.change_x < 0:
+            sprite.set_left(brick.get_right())
+
+        
+        
+    
             
 
     # move sprite in the vertical direction
-    
+    sprite.center_y += sprite.change_y
+
     
     # call check_for_collision_list to get collision list of bricks
     # and store in collided variable
-
-
+    collision_list = check_for_collision_list(sprite, walls)
 
     # if collided is not empty(len not zero)
     #     brick = first brick of collided list
@@ -55,8 +65,16 @@ def resolve_top_down_collision(sprite, walls):
     #        set bottom side of sprite to equal top side of brick
     #     elif sprite move up:
     #        set top side of sprite to equal bottom side of brick
-    pass
-                
+    if len(collision_list) != 0:
+        brick = collision_list[0]
+        if sprite.change_y > 0:
+            sprite.set_bottom(brick.get_top())
+        elif sprite.change_y < 0:
+            sprite.set_top(brick.get_bottom())
+
+    
+    
+    
 def check_for_collision(sprite1, sprite2):
     """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
     """

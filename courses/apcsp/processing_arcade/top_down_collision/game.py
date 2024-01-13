@@ -36,6 +36,9 @@ class Window:
         
         # call read_map with "map.csv" to return list of bricks
         # and store in self.bricks variable
+        self.bricks = read_map("map.csv")
+        
+        
         
     
     def on_draw(self):
@@ -43,16 +46,20 @@ class Window:
             Write code to draw all objects.
         """
         # draw self.player
+        self.player.draw()
 
                 
         # loop through self.bricks and draw each Sprite
+        for brick in self.bricks:
+            brick.draw()
 
 
         
         # call resolve_top_down_collision on player and bricks
         # to both move and resolve player's collision with bricks
+        resolve_top_down_collision(self.player, self.bricks)
+
         
-                
         
 
     def on_key_press(self, key):
