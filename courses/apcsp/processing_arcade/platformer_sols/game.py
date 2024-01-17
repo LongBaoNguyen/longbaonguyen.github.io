@@ -26,7 +26,7 @@ BACKGROUND_COLOR = color(255)  # 0(black), 255(white)
 MOVE_SPEED = 4;
 SPRITE_SCALE = 50.0/128;
 SPRITE_SIZE = 50;
-GRAVITY = .6;
+GRAVITY = .1;
 JUMP_SPEED = 14; 
 
 
@@ -50,7 +50,7 @@ class Window:
         self.platforms = self.create_platforms("map.csv")
         
         # initialize player
-        self.player = arcade.Sprite("player.png", 0.8)
+        self.player = arcade.Sprite("mario.png", 0.1)
         self.player.center_x = 300
         self.player.center_y = 100
         
