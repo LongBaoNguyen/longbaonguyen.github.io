@@ -71,11 +71,11 @@ class EightPuzzleState:
           Checks to see if the puzzle is in its goal state.
 
             -------------
-            |   | 1 | 2 |
+            | 1 | 2 | 3 |
             -------------
-            | 3 | 4 | 5 |
+            | 4 | 5 | 6 |
             -------------
-            | 6 | 7 | 8 |
+            | 7 | 8 |   |
             -------------
 
         >>> EightPuzzleState([1, 2, 3, 4, 5, 6, 7, 8, 0]).isGoal()
