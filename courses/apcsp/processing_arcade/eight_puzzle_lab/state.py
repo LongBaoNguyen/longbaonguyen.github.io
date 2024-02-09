@@ -1,9 +1,11 @@
 """
 
-In this file, you need to:
+In this file, you need to implement:
     
-- implement isGoal
-- implement legalMoves 
+- legalMoves. You can play the game manually once you implement this function.
+
+Look for "TODO". 
+
 
 """
 
@@ -83,12 +85,10 @@ class EightPuzzleState:
         False
         """
         goal = [1, 2, 3, 4, 5, 6, 7, 8, 0]
-        current = 0 # index of the list goal
+        current = 0 
         
-        # loop through every row, column of 2d list self.cells and compare to goal list
         for row in range(3):
             for col in range(3):
-                # TODO: fill in code for this block
                 if goal[current] != self.cells[row][col]:
                     return False
                 current += 1
@@ -107,15 +107,14 @@ class EightPuzzleState:
         moves = []
         row, col = self.blankLocation
         
+        
         # TODO: implement the rest of this function
-        if(row != 0):
-            moves.append('up')
-        if(row != 2):
-            moves.append('down')
-        if(col != 0):
-            moves.append('left')
-        if(col != 2):
-            moves.append('right')
+
+
+
+
+
+
         return moves
 
     def result(self, move):

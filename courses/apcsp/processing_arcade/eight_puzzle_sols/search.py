@@ -1,4 +1,8 @@
-# IMPLEMENT the check_for_collision function below
+# YOU DO NOT NEED TO IMPLEMENT the graphSearch algorithm below. 
+# Read the code. This is the breadth-first search implementation discussed in class.
+
+# DO NOT MODIFY THIS FILE.
+
 
 from __future__ import division, print_function
 import random

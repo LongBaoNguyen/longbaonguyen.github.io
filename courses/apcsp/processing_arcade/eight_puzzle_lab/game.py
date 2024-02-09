@@ -1,13 +1,17 @@
 """
 Eight Puzzle Lab
 
-Most of the code is given including all code to play the game manually.
+Most of the code is given including all code to play 
+the game manually(must implement legalMoves() first before playing).
 
-To complete this project, complete the following code from the files in this recommended order.
-    - state.py
-    - problem.py
-    - node.py 
-    - game.py
+
+To complete this project, complete the following code from the files in this recommended
+order:
+    - state.py(implement legalMoves(), you can play manual mode after doing this)
+    - problem.py(implement getStartState, isGoalState, getSuccessors)
+    - node.py(implement path)
+    - search.py(implement graphSearch, see slides on Breadth-First Search)
+    - game.py(implement on_key_press)
 
 In this file(game.py), you only need to go to on_key_press and implement code 
 to solve puzzle and switch to AI mode. Look for "TODO".
@@ -48,7 +52,7 @@ class Window:
         self.set_up()
 
     def set_up(self):
-        self.puzzle = createRandomEightPuzzle(25)
+        self.puzzle = createRandomEightPuzzle(30)
         
         # hardest puzzle
         # self.puzzle = EightPuzzleState([8,6,7,2,5,4,3,0,1])
@@ -120,10 +124,6 @@ class Window:
         #    set ai_mode to True
         #    initialize new variable self.search_problem to = EightPuzzleSearchProblem with current puzzle
         #    initialize self.solution_path to returned path given by graphSearch()
-        if key == 's':
-            self.ai_mode = True
-            self.search_problem = EightPuzzleSearchProblem(self.puzzle)
-            self.solution_path = graphSearch(self.search_problem)
 
             
         

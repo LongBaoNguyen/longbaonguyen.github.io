@@ -1,7 +1,11 @@
 """
 
-In this file, you only need to go to the path function and implement code 
-to return the solution path. Look for "TODO".
+In this file, you need to implement:
+
+- path function
+
+Look for "TODO". 
+
 
 """
 class Node:
@@ -24,15 +28,12 @@ class Node:
         Create a path of actions from the start to the current state
         """
         # TODO: Implement this function, see pseudocode from worksheet.
-        actions = []
-        currnode = self
-        while currnode.parent:
-            actions.append(currnode.action)
-            currnode = currnode.parent
-        actions.reverse()
-        return actions
+        # remove pass below before implementing code
+        pass
 
-    def expand(self, problem):
+    
+
+    def get_neighbors(self, problem):
         """
         Return a list of nodes reachable from this node.
         """
