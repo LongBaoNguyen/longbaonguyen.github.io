@@ -29,10 +29,9 @@ def graphSearch(problem):
         # TODO:
         # if state of s is goal state:
         #      return path from initial to this goal state s
-        if problem.isGoalState(s.state):
+        if s.state.isGoal():
             return s.path()
-        
-        
+    
         inVisited = s.state in visited
         if not inVisited:
             visited.append(s.state)

@@ -52,7 +52,7 @@ class Window:
         self.set_up()
 
     def set_up(self):
-        self.puzzle = createRandomEightPuzzle(40)
+        self.puzzle = createRandomEightPuzzle(30)
         
         # hardest puzzle
         # self.puzzle = EightPuzzleState([8,6,7,2,5,4,3,0,1])

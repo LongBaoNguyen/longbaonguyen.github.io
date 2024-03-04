@@ -31,7 +31,7 @@ class Node:
         # remove pass below before implementing code
         actions = []
         currnode = self
-        while currnode.parent:
+        while currnode.parent != None:
             actions.append(currnode.action)
             currnode = currnode.parent
         actions.reverse()
