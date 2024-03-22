@@ -18,12 +18,15 @@ BOARD_SIZE = BOARD_ROWS * BOARD_COLS
 
 
 class State:
-    def __init__(self):
+    def __init__(self, data=None):
         # the board is represented by an 3 * 3 array,
         # 1 represents a chessman of the player who moves first,
         # -1 represents a chessman of another player
         # 0 represents an empty position
-        self.data = [[0,0,0],[0,0,0],[0,0,0]]
+        if data is None:
+            self.data = [[0,0,0],[0,0,0],[0,0,0]]
+        else:
+            self.data = data
         self.winner = None
         self.hash_val = None
         self.end = None
@@ -99,9 +102,9 @@ class State:
             print('-------------')
             out = '| '
             for j in range(BOARD_COLS):
-                if self.data[i, j] == 1:
+                if self.data[i][j] == 1:
                     token = 'X'
-                elif self.data[i, j] == -1:
+                elif self.data[i][j] == -1:
                     token = 'O'
                 else:
                     token = ' '
