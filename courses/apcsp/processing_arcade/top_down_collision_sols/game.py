@@ -53,7 +53,6 @@ class Window:
         # call resolve_top_down_collision on player and bricks
         # to both move and resolve player's collision with bricks
         resolve_top_down_collision(self.player, self.bricks)
-        resolve_top_down_collision(self.player2, self.bricks)
 
         
             
