@@ -5,55 +5,34 @@
 from __future__ import division, print_function
 
 
+table = {}
+
 level_1 = []
 for i in range(2, 6):
     for j in range(2, 6):
         value = str(i) + " x " + str(j)
+        table[value] = i * j
         level_1.append(value)
 
 level_2 = []
 for i in range(2, 6):
     for j in range(6, 11):
         value = str(i) + " x " + str(j)
+        table[value] = i * j
         level_2.append(value)
     
 level_3 = []
-for i in range(6, 8):
+for i in range(6, 11):
     for j in range(6, 11):
         value = str(i) + " x " + str(j)
+        table[value] = i * j
         level_3.append(value)
 
-level_4 = []
-for i in range(8, 11):
-    for j in range(6, 11):
-        value = str(i) + " x " + str(j)
-        level_4.append(value)
 
-level_5 = level_1 + level_2 + level_3 + level_4
+level_4 = level_1 + level_2 + level_3
 
-table = {}
-
-for x in level_1:
-    value = int(x[0]) * int(x[4])
-    table[x] = value
-
-for x in level_2:
-    if len(x) == 5:
-        value = int(x[0]) * int(x[4])
-    elif len(x) == 6:
-        value = int(x[0]) * int(x[4:])
-    else:
-        value = int(x[0:2]) * int(x[5:])
-
-    table[x] = value
-    
-for x in level_3:
-    if len(x) == 5:
-        value = int(x[0]) * int(x[4])
-    else:
-        value = int(x[0]) * int(x[4:])
-    table[x] = value
-
+print(level_4)
+print(len(level_4))
 
 class Sprite(object):
     def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):
