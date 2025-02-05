@@ -4,6 +4,36 @@
 
 from __future__ import division, print_function
 
+def check_for_collision(sprite1, sprite2):
+    """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
+    """
+    # follow intersection rules from lecture notes to implement collision detection
+    # see this link to see the math:
+    # https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing3.pdf
+    x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right() 
+    y_overlap = sprite2.get_bottom() > sprite1.get_top() and sprite2.get_top() < sprite1.get_bottom()
+    return x_overlap and y_overlap
+        
+      
+def check_for_collision_list(sprite, sprite_list):
+    """ Returns list of sprites in sprite_list which intersect with sprite.
+        Call check_for_collision method above. 
+    """
+    
+    # TODO
+    # create empty list collision_list
+    
+    
+    # for each sprite sp in sprite_list:
+    #     if there's collision between sp and sprite 
+    #     add to collision_list 
+        
+    
+    
+    # remember to return collision_list
+    
+    
+    
 class Sprite(object):
     def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):
         self.center_x = center_x

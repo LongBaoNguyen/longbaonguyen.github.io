@@ -9,7 +9,7 @@ IMPLEMENT ALL PARTS LABELED "TODO".
 
 
 from __future__ import division, print_function
-import arcade
+from arcade import *
 import random
 
 WIDTH = 800 # width of screen in pixels
@@ -28,10 +28,10 @@ class Window:
             self.score = 0
                         
             Create Sprite object at the origin, default 1.0 scale.
-            self.player = arcade.Sprite("tank.png")
+            self.player = Sprite("tank.png")
             
             Create Sprite object with 2.0 scale position at (200, 300)
-            self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
+            self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a player Sprite using "tank.png"
         
@@ -70,42 +70,7 @@ class Window:
                 
         
         
-    def check_for_collision(self, sprite1, sprite2):
-        """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
-        """
-        # follow intersection rules from lecture notes to implement collision detection
-        # see this link to see the math:
-        # https://longbaonguyen.github.io/courses/apcsp/processing_arcade/processing3.pdf
-        x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right() 
-        y_overlap = sprite2.get_bottom() > sprite1.get_top() and sprite2.get_top() < sprite1.get_bottom()
-        return x_overlap and y_overlap
-        
-      
-    def check_for_collision_list(self, sprite, sprite_list):
-        """ Returns list of sprites in sprite_list which intersect with sprite.
-            Call check_for_collision method above. Use self and dot notation.
-            For example:
-                
-            if self.check_for_collision(sprite1, sprite2):
-                # do something here.
-        """
-        
-        # TODO
-        # create empty list collision_list
-        
-        # for each sprite sp in sprite_list:
-        #     if there's collision between sp and sprite 
-        #     add to collision_list 
-            
-        
-        
-        # remember to return collision_list
-        
-        
-        
-
-
-
+    
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
         Example:

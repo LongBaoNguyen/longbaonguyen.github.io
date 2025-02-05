@@ -62,7 +62,6 @@ class Window:
             
         
         # inititalize score
-        self.score = 0
         
 
     def on_draw(self):
@@ -70,14 +69,11 @@ class Window:
             Write code to draw all objects.
         """    
         # draw player and move player
-        self.player.draw()
-        self.player.move()
+
 
 
 
         # use for each loop to loop through flags list and draw each flag
-        for flag in self.flags:
-            flag.draw()
 
                 
                 
@@ -121,6 +117,16 @@ class Window:
           elif key == 'b':
               # code to respond to 'b' key being pressed.
         """
+        if key == RIGHT:
+            self.player.change_x = 5
+        elif key == LEFT:
+            self.player.change_x = -5
+        elif key == UP:
+            self.player.change_y = -5
+        elif key == DOWN:
+            self.player.change_y = 5
+    
+        
         
     
         
@@ -128,6 +134,16 @@ class Window:
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
+        if key == RIGHT:
+            self.player.change_x = 0
+        elif key == LEFT:
+            self.player.change_x = 0
+        elif key == UP:
+            self.player.change_y = 0
+        elif key == DOWN:
+            self.player.change_y = 0
+
+        
 
             
         
