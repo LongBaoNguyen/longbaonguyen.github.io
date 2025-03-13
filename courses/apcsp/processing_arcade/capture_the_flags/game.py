@@ -62,6 +62,7 @@ class Window:
             
         
         # inititalize score
+        self.score = 0
         
 
     def on_draw(self):
@@ -69,7 +70,9 @@ class Window:
             Write code to draw all objects.
         """    
         # draw player and move player
+        self.player.draw()
 
+        self.player.move()
 
 
 
