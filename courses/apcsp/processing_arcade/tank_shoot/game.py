@@ -50,6 +50,8 @@ class Window:
 
                                 
         # TODO, create empty brick_list and bullet_list
+        self.brick_list = []
+        self.bullet_list = []
 
 
         # TODO, create variable score, initialize to 0
@@ -76,10 +78,10 @@ class Window:
         # TODO, iterate through bullet_list and draw
         
             
-        # TODO, update player 
+        # TODO, call move() on player object
 
                 
-        # TODO, iterate through bullet_list, update each bullet(to move bullets)
+        # TODO, iterate through bullet_list, move each bullet
 
                 
         

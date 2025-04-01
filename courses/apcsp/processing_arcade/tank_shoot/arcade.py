@@ -58,7 +58,7 @@ class Sprite(object):
         image(self.texture, 0, 0, self.width, self.height)
         tint(255, 255);
         popMatrix();
-    def update(self):
+    def move(self):
         self.center_x += self.change_x
         self.center_y += self.change_y
         self.angle += self.change_angle
