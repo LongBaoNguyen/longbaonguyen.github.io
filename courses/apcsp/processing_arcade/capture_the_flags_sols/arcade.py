@@ -31,15 +31,6 @@ def check_for_collision_list(sprite, sprite_list):
             collision_list.append(sp)
     return collision_list
         
-    
-    
-    
-    collision_list = []
-    for sp in sprite_list:
-        if check_for_collision(sp, sprite):
-            collision_list.append(sp)
-    return collision_list
-
 
 class Sprite(object):
     def __init__(self, filename, scale=1.0, center_x=0, center_y=0, angle=0, alpha=255):

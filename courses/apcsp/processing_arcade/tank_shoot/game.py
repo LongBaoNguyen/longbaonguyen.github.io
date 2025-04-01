@@ -19,7 +19,7 @@ Implement the methods in the following order:
 
 
 from __future__ import division, print_function
-import arcade
+from arcade import *
 import random
 
 WIDTH = 800 # width of screen in pixels
@@ -38,20 +38,19 @@ class Window:
             self.score = 0
                         
             Create Sprite object at the origin, default 1.0 scale.
-            self.player = arcade.Sprite("tank.png")
+            self.player = Sprite("tank.png")
             
             Create Sprite object with 2.0 scale position at (200, 300)
-            self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
+            self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         
-        self.player = arcade.Sprite("tank.png", 0.8)
-        # TODO, set player's center to middle of screen
+        self.player = Sprite("tank.png", 0.8)
         self.player.center_x = WIDTH // 2
-        self.player.center_y = HEIGHT // 2 
-                
+        self.player.center_y = HEIGHT // 2
+
+                                
         # TODO, create empty brick_list and bullet_list
-        self.brick_list = []
-        self.bullet_list = []
+
 
         # TODO, create variable score, initialize to 0
         self.score = 0
@@ -59,8 +58,7 @@ class Window:
 
         self.num_bricks = 10
         for i in range(self.num_bricks):
-            # create a coin Sprite, add to list
-            brick = arcade.Sprite("brick.png", 0.4)
+            brick = Sprite("brick.png", 0.4)
             brick.center_x = random.randrange(WIDTH)
             brick.center_y = random.randrange(HEIGHT)
             self.brick_list.append(brick)
@@ -72,14 +70,10 @@ class Window:
         """    
         self.player.draw()
         
-        # TODO, iterate through brick_list and draw 
-        for brick in self.brick_list:
-            brick.draw()
+        # TODO, iterate through brick_list and draw each brick 
         
             
         # TODO, iterate through bullet_list and draw
-        for bullet in self.bullet_list:
-            bullet.draw()
         
             
         textSize(32)
@@ -93,12 +87,11 @@ class Window:
             Write code to update all objects(for animation).
         """
         # TODO, update player 
-        self.player.update()
-        
+
+                
         # TODO, iterate through bullet_list, update each bullet(to move bullets)
-        for bullet in self.bullet_list:
-            bullet.update()    
-        
+
+                
         
 
         # TODO
@@ -111,57 +104,11 @@ class Window:
         #   if bullet leaves right side of screen
         #      remove bullet 
         
-        for bullet in self.bullet_list:
-            collision_list = self.check_for_collision_list(bullet, self.brick_list)
-            if len(collision_list) != 0:
-                self.bullet_list.remove(bullet)
-                self.brick_list.remove(collision_list[0])
-                self.score += 1
-            if bullet.center_x > WIDTH:
-                self.bullet_list.remove(bullet)
                 
 
         
 
                 
-        
-    def check_for_collision(self, sprite1, sprite2):
-        """ Returns whether sprite1 and sprite2 intersect.(rectangle intersection)
-        """
-        # TODO
-        # follow intersection rules from lecture notes to implement collision detection
-        x_overlap = sprite2.get_right() > sprite1.get_left() and sprite2.get_left() < sprite1.get_right() 
-        y_overlap = sprite2.get_bottom() > sprite1.get_top() and sprite2.get_top() < sprite1.get_bottom()
-        return x_overlap and y_overlap
-        
-      
-    def check_for_collision_list(self, sprite, sprite_list):
-        """ Returns list of sprites in sprite_list which intersect with sprite.
-            Call check_for_collision method above. Use self and dot notation.
-            For example:
-                
-            if self.check_for_collision(sprite1, sprite2):
-                # do something here.
-        """
-        
-        # TODO
-        # create empty list collision_list
-        collision_list = []
-        # for each sprite sp in sprite_list:
-        for sp in sprite_list:
-        #     if there's collision between sp and sprite 
-            if self.check_for_collision(sp, sprite):
-        #     add to collision_list 
-                collision_list.append(sp)
-        # remember to return collision_list
-        return collision_list
-        
-        
-        
-        
-
-
-
     def on_key_press(self, key):
         """ Called automatically whenever a key is pressed. 
         Example:
@@ -210,18 +157,15 @@ class Window:
         # TODO
         # create bullet Sprite
         # set center_y to equal player's center_y
-        bullet = arcade.Sprite("bullet.png")
-        bullet.center_y = self.player.center_y
 
 
         # set left side of bullet to equal right side of player
-        bullet.set_left(self.player.get_right())
+        
         
         # set change_x to 10(velocity)
-        bullet.change_x = 10
-        
+
+                
         # append to bullet_list
-        self.bullet_list.append(bullet)
         
         
         
