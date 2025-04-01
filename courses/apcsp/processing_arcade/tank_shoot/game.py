@@ -50,12 +50,10 @@ class Window:
 
                                 
         # TODO, create empty brick_list and bullet_list
-        self.brick_list = []
-        self.bullet_list = []
+   
 
 
         # TODO, create variable score, initialize to 0
-        self.score = 0
  
 
         self.num_bricks = 10
