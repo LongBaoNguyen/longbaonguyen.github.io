@@ -76,16 +76,6 @@ class Window:
         # TODO, iterate through bullet_list and draw
         
             
-        textSize(32)
-        textAlign(LEFT, CENTER)
-        fill(255,0,0) # for text color
-        text("Score:" + str(self.score), 20, 40)
-
-        
-    def on_update(self):
-        """ Called to update our objects about 60 times per second.
-            Write code to update all objects(for animation).
-        """
         # TODO, update player 
 
                 
@@ -106,7 +96,12 @@ class Window:
         
                 
 
-        
+        textSize(32)
+        textAlign(LEFT, CENTER)
+        fill(255,0,0) # for text color
+        text("Score:" + str(self.score), 20, 40)
+
+
 
                 
     def on_key_press(self, key):
@@ -160,6 +155,11 @@ class Window:
 
 
         # set left side of bullet to equal right side of player
+        # bullet.set_left(10) for example would move the bullet
+        # so that the left side of the bullet = 10.
+        # x = player.get_right() 
+        # x is the position of the right side of the player.
+
         
         
         # set change_x to 10(velocity)
