@@ -21,13 +21,7 @@ class Window:
             self.lives = 3
             self.score = 0    
         """
-        
-        # create variables: x, y, change_x, change_y and radius for the ball.
-        self.x = 200
-        self.y = 300
-        self.change_x = 5
-        self.change_y = 3
-        self.radius = 50
+
                 
     def on_draw(self):
         """ Called automatically 60 times a second to draw and update objects.
@@ -37,27 +31,24 @@ class Window:
         # Then call ellipse(x, y, width, height)
         # to draw ellipse centered at (self.x, self.y) with diameter = 2 * self.radius
         
-        fill(255, 0, 0)
-        ellipse(self.x, self.y, 2 * self.radius, 2 * self.radius)
-        
+        fill(0, 255, 0) #rgb, red
+        ellipse(mouseX, mouseY, 100, 100)
         
         # update position by adding change_x and change_y to x and y  
-        self.x += self.change_x
-        self.y += self.change_y
 
         
         # if right edge of ball passes right side of screen or 
         # left edge of ball passes left side of screen, negate change_x to change direction
         # Note: use radius in the conditional so that the ball bounces exactly at edge.
-        if self.x + self.radius > width or self.x - self.radius < 0:
-            self.change_x *= -1
         
+        
+        
+
+                        
         # if top edge of ball passes top side of screen or 
         # bottom edge of ball passes bottom side of screen, negate change_y to change direction
         # Note: use radius in the conditional so that the ball bounces exactly at edge.
 
-        if self.y + self.radius > height or self.y - self.radius < 0:
-            self.change_y *= -1
 
     
         

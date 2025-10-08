@@ -72,10 +72,16 @@ class Window:
         # TODO, iterate through brick_list and draw 
         for brick in self.brick_list:
             brick.draw()
+    
             
         # TODO, iterate through bullet_list and draw
         for bullet in self.bullet_list:
             bullet.draw()
+            
+        self.player.move()
+       
+       
+       
             
         textSize(32)
         textAlign(LEFT, CENTER)
@@ -88,8 +94,7 @@ class Window:
             Write code to update all objects(for animation).
         """
         # TODO, update player 
-        self.player.update()
-        
+        self.player.update()    
         # TODO, iterate through bullet_list, update each bullet(to move bullets)
         for bullet in self.bullet_list:
             bullet.update()

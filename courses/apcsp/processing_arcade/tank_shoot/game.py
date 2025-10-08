@@ -71,15 +71,23 @@ class Window:
         self.player.draw()
         
         # TODO, iterate through brick_list and draw each brick 
-        
+        for brick in self.brick_list:
+            brick.draw()
+
             
         # TODO, iterate through bullet_list and draw
+        for bullet in self.bullet_list:
+            bullet.draw()
+            
         
             
         # TODO, call move() on player object
+        self.player.move()
 
                 
         # TODO, iterate through bullet_list, move each bullet
+        for bullet in self.bullet_list:
+            bullet.move()
 
                 
         
@@ -94,6 +102,14 @@ class Window:
         #   if bullet leaves right side of screen
         #      remove bullet 
         
+        for bullet in self.bullet_list:
+            collision = check_for_collision_list(bullet, self.brick_list)
+            if len(collision_list) != 0:
+                self.bullet_list.remove(bullet)
+                self.brick_list.remove(collision[0])
+                self.score += 1
+                
+                
                 
 
         textSize(32)
