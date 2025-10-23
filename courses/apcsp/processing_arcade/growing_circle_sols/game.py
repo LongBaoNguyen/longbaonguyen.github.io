@@ -25,7 +25,7 @@ class Window:
             self.score = 0    
         """
         # create a variable called diameter. Don't forget to prefix it with "self."!
-        self.diameter = 100
+        self.diameter = 0
                                 
     def on_draw(self):
         """ Called automatically 60 times a second to draw and update objects.
