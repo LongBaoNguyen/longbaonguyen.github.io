@@ -37,11 +37,9 @@ class Window:
             self.coin = Sprite("coin.png", 2.0, 200, 300)
         """
         # create a player Sprite using "player.png"
-        self.player = Sprite("player.png", 1.0)
 
         
         # create a empty list for flag Sprites called flags
-        self.flags = []
 
                 
         # number of flags
@@ -52,27 +50,19 @@ class Window:
         #       initialize center_x and center_y attributes of flag Sprite
         #       by using random.randrange(n)
         #       then append flag to flags list
-        for x in range(self.num_flags):
-            flag = Sprite("flag.png", 1.0)
-            flag.center_x = random.randrange(WIDTH)
-            flag.center_y = random.randrange(HEIGHT)
-            self.flags.append(flag)
             
         
             
         
         # inititalize score
-        self.score = 0
         
 
     def on_draw(self):
         """ Called automatically 60 times a second to draw objects.
             Write code to draw all objects.
         """    
-        # draw player and move player
+        # call draw() and move() on player object
         self.player.draw()
-
-        self.player.move()
 
 
 
@@ -120,14 +110,7 @@ class Window:
           elif key == 'b':
               # code to respond to 'b' key being pressed.
         """
-        if key == RIGHT:
-            self.player.change_x = 5
-        elif key == LEFT:
-            self.player.change_x = -5
-        elif key == UP:
-            self.player.change_y = -5
-        elif key == DOWN:
-            self.player.change_y = 5
+        
     
         
         
@@ -137,14 +120,7 @@ class Window:
     def on_key_release(self, key):
         """ Called automatically whenever a key is released. 
         """
-        if key == RIGHT:
-            self.player.change_x = 0
-        elif key == LEFT:
-            self.player.change_x = 0
-        elif key == UP:
-            self.player.change_y = 0
-        elif key == DOWN:
-            self.player.change_y = 0
+        
 
         
 

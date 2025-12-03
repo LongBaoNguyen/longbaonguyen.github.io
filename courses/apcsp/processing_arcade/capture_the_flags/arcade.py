@@ -25,12 +25,6 @@ def check_for_collision_list(sprite, sprite_list):
     #     if there's collision between sp and sprite 
     #     add to collision_list 
     # remember to return collision_list
-    collision_list = []
-    for sp in sprite_list:
-        if check_for_collision(sprite, sp):
-            collision_list.append(sp)
-    return collision_list
-        
 
         
             
