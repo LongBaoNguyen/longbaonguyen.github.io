@@ -29,7 +29,7 @@ class Window:
             Create Sprite object with 2.0 scale position at (200, 300)
             self.coin = arcade.Sprite("coin.png", 2.0, 200, 300)
         """
-        points = read_points("pi.csv")
+        points = read_points("couple.csv")
         self.time = 0
         self.y = []
         self.epi = True
