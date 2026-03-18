@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Path to Points Converter</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #1a1a2e; color: #e0e0e0; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 5px; color: #e94560; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 20px; font-size: 14px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .row { display: flex; gap: 15px; margin-bottom: 15px; }
+  .col { flex: 1; }
+  label { display: block; margin-bottom: 5px; font-weight: bold; color: #0f3460; font-size: 14px; }
+  label { color: #7ec8e3; }
+  textarea { width: 100%; padding: 10px; border: 1px solid #444; border-radius: 6px;
+             font-family: monospace; font-size: 13px; background: #16213e; color: #e0e0e0;
+             resize: vertical; }
+  textarea:focus { outline: none; border-color: #e94560; }
+  input[type=number] { width: 100px; padding: 8px; border: 1px solid #444; border-radius: 6px;
+                        font-size: 14px; background: #16213e; color: #e0e0e0; }
+  button { padding: 10px 25px; border: none; border-radius: 6px; font-size: 15px;
+           cursor: pointer; font-weight: bold; }
+  .btn-convert { background: #e94560; color: white; }
+  .btn-convert:hover { background: #c73e54; }
+  .btn-copy { background: #0f3460; color: white; }
+  .btn-copy:hover { background: #1a4a8a; }
+  .btn-row { display: flex; gap: 10px; align-items: center; margin-bottom: 15px; }
+  .status { font-size: 13px; color: #4ecca3; }
+  canvas { border: 1px solid #444; border-radius: 6px; background: #0f0f23; display: block; margin: 0 auto; }
+  .preview-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .point-count { font-size: 13px; color: #888; }
+  .instructions { background: #16213e; padding: 12px; border-radius: 6px; margin-bottom: 15px;
+                   font-size: 13px; line-height: 1.5; border-left: 3px solid #e94560; }
+  .instructions ol { padding-left: 20px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>SVG Path &rarr; Points Converter</h1>
+  <p class="subtitle">Paste SVG path data, get a JavaScript array for your DFT Drawing project</p>
+
+  <div class="instructions">
+    <ol>
+      <li>Create your drawing using the <a href="https://yqnn.github.io/svg-path-editor/" target="_blank" style="color:#e94560">SVG Path Editor</a>, Google Drawings (export as SVG), or any vector tool</li>
+      <li><strong>Option A:</strong> Upload your <code>.svg</code> file using the button below<br>
+          <strong>Option B:</strong> Paste the path data (the <code>d</code> attribute starting with <code>M</code>)</li>
+      <li>Set the number of points and click <strong>Convert</strong></li>
+      <li>Copy the output into your <code>drawing.js</code> file</li>
+    </ol>
+  </div>
+
+  <div class="btn-row">
+    <label style="margin:0;">Option A: Upload an SVG file</label>
+    <input type="file" id="svgFile" accept=".svg" onchange="loadSVGFile(this)" style="font-size:13px;">
+  </div>
+  <div id="pathPicker" style="display:none; margin-bottom:15px;">
+    <label>Your SVG has multiple paths. Pick the one that is your drawing:</label>
+    <select id="pathSelect" onchange="pickPath()" style="width:100%; padding:8px; border:1px solid #444; border-radius:6px; font-family:monospace; font-size:12px; background:#16213e; color:#e0e0e0; margin-top:5px;"></select>
+    <canvas id="pathPreview" width="500" height="200" style="margin-top:8px; border:1px solid #444; border-radius:6px; background:#0f0f23;"></canvas>
+  </div>
+
+  <label for="svgInput">Option B: Paste SVG path data (the "d" attribute):</label>
+  <textarea id="svgInput" rows="4" placeholder='e.g. M 150 0 L 18 181 L 294 69 L 6 69 L 282 181 Z'></textarea>
+
+  <div class="btn-row" style="margin-top:10px;">
+    <label for="numPoints" style="margin:0;">Number of points:</label>
+    <input type="number" id="numPoints" value="200" min="20" max="2000">
+    <button class="btn-convert" onclick="convert()">Convert</button>
+    <span class="status" id="status"></span>
+  </div>
+
+  <div class="preview-header">
+    <label for="output" style="margin:0;">Output (paste into drawing.js):</label>
+    <div>
+      <span class="point-count" id="pointCount"></span>
+      <button class="btn-copy" onclick="copyOutput()">Copy to Clipboard</button>
+    </div>
+  </div>
+  <textarea id="output" rows="8" readonly placeholder="Click Convert to generate points..."></textarea>
+
+  <div class="preview-header" style="margin-top:15px;">
+    <label style="margin:0;">Preview:</label>
+    <label style="margin:0; font-weight:normal; font-size:13px; color:#888;">
+      <input type="checkbox" id="showPoints" checked onchange="redraw()"> Show points
+    </label>
+  </div>
+  <canvas id="preview" width="500" height="400"></canvas>
+</div>
+
+<script>
+// Load an SVG file and let user pick which path to use
+let loadedPaths = [];
+
+function loadSVGFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(e.target.result, "image/svg+xml");
+    const pathEls = doc.querySelectorAll("path");
+    loadedPaths = Array.from(pathEls).map(p => p.getAttribute("d")).filter(Boolean);
+
+    if (loadedPaths.length === 0) {
+      document.getElementById("status").textContent = "No <path> elements found in SVG file.";
+      document.getElementById("status").style.color = "#e94560";
+      document.getElementById("pathPicker").style.display = "none";
+      return;
+    }
+
+    if (loadedPaths.length === 1) {
+      // Only one path — use it directly
+      document.getElementById("svgInput").value = loadedPaths[0];
+      document.getElementById("pathPicker").style.display = "none";
+      document.getElementById("status").textContent = `Loaded 1 path from ${file.name}`;
+      document.getElementById("status").style.color = "#4ecca3";
+      return;
+    }
+
+    // Multiple paths — show picker
+    const select = document.getElementById("pathSelect");
+    select.innerHTML = "";
+    for (let i = 0; i < loadedPaths.length; i++) {
+      const opt = document.createElement("option");
+      opt.value = i;
+      const preview = loadedPaths[i].substring(0, 80) + (loadedPaths[i].length > 80 ? "..." : "");
+      opt.textContent = `Path ${i + 1} (${preview})`;
+      select.appendChild(opt);
+    }
+    document.getElementById("pathPicker").style.display = "block";
+    document.getElementById("status").textContent = `Found ${loadedPaths.length} paths — pick your drawing below`;
+    document.getElementById("status").style.color = "#e94560";
+    pickPath(); // preview the first one
+  };
+  reader.readAsText(file);
+}
+
+function pickPath() {
+  const idx = parseInt(document.getElementById("pathSelect").value);
+  const pathData = loadedPaths[idx];
+  document.getElementById("svgInput").value = pathData;
+
+  // Draw a quick preview of this path
+  const pts = samplePath(pathData, 150);
+  const canvas = document.getElementById("pathPreview");
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  if (pts.length === 0) return;
+  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  for (const p of pts) {
+    minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x);
+    minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y);
+  }
+  const pad = 15;
+  const scale = Math.min((canvas.width - 2*pad) / ((maxX-minX)||1),
+                          (canvas.height - 2*pad) / ((maxY-minY)||1));
+  const cx = canvas.width/2, cy = canvas.height/2;
+  const midX = (minX+maxX)/2, midY = (minY+maxY)/2;
+
+  ctx.beginPath();
+  ctx.moveTo(cx+(pts[0].x-midX)*scale, cy+(pts[0].y-midY)*scale);
+  for (let i = 1; i < pts.length; i++) {
+    ctx.lineTo(cx+(pts[i].x-midX)*scale, cy+(pts[i].y-midY)*scale);
+  }
+  ctx.closePath();
+  ctx.strokeStyle = "#e94560";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+}
+
+// Sample points along an SVG path using the browser's built-in SVG engine
+function samplePath(pathData, numPoints) {
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  const path = document.createElementNS(ns, "path");
+  path.setAttribute("d", pathData);
+  svg.appendChild(path);
+  document.body.appendChild(svg);
+
+  const totalLen = path.getTotalLength();
+  const points = [];
+  for (let i = 0; i < numPoints; i++) {
+    const pt = path.getPointAtLength((i / numPoints) * totalLen);
+    points.push({ x: parseFloat(pt.x.toFixed(2)), y: parseFloat(pt.y.toFixed(2)) });
+  }
+
+  document.body.removeChild(svg);
+  return points;
+}
+
+let currentPoints = [];
+
+function convert() {
+  const pathData = document.getElementById("svgInput").value.trim();
+  const numPoints = parseInt(document.getElementById("numPoints").value);
+
+  if (!pathData) {
+    document.getElementById("status").textContent = "Please paste SVG path data first.";
+    document.getElementById("status").style.color = "#e94560";
+    return;
+  }
+
+  try {
+    currentPoints = samplePath(pathData, numPoints);
+
+    // Center the points (subtract mean)
+    let mx = 0, my = 0;
+    for (const p of currentPoints) { mx += p.x; my += p.y; }
+    mx /= currentPoints.length;
+    my /= currentPoints.length;
+    for (const p of currentPoints) {
+      p.x = parseFloat((p.x - mx).toFixed(2));
+      p.y = parseFloat((p.y - my).toFixed(2));
+    }
+
+    // Generate output
+    let lines = ["let drawing = ["];
+    for (let i = 0; i < currentPoints.length; i++) {
+      const comma = i < currentPoints.length - 1 ? "," : "";
+      lines.push(`  {x: ${currentPoints[i].x}, y: ${currentPoints[i].y}}${comma}`);
+    }
+    lines.push("];");
+
+    document.getElementById("output").value = lines.join("\n");
+    document.getElementById("pointCount").textContent = `${currentPoints.length} points (centered)`;
+    document.getElementById("status").textContent = "Done!";
+    document.getElementById("status").style.color = "#4ecca3";
+
+    redraw();
+  } catch (e) {
+    document.getElementById("status").textContent = "Error: invalid SVG path data.";
+    document.getElementById("status").style.color = "#e94560";
+    console.error(e);
+  }
+}
+
+function redraw() {
+  const canvas = document.getElementById("preview");
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  if (currentPoints.length === 0) return;
+
+  // Find bounds
+  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  for (const p of currentPoints) {
+    minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x);
+    minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y);
+  }
+
+  const rangeX = maxX - minX || 1;
+  const rangeY = maxY - minY || 1;
+  const pad = 30;
+  const scaleX = (canvas.width - 2 * pad) / rangeX;
+  const scaleY = (canvas.height - 2 * pad) / rangeY;
+  const scale = Math.min(scaleX, scaleY);
+
+  const cx = canvas.width / 2;
+  const cy = canvas.height / 2;
+  const midX = (minX + maxX) / 2;
+  const midY = (minY + maxY) / 2;
+
+  function tx(x) { return cx + (x - midX) * scale; }
+  function ty(y) { return cy + (y - midY) * scale; }
+
+  // Draw path
+  ctx.beginPath();
+  ctx.moveTo(tx(currentPoints[0].x), ty(currentPoints[0].y));
+  for (let i = 1; i < currentPoints.length; i++) {
+    ctx.lineTo(tx(currentPoints[i].x), ty(currentPoints[i].y));
+  }
+  ctx.closePath();
+  ctx.strokeStyle = "#e94560";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // Draw points
+  if (document.getElementById("showPoints").checked) {
+    ctx.fillStyle = "#4ecca3";
+    for (const p of currentPoints) {
+      ctx.beginPath();
+      ctx.arc(tx(p.x), ty(p.y), 2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+}
+
+function copyOutput() {
+  const output = document.getElementById("output");
+  output.select();
+  document.execCommand("copy");
+  document.getElementById("status").textContent = "Copied!";
+  document.getElementById("status").style.color = "#4ecca3";
+}
+</script>
+</body>
+</html>
