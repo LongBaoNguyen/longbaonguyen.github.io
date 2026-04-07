@@ -1,0 +1,172 @@
+{
+  "Group 0": [
+    {
+      "amplitude": 3,
+      "frequency": 2,
+      "phase": "0"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 5,
+      "phase": "pi/2 (90 deg)"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 10,
+      "phase": "pi (180 deg)"
+    }
+  ],
+  "Group 1": [
+    {
+      "amplitude": 2,
+      "frequency": 3,
+      "phase": "pi/4 (45 deg)"
+    },
+    {
+      "amplitude": 4,
+      "frequency": 7,
+      "phase": "0"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 12,
+      "phase": "pi/3 (60 deg)"
+    }
+  ],
+  "Group 2": [
+    {
+      "amplitude": 1,
+      "frequency": 4,
+      "phase": "pi/6 (30 deg)"
+    },
+    {
+      "amplitude": 3,
+      "frequency": 8,
+      "phase": "pi (180 deg)"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 15,
+      "phase": "0"
+    }
+  ],
+  "Group 3": [
+    {
+      "amplitude": 5,
+      "frequency": 1,
+      "phase": "0"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 6,
+      "phase": "pi/2 (90 deg)"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 11,
+      "phase": "pi/4 (45 deg)"
+    }
+  ],
+  "Group 4": [
+    {
+      "amplitude": 2,
+      "frequency": 5,
+      "phase": "pi/3 (60 deg)"
+    },
+    {
+      "amplitude": 3,
+      "frequency": 9,
+      "phase": "0"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 14,
+      "phase": "pi (180 deg)"
+    }
+  ],
+  "Group 5": [
+    {
+      "amplitude": 4,
+      "frequency": 2,
+      "phase": "pi (180 deg)"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 8,
+      "phase": "pi/6 (30 deg)"
+    },
+    {
+      "amplitude": 3,
+      "frequency": 13,
+      "phase": "0"
+    }
+  ],
+  "Group 6": [
+    {
+      "amplitude": 1,
+      "frequency": 3,
+      "phase": "0"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 7,
+      "phase": "pi/4 (45 deg)"
+    },
+    {
+      "amplitude": 4,
+      "frequency": 11,
+      "phase": "pi/2 (90 deg)"
+    }
+  ],
+  "Group 7": [
+    {
+      "amplitude": 3,
+      "frequency": 4,
+      "phase": "pi/2 (90 deg)"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 10,
+      "phase": "0"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 16,
+      "phase": "pi/3 (60 deg)"
+    }
+  ],
+  "Group 8": [
+    {
+      "amplitude": 2,
+      "frequency": 1,
+      "phase": "pi/4 (45 deg)"
+    },
+    {
+      "amplitude": 5,
+      "frequency": 6,
+      "phase": "pi (180 deg)"
+    },
+    {
+      "amplitude": 1,
+      "frequency": 9,
+      "phase": "0"
+    }
+  ],
+  "Group 9": [
+    {
+      "amplitude": 1,
+      "frequency": 5,
+      "phase": "pi/6 (30 deg)"
+    },
+    {
+      "amplitude": 2,
+      "frequency": 11,
+      "phase": "0"
+    },
+    {
+      "amplitude": 3,
+      "frequency": 4,
+      "phase": "pi/2 (90 deg)"
+    }
+  ]
+}
