@@ -3,6 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- GA4, unchanged from the pre-redirect page. It loads BEFORE the meta
+     refresh so the pageview registers: gtag sends via navigator.sendBeacon,
+     which survives the navigation, so the hit is not lost to the redirect. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YMB1QDQB6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4YMB1QDQB6');
+</script>
+
 <title>An Introduction to Python has moved</title>
 
 <!-- Points DIRECTLY at the destination, not at the .html path on the new site,
@@ -31,6 +43,6 @@
   All of the slides, labs and PDFs are still free, and the files themselves have
   not moved. If you are not redirected automatically, use the link above.
 </p>
-<script>location.replace("https://1729math.com/courses/python");</script>
+<script>setTimeout(function(){location.replace("https://1729math.com/courses/python");},250);</script>
 </body>
 </html>
