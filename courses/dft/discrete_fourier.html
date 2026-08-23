@@ -1,183 +1,36 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An Introduction to the Discrete Fourier Transform has moved</title>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-  <meta charset="utf-8">
-	<title>An Introduction to The Discrete Fourier Transform with Python</title>
-	<meta name="description" content="an introduction to the discrete fourier transform with Python,
-								dft, Python, Python tutorial">
-	<meta name="author" content="Long Nguyen, University of Boston Massachusetts">
+<!-- Points DIRECTLY at the destination, not at the .html path on the new site,
+     which would itself redirect. One hop keeps the signal clean. -->
+<link rel="canonical" href="https://1729math.com/courses/dft">
+<meta http-equiv="refresh" content="0; url=https://1729math.com/courses/dft">
 
-
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-   <!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="../../css/default.css">
-	<link rel="stylesheet" href="../../css/layout.css">
-	<link rel="stylesheet" href="../../css/media-queries.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="../../js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YMB1QDQB6"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-4YMB1QDQB6');
-	</script>
-
-
+<!-- Deliberately NO noindex. A crawler has to follow this and consolidate the
+     old URL into the new one; noindex would drop the page before that happens
+     and the ranking would be lost rather than moved. -->
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 40rem; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6;
+         color: #1e293b; }
+  a { color: #0369a1; }
+  .note { color: #64748b; font-size: 0.95rem; margin-top: 1.5rem; }
+</style>
 </head>
-
-<body class="page">
-
-   <!-- Header
-   ================================================== -->
-   <header id="top">
-
-   	<div class="row">
-
-   		<div class="header-content twelve columns">
-
-			<h1 id="logo-text"><a href="../../index.html" title="">Long Nguyen</a></h1>
-            <p id="intro">Resources and online courses for Math and Computer Science.</p>
-
-			</div>
-
-	   </div>
-		<nav id="nav-wrap">
-
-	   	<a class="mobile-btn" href="../../index.html" title="Show navigation">Show Menu</a>
-		  <a class="mobile-btn" href="../../index.html" title="Hide navigation">Hide Menu</a>
-
-			<div class="row">
-
-			   	<ul id="nav" class="nav">
-			      	<li><a href="../../index.html">Home</a></li>
-
-              		<li class="has-children current"><a href="intro_neural_network.html">Courses</a>
-					<ul>
-					  <li><a href="../platformer/platformer.html">How to Write a Platformer Game in Java</a></li>
-                      <li><a href="../dft/discrete_fourier.html">An Introduction to the Discrete Fourier Transform</a></li>
-					  <li><a href="../python/python.html">An Introduction to Python</a></li>
-					  <li><a href="../neural_network/intro_neural_network.html">Image Recognition with Neural Networks</a></li>
-					  <li><a href="../apcsp/apprinciples.html">AP Computer Science Principles</a></li>
-					  <li><a href="../apcsa/apjava.html">AP Computer Science A</a></li>
-                    </ul>
-			      	</li>
-			   	</ul> <!-- end #nav -->
-
-	 	  	</div>
-
-	   </nav> <!-- end #nav-wrap -->
-
-
-   </header> <!-- Header End -->
-
-   <!-- Content
-   ================================================== -->
-   <div id="content-wrap">
-
-   	<div class="row">
-
-   		<div id="main" class="eleven columns">
-
-   			<section class="page">
-
-					<h2>An Introduction to the Discrete Fourier Transform</h2>
-					<div class="row">
-						<div class="twelve columns">
-
-					<p> The <strong>Discrete Fourier Transform(DFT)</strong> lies at the beautiful intersection of math and music. It is one of
-						the most useful and widely used tools in many applications. If you have
-						opened a JPEG, listened to an MP3, watch an MPEG movie, used the voice recognition capabilities of Amazon's
-						Alexa, you've used some variant of the DFT. Its efficient implementation, the <strong>Fast Fourier Transform</strong>, is
-						considered one of the most important algorithms in computer science. </p>
-
-					<p> The goals of this short course is to understand the math behind the algorithm and to appreciate its utility
-						by analyzing and manipulating audio files with Python. No programming experience is necessary although some understanding of
-						basic trig(sine and cosine) is useful. </p>
-
-					<p>	This course is currently being taught on Udemy(free) and on Youtube.
-					</p>
-
-					<p>It is recommended that you download the <a href = "https://www.anaconda.com/distribution/">Anaconda distribution</a> which includes latest version
-					of Python, many packages and libraries for scientific computing and a package manager. The code for the lecture
-					exercises below, however, can also be run on the cloud on MyBinder.
-					</p>
-
-
-
-
-
-					<h5><a href="https://youtu.be/t8idDnMtNx8">Lecture 1: Overview and Applications of the DFT</a></h5>
-						<p>What is the Discrete Fourier Transform? Reading .txt and .wav files with Python.
-						Working with Numpy's fft module. Plotting Graphs with Matplotlib. Determine the note/chord of a piano recording with the DFT.
-						</p>
-
-
-
-					<h5>Lecture 2: Digital Audio Basics</h5>
-						<p>Waveforms. Digital Audio. Sampling Rate. Amplitude, Frequency and Phase of Sinusoids. Frequency is Pitch.
-						Logarithm of Frequency. Fundamental Frequency. Overtones and Harmonics. Time Domain vs. Frequency Domain. Discrete
-						Fourier Transform. Inverse Discrete Fourier Transform.
-						</p>
-
-					<h5>Lecture 3: Aliasing and the Nyquist Frequency</h5>
-						<p>Aliasing. The Sampling Theorem. The Nyquist Frequency. Distortion of Audio. Reconstruction of Audio. Lowpass Filters.
-						CD Quality Sampling Rate.
-						</p>
-
-					<h5>Lecture 4: The Discrete Fourier Transform</h5>
-						<p>The Discrete Fourier Transform. The DFT is a Frequency Detector. Applications of the Inverse Discrete Fourier Transform.
-						Complex Exponentials. Real vs. Complex Sinusoids. Positive vs. Negative Frequency. Symmetry of the Spectrum of a Real Signal.
-						An in-depth Example. Understanding the DFT as an Inner Product. Complex Sinusoids are Basis Vectors for Audio Signals. Using Numpy's fft Module.
-						</p>
-					<h5>
-						Lecture 5: A Simple Noise Filtering Example
-					</h5>
-						<p>A simple application of noise filtering. Use the Inverse Discrete Fourier Transform to filter out a high pitch
-						frequency from an audio file. </p>
-
-
-				</section> <!-- End page -->
-
-   		</div> <!-- End main -->
-
-
-
-   	</div> <!-- end row -->
-
-   </div> <!-- end content-wrap -->
-
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
-
-
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="../js/main.js"></script>
-
+<body>
+<h1>This page has moved</h1>
+<p>
+  <strong>An Introduction to the Discrete Fourier Transform</strong> now lives at
+  <a href="https://1729math.com/courses/dft">1729math.com/courses/dft</a>.
+</p>
+<p class="note">
+  All of the slides, labs and PDFs are still free, and the files themselves have
+  not moved. If you are not redirected automatically, use the link above.
+</p>
+<script>location.replace("https://1729math.com/courses/dft");</script>
 </body>
-
 </html>

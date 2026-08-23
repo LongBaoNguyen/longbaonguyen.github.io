@@ -1,330 +1,36 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP Computer Science Principles has moved</title>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-  <meta charset="utf-8">
-	<title>Long Nguyen | AP Computer Science Principles Resources</title>
-	<meta name="description" content="APCS Principles Resources, Resources for AP Computer Science Principles. ">
-	<meta name="keywords" content="APCSP, APCSP curriculum, apcsp resources,
-	AP Computer Science Principles, python tutorial, computer science resources for teachers and students">
-	<meta name="author" content="Long Nguyen, University of Boston Massachusetts, Boston Latin School">
+<!-- Points DIRECTLY at the destination, not at the .html path on the new site,
+     which would itself redirect. One hop keeps the signal clean. -->
+<link rel="canonical" href="https://1729math.com/courses/apcsp">
+<meta http-equiv="refresh" content="0; url=https://1729math.com/courses/apcsp">
 
-
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-   <!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="../../css/default.css">
-	<link rel="stylesheet" href="../../css/layout.css">
-	<link rel="stylesheet" href="../../css/media-queries.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="../../js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YMB1QDQB6"></script>
-	<script>
-  	window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-
-  	gtag('config', 'G-4YMB1QDQB6');
-	</script>
-
-
-
-
-
+<!-- Deliberately NO noindex. A crawler has to follow this and consolidate the
+     old URL into the new one; noindex would drop the page before that happens
+     and the ranking would be lost rather than moved. -->
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 40rem; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6;
+         color: #1e293b; }
+  a { color: #0369a1; }
+  .note { color: #64748b; font-size: 0.95rem; margin-top: 1.5rem; }
+</style>
 </head>
-
-<body class="page">
-
-   <!-- Header
-   ================================================== -->
-   <header id="top">
-
-   	<div class="row">
-
-   		<div class="header-content twelve columns">
-
-		      <h1 id="logo-text"><a href="../../index.html" title="">Long Nguyen</a></h1>
-            <p id="intro">Resources and online courses for Math and Computer Science.</p>
-
-			</div>
-
-	   </div>
-
-	   <nav id="nav-wrap">
-
-	   	<a class="mobile-btn" href="../../index.html" title="Show navigation">Show Menu</a>
-		  <a class="mobile-btn" href="../../index.html" title="Hide navigation">Hide Menu</a>
-
-			<div class="row">
-
-			   	<ul id="nav" class="nav">
-			      	<li><a href="../../index.html">Home</a></li>
-
-              		<li class="has-children current"><a href="../neural_network/intro_neural_network.html">Courses</a>
-					<ul>
-					  <li><a href="../platformer/platformer.html">How to Write a Platformer Game in Java</a></li>
-                      <li><a href="../dft/discrete_fourier.html">An Introduction to the Discrete Fourier Transform</a></li>
-					  <li><a href="../python/python.html">An Introduction to Python</a></li>
-					  <li><a href="../neural_network/intro_neural_network.html">Image Recognition with Neural Networks</a></li>
-					  <li><a href="../apcsp/apprinciples.html">AP Computer Science Principles</a></li>
-					  <li><a href="../apcsa/apjava.html">AP Computer Science A</a></li>
-
-                    </ul>
-			      	</li>
-			   	</ul> <!-- end #nav -->
-
-	 	  	</div>
-
-	   </nav> <!-- end #nav-wrap -->
-     </div>
-
-
-	   </nav> <!-- end #nav-wrap -->
-
-   </header> <!-- Header End -->
-
-   <!-- Content
-   ================================================== -->
-   <div id="content-wrap">
-
-   	<div class="row">
-
-   		<div id="main" class="eleven columns">
-
-   			<section class="page">
-
-					<h2>AP Computer Science Principles</h2>
-					<div class="row">
-						<div class="six columns">
-
-					<p> This is a resource for teachers and students for AP Computer Science Principles. This curriculum is being updated
-						for newly revised 2020-21 College Board curriculum. The official language for the course is Python.
-                    </p>
-
-					<h3>Course Outline and Lecture Notes</h3>
-
-					<h5>Introduction to Programming with Python</h5>
-					We will cover the essentials of the Python language: data types, conditionals, loops, basic data structures including lists, tuples and
-					dictionaries, functions, object-oriented programming and inheritance.
-
-					<ol>
-						<li>Basic Datatypes(<a href="lect1.pptx">PPT</a>, <a href="lect1.pdf">PDF</a>)</li>
-						<li>Operations and Variables(<a href="lect2.pptx">PPT</a>, <a href="lect2.pdf">PDF</a>)</li>
-						<li>Conditionals(<a href="lect3.pptx">PPT</a>, <a href="lect3.pdf">PDF</a>)</li>
-						<ul>
-							<li>Animation with Processing(<a href="processing_arcade/processing1.pptx">PPT</a>, <a href="processing_arcade/processing1.pdf">PDF</a>)</li>
-							<h5>Intro Processing Lab(<a href="processing_arcade/intro_processing_lab.zip">ZIP</a>)</h5>			
-							<h5>Growing Circle Lab(<a href="processing_arcade/growing_circle.zip">ZIP</a>)</h5>
-							<h5>Bouncing Ball Lab(<a href="processing_arcade/bouncing_ball.zip">ZIP</a>)</h5>
-
-						</ul>
-	
-						<li>Functions(<a href="lect4.pptx">PPT</a>, <a href="lect4.pdf">PDF</a>)</li>
-						<ul>
-							<h5>Paddle and Ball Lab(<a href="processing_arcade/paddle_ball_lab.zip">ZIP</a>)</h5>
-							<h5>Capture A Flag(<a href="processing_arcade/capture_flag.zip">ZIP</a>)</h5>
-
-						</ul>
-
-						<li>For Loops and Strings(<a href="lect5.pptx">PPT</a>, <a href="lect5.pdf">PDF</a>)</li>
-						<li>Lists(<a href="lect6.pptx">PPT</a>, <a href="lect6.pdf">PDF</a>)</li>
-						<ul>
-							<h5>Capture the Flags(<a href="processing_arcade/capture_the_flags.zip">ZIP</a>)</h5>
-
-						</ul>
-
-						<li>While, Nested Loops and List of Tuples(<a href="lect7.pptx">PPT</a>, <a href="lect7.pdf">PDF</a>)</li>
-						<ul>
-							<h5>List of Circles(<a href="processing_arcade/list_of_circles.zip">ZIP</a>)</h5>
-						</ul>
-
-						<li>Object-Oriented Programming(<a href="lect8.pptx">PPT</a>, <a href="lect8.pdf">PDF</a>)</li>	
-						<ul>	
-							<h5>Intro OOP Lab(<a href="processing_arcade/intro_lab.zip">ZIP</a>)</h5>
-							<h5>Control Sprite By Keyboard(<a href="processing_arcade/creating_sprites.zip">ZIP</a>)</h5>
-							<h5>Creating a 2D Map of Sprites (<a href="processing_arcade/creating_map.zip">ZIP</a>)</h5>
-						</ul>
-						<li>Algorithms(<a href="lect22.pptx">PPT</a>, <a href="lect22.pdf">PDF</a>)</li>
-						<ul>	
-							<h5>Top-Down Games Collision(<a href="processing_arcade/top_down_collision.zip">ZIP</a>, <a href="processing_arcade/processing5.pptx">Slides PDF</a>)</h5>
-							<h5>Breadth-First Search(<a href="bfs2.pptx">PPT</a>, <a href="bfs2.pdf">PDF</a>)</h5>
-							<ul>
-								<h5>AI: Eight Puzzle Solver (<a href="processing_arcade/eight_puzzle_lab.zip">ZIP</a>)</h5>
-							</ul>	
-
-						</ul>
-
-						<h5>Text Processing: Analyzing Shakespeare(<a href="datasets/shakespeare.txt">txt</a>, <a href="shakespeare.html">HTML</a>, <a href="shakespeare.zip">ZIP</a>)</h5>
-						<h5>Luhn's Algorithm: Validity of Credit Card Numbers(<a href="luhn.pptx">PPT</a>, <a href="luhn.pdf">PDF</a>)</h5>
-						<li>(optional)Tuples and Dictionaries(<a href="lect9.pptx">PPT</a>, <a href="lect9.pdf">PDF</a>)</li>
-						<li>(Optional)An Introduction to Jupyter Notebook(<a href="lect10a.pptx">PPT</a>, <a href="lect10a.pdf">PDF</a>)</li>
-						<li>(Optional)An Introduction to Numpy(<a href="lect10.pptx">PPT</a>, <a href="lect10.pdf">PDF</a>)</li>
-						<li>(Optional)pandas for Tabular Data(<a href="lect11.pptx">PPT</a>, <a href="lect11.pdf">PDF</a>)</li>
-						<!--<li>Encapsulation and Inheritance(<a href="lect11.pptx">PPT</a>, <a href="lect11.pdf">PDF</a>)</li>
-						-->
-					</ol>
-					<h5>The Create Task</h5>
-					<ol>
-						<ul>The Create Task(<a href="create_task/create_task.pptx">PPT</a>, <a href="create_task/create_task.pdf">PDF</a>)</ul>
-                    </ol>
-
-					<h5>Computer Science Principles</h5>
-					We will cover general computer science principles here.
-					<ol>
-						<li>Understanding Data 1: Representing Data Digitally(<a href="lect14a.pptx">PPT</a>, <a href="lect14a.pdf">PDF</a>)</li>
-						<li>Understanding Data 2: Images and Compression(<a href="lect14b.pptx">PPT</a>, <a href="lect14b.pdf">PDF</a>)</li>
-						<h5>Image Processing Lab(<a href="image_processing/image_processing_lab.zip">ZIP</a>, <a href="https://colab.research.google.com/github/LongBaoNguyen/longbaonguyen.github.io/blob/master/courses/apcsp/image_processing/image_processing_lab/image_processing_lect_lab.ipynb">Colab</a>)</h5>
-						<li>Understanding Data 3: Extracting Information from Data(<a href="lect14c.pptx">PPT</a>, <a href="lect14c.pdf">PDF</a>)</li>
-						<h5>Intro Exploratory Data Analysis with Pandas(<a href="pandas/data_analysis_intro.zip">ZIP</a>, <a href="https://mybinder.org/v2/gh/LongBaoNguyen/jupyter_notebooks/HEAD">online notebook(MyBinder)</a>)</h5>
-						<li> Securing Data: Cryptography(<a href="lect20.pptx">PPT</a>, <a href="lect20.pdf">PDF</a>)</li>
-						<li> The Internet: An Introduction to Networking (<a href="lect18.pptx">PPT</a>, <a href="lect18.pdf">PDF</a>)</li>
-						<li> Impact of Computing(<a href="lect19.pptx">PPT</a>, <a href="lect19.pdf">PDF</a>)</li>
-						<li>(Optional)Digital Audio Processing with Python:
-							Part 1: Audio Basics (<a href="lect16.pptx">PPT</a>, <a href="lect16.pdf">PDF</a>)</li>
-						<h5>Audio Basics Lab(<a href="audio_processing/audio_basics_lab.zip">ZIP</a>, <a href="https://mybinder.org/v2/gh/LongBaoNguyen/jupyter_notebooks/HEAD">online notebook(MyBinder)</a>)</h5>
-						<li>(Optional)Digital Audio Processing with Python:
-							Part 2: The Discrete Fourier Transform (<a href="lect17.pptx">PPT</a>, <a href="lect17.pdf">PDF</a>)</li>
-						<h5>(Optional)Discrete Fourier Transform Lab(<a href="audio_processing/dft_lab.zip">ZIP</a>, <a href="https://mybinder.org/v2/gh/LongBaoNguyen/jupyter_notebooks/HEAD">online notebook(MyBinder)</a>)</h5>
-						<li> (Optional)Machine Learning(<a href="lect21.pptx">PPT</a>, <a href="lect21.pdf">PDF</a>)</li>
-						<li> (Optional)Reinforcement Learning(<a href="lect24.pptx">PPT</a>, <a href="lect24.pdf">PDF</a>)</li>
-					</ol>
-					<h5>AP Exam Preparation (<a href="lect23.pptx">PPT</a>, <a href="lect23.pdf">PDF</a>)</h5>
-
-
-						</div>
-						<div class="six columns">
-					<!--							<h5>How to Code Arcade Games in Python</h5>
-					We will cover the essentials of the <a href="http://arcade.academy/index.html">Arcade Library</a> for writing arcade games.
-
-					<ol>
-						<li>Installing Arcade and Setting up VSCode (<a href="https://youtu.be/uz3yIP9su9M">Youtube</a>)</li>
-						<li>Drawing Basic Shapes and Writing Our First Program (<a href="https://youtu.be/sgcPFg6TXT8">Youtube</a>)</li>
-						<li>Basic Animation (<a href="https://youtu.be/28sU1PfwrHc">Youtube</a>)</li>
-						<li>Bouncing Ball Simulation (<a href="https://youtu.be/ok0WQs0bNA4">Youtube</a>)</li>
-						<li>Keyboard Inputs (<a href="https://youtu.be/Sehx5SqD3P0">Youtube</a>)</li>
-						<li>Mouse Inputs (<a href="https://youtu.be/pTnYlgY0Dzg">Youtube</a>)</li>
-						<li>Sprite Class (<a href="https://youtu.be/Fx3-FROb8ck">Youtube</a>)</li>
-						<li>Animated Sprite(<a href="https://youtu.be/N4fz-5gtxv8">Youtube</a>)</li>
-						<li>SpriteList Class (<a href="https://youtu.be/NRZ574sAxUE">Youtube</a>)</li>
-						<ul>
-							<li><a href="arcade/Labs.zip">Arcade Basics Labs</a></li>
-						</ul>
-					</ol>
-
-					-->
-
-							<h3>Interesting Short Projects/Applications in Python</h3>
-
-							<h5>Computer Animation with Processing</h5>
-							We will introduce computer graphics using Processing.
-							<ol>
-								<li>Introduction to Processing(Python Version)(<a href="processing_arcade/processing1.pptx">PPT</a>, <a href="processing_arcade/processing1.pdf">PDF</a>)</li>
-								<h5>Processing Python Template(<a href="processing_arcade/processing_py.zip">ZIP</a>)</h5>
-								<li>Keyboard and Mouse Inputs(<a href="processing_arcade/processing2.pptx">PPT</a>, <a href="processing_arcade/processing2.pdf">PDF</a>)</li>
-								<li>Working with Sprites(<a href="processing_arcade/processing3.pptx">PPT</a>, <a href="processing_arcade/processing3.pdf">PDF</a>)</li>
-								<h5>Create and Control Sprites Lab(<a href="processing_arcade/creating_sprites.zip">ZIP</a>)</h5>
-								<li>Collision Detection(<a href="processing_arcade/processing4.pptx">PPT</a>, <a href="processing_arcade/processing4.pdf">PDF</a>)</li>
-								<h5>Pick Up Coins Lab(<a href="processing_arcade/pick_up_coins.zip">ZIP</a>)</h5>
-								<h5>Tank Shoots Bricks Lab(<a href="processing_arcade/tank_shoot.zip">ZIP</a>)</h5>
-								<li>Resolving Top-Down Collision(<a href="processing_arcade/processing5.pptx">PPT</a>, <a href="processing_arcade/processing5.pdf">PDF</a>)</li>
-								<h5>Top-Down Games Collision(<a href="processing_arcade/top_down_collision.zip">ZIP</a>)</h5>
-
-							</ol>
-
-							<h4>How to write a very simple platformer game!</h4>
-							This material uses Processing. Review the Processing lecture notes and labs(see above) before attempting this lab.
-							The two video tutorials were created for my APCSA(Java) class but they discuss the math
-							behind the algorithms and are language agnostic.
-							<ol>
-								<li>How to Resolve Platform Collisions(<a href="https://www.youtube.com/watch?v=nFOlo6F60FA">Youtube</a>)</li>
-								<li>How to Jump(<a href="https://youtu.be/LaftkH8bs9c">Youtube</a>)</li>
-								<h5>Platformer Game Lab(<a href="processing_arcade/platformer.zip">ZIP</a>)</h5>
-							</ol>
-
-							<h5>Text Processing: Analyzing Shakespeare</h5>
-							<p>A short problem set and tutorial on how to perform a simple
-								word frequency analysis: total words, total unique words and most frequently
-								used words in all of Shakespeare's collection of works.  (<a href="shakespeare.html">HTML</a>, <a href="shakespeare.zip">ZIP</a>)
-
-							</p>
-
-							<h3>Additional Topics</h3>
-
-
-							<h5>Introduction to Neural Networks</h5>
-							<p>A 2-3 weeks curriculum designed for AP Computer Science Principles on Neural
-							Networks. Students will implement from scratch a Python program that recognizes
-							handwritten digits! The full course resources page can be found
-								<a href="../neural_network/intro_neural_network.html">here</a>. </p>
-
-
-							<h5>Introduction to the Discrete Fourier Transform</h5>
-							<p>This course explains the math behind the Discrete Fourier Transform and illustrates its utility through analyzing and manipulating audio files in Python.
-								The full course resources page can be found
-								<a href="../dft/discrete_fourier.html">here</a>. </p>
-							<!--
-							<h5>Datasets for the Course</h5>
-							<ul>
-								<li><a href="datasets/shakespeare.txt">Shakespeare's Works</a> A text file of all of
-									Shakepeare's works.</li>
-								<li><a href="datasets/stopwords.txt">Stop Words</a> Common words like "the" and "of" that are typically removed
-								before processing natural language data. </li>
-								<li><a href="datasets/file.txt">Piano Audio Signal</a>: This text file contains a
-								list of numbers sampled from an piano audio recorded at a rate of 44,100 samples per second.</li>
-								<li><a href="datasets/trumpet.txt">Trumpet Audio Signal</a>: This text file contains a
-								list of numbers sampled from an trumpet audio recorded at a rate of 44,100 samples per second.</li>
-								<li><a href="datasets/sunflower.png">Sunflower Image</a>: This image file(png) of a sunflower
-								is used in the Image Processing Lab.
-							</ul>
-							-->
-
-
-
-						</div>
-
-						</div>
-
-
-				</section> <!-- End page -->
-
-   		</div> <!-- End main -->
-
-
-
-
-   	</div> <!-- end row -->
-
-   </div> <!-- end content-wrap -->
-
-
-
-
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="../js/main.js"></script>
-
+<body>
+<h1>This page has moved</h1>
+<p>
+  <strong>AP Computer Science Principles</strong> now lives at
+  <a href="https://1729math.com/courses/apcsp">1729math.com/courses/apcsp</a>.
+</p>
+<p class="note">
+  All of the slides, labs and PDFs are still free, and the files themselves have
+  not moved. If you are not redirected automatically, use the link above.
+</p>
+<script>location.replace("https://1729math.com/courses/apcsp");</script>
 </body>
-
 </html>
