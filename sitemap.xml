@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for longbaonguyen.github.io.
+
+  Written 2026-09-06, after the course material moved to 1729math.com. Three
+  kinds of URL are listed, and the second kind is the reason this file exists.
+
+  Only <loc> and <lastmod> are used. Google ignores <changefreq> and
+  <priority> outright, and lastmod is the field that actually earns a recrawl,
+  so every date below is the file's real last-commit date. Keep it that way: a
+  lastmod that lies is worse than no lastmod, because Google stops trusting the
+  whole file.
+
+  NOT listed, deliberately:
+    - courses/apcsa/apjava_pre2026_backup.html — a full copy of the
+      pre-migration AP CSA page. It still serves 200 and duplicates both the
+      redirect stub beside it and 1729math.com/courses/apcsa. It should be
+      deleted or noindexed, and until then it must not be advertised here.
+    - courses/apcsa/_staging3/ — already unreachable; GitHub Pages runs Jekyll,
+      which skips paths beginning with an underscore.
+    - google*.html — the Search Console verification file, not a page.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Content that lives HERE, and only here. -->
+  <url>
+    <loc>https://longbaonguyen.github.io/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <!-- Retired from 1729math.com on 2026-09-04 and served here instead, so
+         1729math.com/courses/python now redirects to this URL. -->
+    <loc>https://longbaonguyen.github.io/courses/python/python.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+
+  <!-- The five moved courses. Each of these serves a "has moved" page carrying
+       a canonical and an instant meta refresh to its 1729math.com equivalent
+       (GitHub Pages cannot issue a real 301). Listing a redirect in a sitemap
+       is normally pointless, but during a move it is the whole point: the
+       ranking those URLs hold transfers only once Google RECRAWLS them and
+       processes the redirect, and nothing else is asking it to. Drop this
+       block once Search Console reports all five as "Page with redirect". -->
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/apcsa/apjava.html</loc>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/apcsp/apprinciples.html</loc>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/platformer/platformer.html</loc>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/dft/discrete_fourier.html</loc>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/intro_neural_network.html</loc>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+
+  <!-- Course pages that did NOT move: 1729math.com links straight at these,
+       so they are live parts of a current course that happen to be hosted
+       here. They must keep serving. -->
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/animation/kinematics.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/animation/reflection.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/apcsp/shakespeare.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/code1.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/code2.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/code3.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/numpy.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/python1.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/neural_network/python2.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+
+  <!-- Standalone tools. Nothing links to either one, so a crawler reaches them
+       through this file or not at all. -->
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/apcsp/svg_to_points.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbaonguyen.github.io/courses/apcsp/ml/reconstruct/</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+
+</urlset>

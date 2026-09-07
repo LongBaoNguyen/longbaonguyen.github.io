@@ -1,0 +1,16 @@
+# longbaonguyen.github.io
+#
+# Everything here is public and crawlable. This file exists for its last line:
+# it is how a crawler that arrives without a Search Console submission finds
+# the sitemap.
+
+User-agent: *
+Allow: /
+
+# A full copy of the pre-migration AP CS A page, kept as a backup. It still
+# serves, and it duplicates both courses/apcsa/apjava.html beside it and
+# 1729math.com/courses/apcsa. Disallow stops the crawl; it does NOT remove a
+# URL already in the index, so delete the file when you no longer need it.
+Disallow: /courses/apcsa/apjava_pre2026_backup.html
+
+Sitemap: https://longbaonguyen.github.io/sitemap.xml
